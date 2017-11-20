@@ -1,0 +1,5069 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+		5E618435888B9D49F8540165 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Qmake";
+			shellPath = "/bin/sh";
+			shellScript = "make -C /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/vpp_ios -f qt_makeqmake.mak";
+			showEnvVarsInLog = "0";
+		};
+		03488CC7AEFDBFA6DD03D999 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/main.cpp";
+			name = "main.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		9EBCF4D6322C2147E43133C8 = {
+			fileRef = "03488CC7AEFDBFA6DD03D999";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		43F6C80050C4740EEF48F574 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/httpclient.cpp";
+			name = "httpclient.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		E239988D7B6238F815CD96F9 = {
+			fileRef = "43F6C80050C4740EEF48F574";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		8A0EE544542E94530DA39489 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/gDataBase.cpp";
+			name = "gDataBase.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		030AB871164A223101DCE30B = {
+			fileRef = "8A0EE544542E94530DA39489";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		600EF2269CC3E35045A10853 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/blemgr.cpp";
+			name = "blemgr.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		E3B6A465E02BC4889A79AA36 = {
+			fileRef = "600EF2269CC3E35045A10853";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		0037C1D5CCCCFA99E9D5A1C1 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/CameraImageWrapper.cpp";
+			name = "CameraImageWrapper.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		61B307A6BFB8535270832171 = {
+			fileRef = "0037C1D5CCCCFA99E9D5A1C1";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		1CBFFDEA30E76305980CC166 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/QZXing.cpp";
+			name = "QZXing.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		B34BB4AD8FC1A1A2CA1EB948 = {
+			fileRef = "1CBFFDEA30E76305980CC166";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		5A4E2B7756AFC99277B7CA64 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/ImageHandler.cpp";
+			name = "ImageHandler.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		4C2F45254CB446E995F0B250 = {
+			fileRef = "5A4E2B7756AFC99277B7CA64";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C9B70398127AAE71086C483E = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/ResultIO.cpp";
+			name = "ResultIO.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		ABF7EC8F946F1CE7FCF1E174 = {
+			fileRef = "C9B70398127AAE71086C483E";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		82652585D3D4A4E66A58EE08 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/InvertedLuminanceSource.cpp";
+			name = "InvertedLuminanceSource.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		71B56F693A2B43DCCC098D97 = {
+			fileRef = "82652585D3D4A4E66A58EE08";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		03A1EC0FD648FE54630BA111 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/ChecksumException.cpp";
+			name = "ChecksumException.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		1834E8C69BDF430AFB496D17 = {
+			fileRef = "03A1EC0FD648FE54630BA111";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		F35B923223A1660893A348E6 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/ResultPointCallback.cpp";
+			name = "ResultPointCallback.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		F77110DE88E3DA1696826EA5 = {
+			fileRef = "F35B923223A1660893A348E6";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		07D3F48AFCD859FE91DB45A3 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/ResultPoint.cpp";
+			name = "ResultPoint.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		D88A0FFD13A2704964DA19F2 = {
+			fileRef = "07D3F48AFCD859FE91DB45A3";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C7189914A2124056125D98A2 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/Result.cpp";
+			name = "Result.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		6CCC8A4DAF7D01A7DA85900E = {
+			fileRef = "C7189914A2124056125D98A2";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B06807FBBC84B13E4966AB00 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/Reader.cpp";
+			name = "Reader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		EABAB8A84EAA5B5BC372273C = {
+			fileRef = "B06807FBBC84B13E4966AB00";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		F9FDB30E3D569465A55EA474 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/MultiFormatReader.cpp";
+			name = "MultiFormatReader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		E8650AAE871D6DBF4786CC02 = {
+			fileRef = "F9FDB30E3D569465A55EA474";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		9C5A4301877336D8365BA25D = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/LuminanceSource.cpp";
+			name = "LuminanceSource.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		8BE550F92AFD891A14CF022E = {
+			fileRef = "9C5A4301877336D8365BA25D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		6E42E9D941A646BA334189EB = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/FormatException.cpp";
+			name = "FormatException.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		6527CF2F7097DD770771F174 = {
+			fileRef = "6E42E9D941A646BA334189EB";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		3B7EDA6F2EECCA767CB3C6F4 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/Exception.cpp";
+			name = "Exception.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		291AD35766E338C0BE25D2BB = {
+			fileRef = "3B7EDA6F2EECCA767CB3C6F4";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		FFC31E2F4C70A991C43B7A87 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/DecodeHints.cpp";
+			name = "DecodeHints.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		7DABF1DE1AB5AB46AD162B7F = {
+			fileRef = "FFC31E2F4C70A991C43B7A87";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		2558668207C636C74D568F03 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/BinaryBitmap.cpp";
+			name = "BinaryBitmap.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		B3B2986570B6FFFEC3F1B532 = {
+			fileRef = "2558668207C636C74D568F03";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B45251F7159F7F143025AD08 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/Binarizer.cpp";
+			name = "Binarizer.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		8418E1578A4452A35E3DC8F3 = {
+			fileRef = "B45251F7159F7F143025AD08";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		675F748862181020BF387671 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/BarcodeFormat.cpp";
+			name = "BarcodeFormat.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		591072266F7315783A6D6E02 = {
+			fileRef = "675F748862181020BF387671";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		D2A6624CAD36C9601BAC8C60 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/aztec/AztecReader.cpp";
+			name = "AztecReader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		807E0604D06DDAD1C333880C = {
+			fileRef = "D2A6624CAD36C9601BAC8C60";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		6E4BB387E2821FA29AE28FCF = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/aztec/AztecDetectorResult.cpp";
+			name = "AztecDetectorResult.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		6304E1F0B4FD8C7875AE2E9F = {
+			fileRef = "6E4BB387E2821FA29AE28FCF";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		7F091F795FCF972596A8A1A8 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/StringUtils.cpp";
+			name = "StringUtils.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		C5BE6A4F9B5F79D84C4D6EF7 = {
+			fileRef = "7F091F795FCF972596A8A1A8";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		AF39FF9FEE36E789A196C1FD = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/Str.cpp";
+			name = "Str.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		C20CA54E703AA0DC427E801F = {
+			fileRef = "AF39FF9FEE36E789A196C1FD";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		934908DD1470753F1CD93681 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/PerspectiveTransform.cpp";
+			name = "PerspectiveTransform.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		A26761EF998892FC728B1FAC = {
+			fileRef = "934908DD1470753F1CD93681";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E33F43092141CBEC8B057D77 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/IllegalArgumentException.cpp";
+			name = "IllegalArgumentException.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		DE3FE17B0AE4BA7A217B1C8F = {
+			fileRef = "E33F43092141CBEC8B057D77";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		D95BFDC9B012FBF7A8CED459 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/HybridBinarizer.cpp";
+			name = "HybridBinarizer.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		5DE7F577D04A67D92024C976 = {
+			fileRef = "D95BFDC9B012FBF7A8CED459";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		9104C4D5A01788982F3C7DFC = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/GridSampler.cpp";
+			name = "GridSampler.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		EBCEEA26F045B2F407953E8D = {
+			fileRef = "9104C4D5A01788982F3C7DFC";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		25F58A1B4E54268E3C96820E = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/GreyscaleRotatedLuminanceSource.cpp";
+			name = "GreyscaleRotatedLuminanceSource.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		0FD9D032D1CB01BF613D2AF3 = {
+			fileRef = "25F58A1B4E54268E3C96820E";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		87E9F77EC5D542980EB6F107 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/GreyscaleLuminanceSource.cpp";
+			name = "GreyscaleLuminanceSource.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		89417C4749D1EA5F8B5D299C = {
+			fileRef = "87E9F77EC5D542980EB6F107";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		2BDE1C5C99FFE4BE2C6E6254 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/GlobalHistogramBinarizer.cpp";
+			name = "GlobalHistogramBinarizer.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		8983B8C48413ED4BA4BD0F64 = {
+			fileRef = "2BDE1C5C99FFE4BE2C6E6254";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		D534AFFA2654B02C9BCF90CE = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/DetectorResult.cpp";
+			name = "DetectorResult.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		02F66D696DC301CCB04ED074 = {
+			fileRef = "D534AFFA2654B02C9BCF90CE";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		AA83E57DFC78EF3D970204CE = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/DecoderResult.cpp";
+			name = "DecoderResult.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		8670C92120D8649E278501D3 = {
+			fileRef = "AA83E57DFC78EF3D970204CE";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		2594CAD18F57081B4326FA78 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/CharacterSetECI.cpp";
+			name = "CharacterSetECI.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		DE64DE1DBC0239758E10E6C2 = {
+			fileRef = "2594CAD18F57081B4326FA78";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		A82745FB35DB26AE97D31C44 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/BitSource.cpp";
+			name = "BitSource.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		61B6A51C5AAD7ABEDC73B4E2 = {
+			fileRef = "A82745FB35DB26AE97D31C44";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		11C0638FA83FB1D6537B8F00 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/BitMatrix.cpp";
+			name = "BitMatrix.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		43365C48B42C4BEE10E81BCF = {
+			fileRef = "11C0638FA83FB1D6537B8F00";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		F2A0C2FC9EA909208FE3C9AD = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/BitArray.cpp";
+			name = "BitArray.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		401E25D1853FBB73A1839B01 = {
+			fileRef = "F2A0C2FC9EA909208FE3C9AD";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E0019D0AFBCE8C2076EB7994 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/BitArrayIO.cpp";
+			name = "BitArrayIO.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		A0959135BFEFD4C966B8230C = {
+			fileRef = "E0019D0AFBCE8C2076EB7994";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		6AD89DB2A8E8A6D4A8708147 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/detector/WhiteRectangleDetector.cpp";
+			name = "WhiteRectangleDetector.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		85A33946E4DD64D0DF04012F = {
+			fileRef = "6AD89DB2A8E8A6D4A8708147";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C0C2B608A108C14DAC60512E = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/detector/MonochromeRectangleDetector.cpp";
+			name = "MonochromeRectangleDetector.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		EE459BEDE9EF87192BC9995C = {
+			fileRef = "C0C2B608A108C14DAC60512E";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		9F3070F4B87F778865296731 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/reedsolomon/ReedSolomonException.cpp";
+			name = "ReedSolomonException.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		4F7708E2DC3F76F0E430AD88 = {
+			fileRef = "9F3070F4B87F778865296731";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		1F0418B1378E36136229662A = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/reedsolomon/ReedSolomonDecoder.cpp";
+			name = "ReedSolomonDecoder.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		B67DE0DA4073ADD928E66D75 = {
+			fileRef = "1F0418B1378E36136229662A";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		F422760AECE1769E17CF6B13 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/reedsolomon/GenericGFPoly.cpp";
+			name = "GenericGFPoly.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		837B3829AC13E3454A13B014 = {
+			fileRef = "F422760AECE1769E17CF6B13";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		BB76F6AD2693F643EF2BF4C6 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/reedsolomon/GenericGF.cpp";
+			name = "GenericGF.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		328F5F1574442CAA7A2ADC41 = {
+			fileRef = "BB76F6AD2693F643EF2BF4C6";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		1727DD771BB6D9A98F26B690 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/datamatrix/DataMatrixReader.cpp";
+			name = "DataMatrixReader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		63EA7FAC3B2B2520D1A80DD0 = {
+			fileRef = "1727DD771BB6D9A98F26B690";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C92435A4135F527F6671F93A = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/oned/UPCEReader.cpp";
+			name = "UPCEReader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		1014CCAE9E1C7C61CBA5E7F2 = {
+			fileRef = "C92435A4135F527F6671F93A";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		AC20A0BF83DB644CEA37FED7 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/oned/UPCEANReader.cpp";
+			name = "UPCEANReader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		3A0CED56903C843C4AA3171E = {
+			fileRef = "AC20A0BF83DB644CEA37FED7";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		F17E725189FEEB8340CD71BF = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/oned/UPCAReader.cpp";
+			name = "UPCAReader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		4862EB1BF4399920A78CD551 = {
+			fileRef = "F17E725189FEEB8340CD71BF";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		8D8C5EACFD34089E693CC662 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/oned/OneDResultPoint.cpp";
+			name = "OneDResultPoint.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		6C1D4618AD946041EA331334 = {
+			fileRef = "8D8C5EACFD34089E693CC662";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		A39FD9A0543B96BD991F8670 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/oned/OneDReader.cpp";
+			name = "OneDReader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		114E5EE56B85CD3D37B496D9 = {
+			fileRef = "A39FD9A0543B96BD991F8670";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		D70007742A94F83E32362007 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/oned/MultiFormatUPCEANReader.cpp";
+			name = "MultiFormatUPCEANReader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		DC97C2F941503BA4B3252A5B = {
+			fileRef = "D70007742A94F83E32362007";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		46D45FC2430B102558C52E26 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/oned/MultiFormatOneDReader.cpp";
+			name = "MultiFormatOneDReader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		56231B1A78303F8826633DC5 = {
+			fileRef = "46D45FC2430B102558C52E26";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		EBAD61EDA868F17440E3E8E6 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/oned/ITFReader.cpp";
+			name = "ITFReader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		1DEA4B4FAF6070BD5CD443CD = {
+			fileRef = "EBAD61EDA868F17440E3E8E6";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		F61AFE22C2600B611114A961 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/oned/EAN13Reader.cpp";
+			name = "EAN13Reader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		6AA7D25764E777C852463585 = {
+			fileRef = "F61AFE22C2600B611114A961";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		3EB2A1E8194758FE918800F4 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/oned/EAN8Reader.cpp";
+			name = "EAN8Reader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		E5FCB93E8133FD8E8C9F643C = {
+			fileRef = "3EB2A1E8194758FE918800F4";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		A007891B33CDF76D2C392B54 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/oned/Code128Reader.cpp";
+			name = "Code128Reader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		551C8EFA754D0643841E9A14 = {
+			fileRef = "A007891B33CDF76D2C392B54";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		66D5022F2209339BA5AF3736 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/oned/Code39Reader.cpp";
+			name = "Code39Reader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		7917EBF78385CEB2F978C58D = {
+			fileRef = "66D5022F2209339BA5AF3736";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		0D5E6D9CDAE467C5D25CA76D = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/oned/CodaBarReader.cpp";
+			name = "CodaBarReader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		064772C93D27DD0235F12681 = {
+			fileRef = "0D5E6D9CDAE467C5D25CA76D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		33C08F44F92DA1DD0A9297FE = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/oned/Code93Reader.cpp";
+			name = "Code93Reader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		9C9100C581E42A89E7C8CE41 = {
+			fileRef = "33C08F44F92DA1DD0A9297FE";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		4B6CD49FC1FC4B97E91545F9 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/QRCodeReader.cpp";
+			name = "QRCodeReader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		50CA6181D93879C15F81D986 = {
+			fileRef = "4B6CD49FC1FC4B97E91545F9";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		24369DBB3AB7BE003368787E = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/multi/MultipleBarcodeReader.cpp";
+			name = "MultipleBarcodeReader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		9417301DE85C826AF8317159 = {
+			fileRef = "24369DBB3AB7BE003368787E";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		FE610D4B9CCBDDA368F708CB = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/multi/GenericMultipleBarcodeReader.cpp";
+			name = "GenericMultipleBarcodeReader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		428130187B093D070B79C5AE = {
+			fileRef = "FE610D4B9CCBDDA368F708CB";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		30E8EFBA45E9AD44DEB7082A = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/multi/ByQuadrantReader.cpp";
+			name = "ByQuadrantReader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		C8B3BFF964F8A6CB238ED97C = {
+			fileRef = "30E8EFBA45E9AD44DEB7082A";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C8766C1F15DE45E36125FB6D = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/multi/qrcode/QRCodeMultiReader.cpp";
+			name = "QRCodeMultiReader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		5F3FE7ED06FA471BF915FED4 = {
+			fileRef = "C8766C1F15DE45E36125FB6D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		31F293A448620E43425A0BC8 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/multi/qrcode/detector/MultiFinderPatternFinder.cpp";
+			name = "MultiFinderPatternFinder.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		E4CA93F40B2659F379364D60 = {
+			fileRef = "31F293A448620E43425A0BC8";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		8FF0EC51D382C33E260EB602 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/multi/qrcode/detector/MultiDetector.cpp";
+			name = "MultiDetector.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		BDD7A40CE1488E0FA58314A7 = {
+			fileRef = "8FF0EC51D382C33E260EB602";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		CCFC06AA49DEF7D19F67971E = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/aztec/decoder/AztecDecoder.cpp";
+			name = "AztecDecoder.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		8A3646CCBA8151F0EEF9A47A = {
+			fileRef = "CCFC06AA49DEF7D19F67971E";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		18C5AC57553B0D32500EBA9A = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/aztec/detector/AztecDetector.cpp";
+			name = "AztecDetector.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		6FC560F75F17AEF382000C83 = {
+			fileRef = "18C5AC57553B0D32500EBA9A";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C676FBAE5625E16D2943BEF7 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/datamatrix/DataMatrixVersion.cpp";
+			name = "DataMatrixVersion.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		9732F92911D690BA249E23E2 = {
+			fileRef = "C676FBAE5625E16D2943BEF7";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		60EF5EE798B793D822106CD8 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/datamatrix/decoder/DataMatrixDecoder.cpp";
+			name = "DataMatrixDecoder.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		54BA65B61D2F40C4C149DB27 = {
+			fileRef = "60EF5EE798B793D822106CD8";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		FFC6B86D1325B5D5A8F2F0C4 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/datamatrix/decoder/DataMatrixBitMatrixParser.cpp";
+			name = "DataMatrixBitMatrixParser.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		3218F3A89ABA6C371DB0ABC2 = {
+			fileRef = "FFC6B86D1325B5D5A8F2F0C4";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		72AEB8B7FEB147A84C54407B = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/datamatrix/decoder/DataMatrixDataBlock.cpp";
+			name = "DataMatrixDataBlock.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		F71383ED475A1A83532366F4 = {
+			fileRef = "72AEB8B7FEB147A84C54407B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		7EE7F3BBC94D559315720210 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/datamatrix/decoder/DataMatrixDecodedBitStreamParser.cpp";
+			name = "DataMatrixDecodedBitStreamParser.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		9240D01324B70FADE3896528 = {
+			fileRef = "7EE7F3BBC94D559315720210";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		62EC7A808950EB03ABF8C67C = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/datamatrix/detector/DataMatrixCornerPoint.cpp";
+			name = "DataMatrixCornerPoint.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		A557D32446840C318681D6DF = {
+			fileRef = "62EC7A808950EB03ABF8C67C";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		DF64B433E54644542CA67FD8 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/datamatrix/detector/DataMatrixDetector.cpp";
+			name = "DataMatrixDetector.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		E37BEBCB18F4847265BBA300 = {
+			fileRef = "DF64B433E54644542CA67FD8";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		7BBFCADB2CEC3B42DA6A0937 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/datamatrix/detector/DataMatrixDetectorException.cpp";
+			name = "DataMatrixDetectorException.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		DB45AC32DB244D09431A546D = {
+			fileRef = "7BBFCADB2CEC3B42DA6A0937";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		93A73E953F87BFD1F65F7705 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/decoder/QRBitMatrixParser.cpp";
+			name = "QRBitMatrixParser.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		6C2F254E845D20053FD1E278 = {
+			fileRef = "93A73E953F87BFD1F65F7705";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		813721AB9BE83FB56A7CF01E = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/decoder/QRDataBlock.cpp";
+			name = "QRDataBlock.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		4EB6CEB49A0D3325957DC985 = {
+			fileRef = "813721AB9BE83FB56A7CF01E";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C917FA76CAA893394858CA11 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/decoder/QRDataMask.cpp";
+			name = "QRDataMask.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		B7949DC6FC987AABC29ABDAC = {
+			fileRef = "C917FA76CAA893394858CA11";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		A5F1265DE9C3EBC74861730C = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/decoder/QRDecodedBitStreamParser.cpp";
+			name = "QRDecodedBitStreamParser.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		DAA3C1E0398BADFAB475BD68 = {
+			fileRef = "A5F1265DE9C3EBC74861730C";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		3571471902B976B0C2138BF9 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/decoder/QRDecoder.cpp";
+			name = "QRDecoder.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		BEAD9E17EB02AFF7A662BC20 = {
+			fileRef = "3571471902B976B0C2138BF9";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B3EB586234D0B2B3B9C641BF = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/decoder/QRMode.cpp";
+			name = "QRMode.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		7F13A9C304AE52DF1E18FBED = {
+			fileRef = "B3EB586234D0B2B3B9C641BF";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		5D7D470F68BDC9E9B09C349B = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/detector/QRAlignmentPattern.cpp";
+			name = "QRAlignmentPattern.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		7E54B50D6FB94741942A22D5 = {
+			fileRef = "5D7D470F68BDC9E9B09C349B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		20CE7ABD795EAE23FD093220 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/detector/QRAlignmentPatternFinder.cpp";
+			name = "QRAlignmentPatternFinder.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		D7D8EDD6D5958E73300B729F = {
+			fileRef = "20CE7ABD795EAE23FD093220";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		6BB685467508A167CD81D6EC = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/detector/QRDetector.cpp";
+			name = "QRDetector.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		69AAB577555F58BD7A94F77F = {
+			fileRef = "6BB685467508A167CD81D6EC";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		1B364C563EC3E0625A0DC414 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/detector/QRFinderPattern.cpp";
+			name = "QRFinderPattern.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		8522B3AE6A95EED1811D4699 = {
+			fileRef = "1B364C563EC3E0625A0DC414";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		821A74B50AEEB6E510A5DFDA = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/detector/QRFinderPatternFinder.cpp";
+			name = "QRFinderPatternFinder.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		75E050091853787C47394CDD = {
+			fileRef = "821A74B50AEEB6E510A5DFDA";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B239AFEA794178D7D4756251 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/detector/QRFinderPatternInfo.cpp";
+			name = "QRFinderPatternInfo.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		EB4D346179756384ED7A2BE8 = {
+			fileRef = "B239AFEA794178D7D4756251";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		4BE0CA3166DB943AF9B3B346 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/QRVersion.cpp";
+			name = "QRVersion.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		693EEB77874881AEE2144C08 = {
+			fileRef = "4BE0CA3166DB943AF9B3B346";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B683EB915D39311CE11D164C = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/QRFormatInformation.cpp";
+			name = "QRFormatInformation.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		F566F68CE3B81FF0CB7B4242 = {
+			fileRef = "B683EB915D39311CE11D164C";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		5F140340A56E84729ECD6DAF = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/QRErrorCorrectionLevel.cpp";
+			name = "QRErrorCorrectionLevel.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		BBCFC74F9432E5AAACA5FC75 = {
+			fileRef = "5F140340A56E84729ECD6DAF";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		306418FBA22D9046CE9B95F7 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/pdf417/decoder/ec/ErrorCorrection.cpp";
+			name = "ErrorCorrection.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		B85DC0CD9EF11210CE210069 = {
+			fileRef = "306418FBA22D9046CE9B95F7";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		F998D527BB2AAACE1F726704 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/pdf417/decoder/ec/ModulusGF.cpp";
+			name = "ModulusGF.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		9686D482DB0979184CD13458 = {
+			fileRef = "F998D527BB2AAACE1F726704";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		3051F695C94272714B01D8F9 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/pdf417/decoder/ec/ModulusPoly.cpp";
+			name = "ModulusPoly.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		B1F7E6AC9A9EF8F24B527C24 = {
+			fileRef = "3051F695C94272714B01D8F9";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		297F68E975230B096B7E65BA = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/pdf417/decoder/PDF417BitMatrixParser.cpp";
+			name = "PDF417BitMatrixParser.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		85D947A439531063351BE474 = {
+			fileRef = "297F68E975230B096B7E65BA";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		5731C1CCDC0CC7A9042AB059 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/pdf417/decoder/PDF417DecodedBitStreamParser.cpp";
+			name = "PDF417DecodedBitStreamParser.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		461079513CDDC83C569E1546 = {
+			fileRef = "5731C1CCDC0CC7A9042AB059";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E919EBFF26E83321837F376F = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/pdf417/decoder/PDF417Decoder.cpp";
+			name = "PDF417Decoder.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		9F08E192CAF00A12BE36B067 = {
+			fileRef = "E919EBFF26E83321837F376F";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		5D46FEC4C7CF47673B5D0DBE = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/pdf417/detector/PDF417Detector.cpp";
+			name = "PDF417Detector.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		280B2557F902C47CA257EA55 = {
+			fileRef = "5D46FEC4C7CF47673B5D0DBE";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		CE56F4E9B93352CC25F0DD5B = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/pdf417/detector/LinesSampler.cpp";
+			name = "LinesSampler.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		AC8A64A578280C3F5D5466CA = {
+			fileRef = "CE56F4E9B93352CC25F0DD5B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		3A914DC1F5C20E4D9F976B5D = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/pdf417/PDF417Reader.cpp";
+			name = "PDF417Reader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		D18A8F147311A8DB055B5D03 = {
+			fileRef = "3A914DC1F5C20E4D9F976B5D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		D16DA23BB233CB49FA3F1E59 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/bigint/BigUnsignedInABase.cc";
+			name = "BigUnsignedInABase.cc";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		880D02050220523BCF49D244 = {
+			fileRef = "D16DA23BB233CB49FA3F1E59";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C889BEDA368A54FEB10A007A = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/bigint/BigUnsigned.cc";
+			name = "BigUnsigned.cc";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		4D53DF2FC2FFDA30ED282651 = {
+			fileRef = "C889BEDA368A54FEB10A007A";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		540BDDA07E9BDCE681F95660 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/bigint/BigIntegerUtils.cc";
+			name = "BigIntegerUtils.cc";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		025C56272BC5E154D9FCAFBA = {
+			fileRef = "540BDDA07E9BDCE681F95660";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		42F43FD4E83A81746C799960 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/bigint/BigIntegerAlgorithms.cc";
+			name = "BigIntegerAlgorithms.cc";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		28B015048CAA720F57A94F13 = {
+			fileRef = "42F43FD4E83A81746C799960";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		3361C080D63DD2A303DEE0F1 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/bigint/BigInteger.cc";
+			name = "BigInteger.cc";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		7D8746512BB2BFC46BF27A7E = {
+			fileRef = "3361C080D63DD2A303DEE0F1";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		97A15C85061BE88139E9E85D = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/encoder/ByteMatrix.cpp";
+			name = "ByteMatrix.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		241EBCC7C307ADAED14CDB44 = {
+			fileRef = "97A15C85061BE88139E9E85D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		0F4CBF61FC2E27B7C2D5578A = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/encoder/QREncoder.cpp";
+			name = "QREncoder.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		78CB58DF730885F097B3A99F = {
+			fileRef = "0F4CBF61FC2E27B7C2D5578A";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		A30ED377D8FFBE2831E08A7F = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/encoder/MaskUtil.cpp";
+			name = "MaskUtil.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		C274F0C645F80249BD37138F = {
+			fileRef = "A30ED377D8FFBE2831E08A7F";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		377E4ABD545B995EE05E7D1B = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/encoder/MatrixUtil.cpp";
+			name = "MatrixUtil.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		44D1E57872EE9A92E2B04CD4 = {
+			fileRef = "377E4ABD545B995EE05E7D1B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B3544D9804D9F0B165CDA07B = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/encoder/QRCode.cpp";
+			name = "QRCode.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		6D91ECC1EAAADA4C2D3C3CBD = {
+			fileRef = "B3544D9804D9F0B165CDA07B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		56AB507FFEEC561D4A72E09D = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/EncodeHint.cpp";
+			name = "EncodeHint.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		B0B4DA7EEBE74AAB0C2A0C66 = {
+			fileRef = "56AB507FFEEC561D4A72E09D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		7232F65E8AEB10348A7DB568 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/reedsolomon/ReedSolomonEncoder.cpp";
+			name = "ReedSolomonEncoder.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		557E4EB1ED74B2B89B1BE413 = {
+			fileRef = "7232F65E8AEB10348A7DB568";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		CE5CEDC22B78B51FF2D24AE8 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/QZXingFilter.cpp";
+			name = "QZXingFilter.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		E84F1A3B4D8716E676F204EA = {
+			fileRef = "CE5CEDC22B78B51FF2D24AE8";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		902383903109717D58D79985 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/QZXingImageProvider.cpp";
+			name = "QZXingImageProvider.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		DFD1BE92272C5AFC14B696B7 = {
+			fileRef = "902383903109717D58D79985";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		655449CA76E3D03D1E34B374 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/vpp_ios/vpp_plugin_import.cpp";
+			name = "vpp_plugin_import.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		3EA836ED8F28EAF11F38B54C = {
+			fileRef = "655449CA76E3D03D1E34B374";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		F00E135A6DC71CDDFE7CDB0F = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/vpp_ios/vpp_qml_plugin_import.cpp";
+			name = "vpp_qml_plugin_import.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		1C9DD061D2C446A648540861 = {
+			fileRef = "F00E135A6DC71CDDFE7CDB0F";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		FA40A8E29A808C421107D192 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/vpp_ios/qrc_qml.cpp";
+			name = "qrc_qml.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		91E438388F3BA415DD28CCA1 = {
+			fileRef = "FA40A8E29A808C421107D192";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		DBE22DC49B1592C53D4103D3 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/vpp_ios/moc_ImageHandler.cpp";
+			name = "moc_ImageHandler.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		19ABAEC3006D36C3461D84DB = {
+			fileRef = "DBE22DC49B1592C53D4103D3";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		8A6A3E116361AFA9AC232891 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/vpp_ios/moc_QZXing.cpp";
+			name = "moc_QZXing.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		BFED2770087A9A05C5BD4D66 = {
+			fileRef = "8A6A3E116361AFA9AC232891";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		872C9408CCDB622DCD929479 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/vpp_ios/moc_QZXingFilter.cpp";
+			name = "moc_QZXingFilter.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		59DDADFB27C142A5AE5CBAE2 = {
+			fileRef = "872C9408CCDB622DCD929479";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		71624FABC172AE985D0949FF = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/vpp_ios/moc_httpclient.cpp";
+			name = "moc_httpclient.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		ADFD79F06540F56A176B51BE = {
+			fileRef = "71624FABC172AE985D0949FF";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		8F89D92C99E27FB4763E172A = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/vpp_ios/moc_blemgr.cpp";
+			name = "moc_blemgr.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		C5608DD68F831F964D9912D9 = {
+			fileRef = "8F89D92C99E27FB4763E172A";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		1737B90512DD7B764A5611A0 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/QZXing_global.h";
+			name = "QZXing_global.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		5F852E8365D7C58FFCFF6D67 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/CameraImageWrapper.h";
+			name = "CameraImageWrapper.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		E892932F677D1EF58221B9BD = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/ImageHandler.h";
+			name = "ImageHandler.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		F727EA07176366821F4F40A7 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/QZXing.h";
+			name = "QZXing.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		0116647E5EBFFFADAE6932A8 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/ZXing.h";
+			name = "ZXing.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		A2B9EA403FB9D5BD289AC169 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/IllegalStateException.h";
+			name = "IllegalStateException.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		6D55877EE1D16E0C00012B48 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/InvertedLuminanceSource.h";
+			name = "InvertedLuminanceSource.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		D54EDE45FFCC8CB6362A9090 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/ChecksumException.h";
+			name = "ChecksumException.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		6462BD0690B61C4723DF2469 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/ResultPointCallback.h";
+			name = "ResultPointCallback.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		148483630557BFE7F65FECB7 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/ResultPoint.h";
+			name = "ResultPoint.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		F2019EDC9B353BCE772CCD0D = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/Result.h";
+			name = "Result.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		98BD9383DD3BC39FFB973850 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/ReaderException.h";
+			name = "ReaderException.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		A6158A480443FD453A1975FE = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/Reader.h";
+			name = "Reader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		0F03D7E44A5453B7F76FD64A = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/NotFoundException.h";
+			name = "NotFoundException.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		A8EFD8CB9C86A45A77DB6924 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/MultiFormatReader.h";
+			name = "MultiFormatReader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		936E9F971D1A1A761292E2FD = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/LuminanceSource.h";
+			name = "LuminanceSource.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		6C0751D3BB1F79E80AE37D1B = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/FormatException.h";
+			name = "FormatException.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		74FE19942A6CACD05F11E4C8 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/Exception.h";
+			name = "Exception.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		130CA1AD34C70B1A5C0943D3 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/DecodeHints.h";
+			name = "DecodeHints.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		C4C68F26727563E50BF51164 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/BinaryBitmap.h";
+			name = "BinaryBitmap.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		3753C3E1A58554C9DE7B5E68 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/Binarizer.h";
+			name = "Binarizer.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		019755F62357CA48D5A77484 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/BarcodeFormat.h";
+			name = "BarcodeFormat.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		D9A3AABEA61073120B8C0795 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/aztec/AztecReader.h";
+			name = "AztecReader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		38CE528BC84FC3FF507A8B4C = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/aztec/AztecDetectorResult.h";
+			name = "AztecDetectorResult.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		99C23022E9C7830CFF1DE0B4 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/aztec/decoder/Decoder.h";
+			name = "Decoder.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		0D2311AF40EF18160B227979 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/aztec/detector/Detector.h";
+			name = "Detector.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		0328127D43AA7518968D83EB = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/StringUtils.h";
+			name = "StringUtils.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		72EB9D861D4E08695DB0F706 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/Str.h";
+			name = "Str.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		5AE55B503B17B791560A6536 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/Point.h";
+			name = "Point.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		344AA9A6EC9B593B7A70509E = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/PerspectiveTransform.h";
+			name = "PerspectiveTransform.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		AF0B0EC738DF6FC4B9C4F8B2 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/IllegalArgumentException.h";
+			name = "IllegalArgumentException.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		72EA44DE3D43E658871B3683 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/HybridBinarizer.h";
+			name = "HybridBinarizer.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		2F1807F0E0CB296061D5854A = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/GridSampler.h";
+			name = "GridSampler.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		5A5DF038B4E6ACA675AC2DC0 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/GreyscaleRotatedLuminanceSource.h";
+			name = "GreyscaleRotatedLuminanceSource.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		6094F527C15A0D5660C67115 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/GreyscaleLuminanceSource.h";
+			name = "GreyscaleLuminanceSource.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		D99BCEDC5BB2D9720827BB32 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/GlobalHistogramBinarizer.h";
+			name = "GlobalHistogramBinarizer.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		B47E35F3F6B741A4F2424AA5 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/DetectorResult.h";
+			name = "DetectorResult.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		FFC8F6189433C3584A84E028 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/DecoderResult.h";
+			name = "DecoderResult.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		C90FE39A4E8E79B67ADF2471 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/Counted.h";
+			name = "Counted.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		F27501790AE29B0CC42783B8 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/CharacterSetECI.h";
+			name = "CharacterSetECI.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		3735E4DEDED739EA9C6D9FBB = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/BitSource.h";
+			name = "BitSource.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		96D6C6B472B438DB16749194 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/BitMatrix.h";
+			name = "BitMatrix.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		317FD35361E353025B4A07BE = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/BitArray.h";
+			name = "BitArray.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		749DFF014492F291684D842B = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/Array.h";
+			name = "Array.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		4C02C905C54908F30C2262C8 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/detector/MathUtils.h";
+			name = "MathUtils.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		FEB4E3A02D3B9B342A8B1368 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/detector/JavaMath.h";
+			name = "JavaMath.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		D3ED8B07B97877804DCBA7BF = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/detector/WhiteRectangleDetector.h";
+			name = "WhiteRectangleDetector.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		AF7856F67848D2A3510649AD = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/detector/MonochromeRectangleDetector.h";
+			name = "MonochromeRectangleDetector.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		39C48F8B884EC45C08E5CE93 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/reedsolomon/ReedSolomonException.h";
+			name = "ReedSolomonException.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		F22640B16416A9C78907401D = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/reedsolomon/ReedSolomonDecoder.h";
+			name = "ReedSolomonDecoder.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		DDFFED29D8CDECB846EC3756 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/reedsolomon/GenericGFPoly.h";
+			name = "GenericGFPoly.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		EF14F4B5CDC1244E532D0CC1 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/reedsolomon/GenericGF.h";
+			name = "GenericGF.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		3F01595C1E221B7F2121D162 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/datamatrix/Version.h";
+			name = "Version.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		44D787A9CC42D1DF11DA29EF = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/datamatrix/DataMatrixReader.h";
+			name = "DataMatrixReader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		30EB5860D3F18F187A586F60 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/datamatrix/decoder/Decoder.h";
+			name = "Decoder.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		C3868F3FA5B62938BABCCF74 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/datamatrix/decoder/DecodedBitStreamParser.h";
+			name = "DecodedBitStreamParser.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		B592101062F958B8232F74D0 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/datamatrix/decoder/DataBlock.h";
+			name = "DataBlock.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		B632C994CA761BC1A2F457E5 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/datamatrix/decoder/BitMatrixParser.h";
+			name = "BitMatrixParser.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		B5DA9E8A8137B2C7DDE8D117 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/datamatrix/detector/DetectorException.h";
+			name = "DetectorException.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		705AE2A20262C73303A05F2C = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/datamatrix/detector/Detector.h";
+			name = "Detector.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		A619F8C91B6F79D72E7E9AD2 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/datamatrix/detector/CornerPoint.h";
+			name = "CornerPoint.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		4AEF1AD64F4250C979D4BEF4 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/oned/UPCEReader.h";
+			name = "UPCEReader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		1A2C65342D1805FB5967CC55 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/oned/UPCEANReader.h";
+			name = "UPCEANReader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		C36D70D4B9D3136C54EF1087 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/oned/UPCAReader.h";
+			name = "UPCAReader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		9DFDAD7724A7190C238A313D = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/oned/OneDResultPoint.h";
+			name = "OneDResultPoint.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		B2F229A155679566DBDC2254 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/oned/OneDReader.h";
+			name = "OneDReader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		95E42A4D7A00A203EA23E644 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/oned/MultiFormatUPCEANReader.h";
+			name = "MultiFormatUPCEANReader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		D520C7F502839DC46DA782B9 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/oned/MultiFormatOneDReader.h";
+			name = "MultiFormatOneDReader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		132EFFB5D1B61F573AF6338B = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/oned/ITFReader.h";
+			name = "ITFReader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		9F7A8963F8D9A3029265C409 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/oned/EAN13Reader.h";
+			name = "EAN13Reader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		5C1B31CA5D92704EBE617DED = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/oned/EAN8Reader.h";
+			name = "EAN8Reader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		A7CD75632C56E20577D6FE4B = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/oned/Code128Reader.h";
+			name = "Code128Reader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		32A46B68D677CAA86C83A9E0 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/oned/Code39Reader.h";
+			name = "Code39Reader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		4E30597C8FB6E69EE6CEDCDA = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/oned/CodaBarReader.h";
+			name = "CodaBarReader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		C1C588D6DFCDDCAA26AF05CF = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/oned/Code93Reader.h";
+			name = "Code93Reader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		E4B8B57D6321E084BDDF95F1 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/Version.h";
+			name = "Version.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		2BC02370B0660EB2C25DB147 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/QRCodeReader.h";
+			name = "QRCodeReader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		5CD418129FBDF04B5D77BFA3 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/FormatInformation.h";
+			name = "FormatInformation.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		472D00A2DA848B321B9C7D18 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/ErrorCorrectionLevel.h";
+			name = "ErrorCorrectionLevel.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		E7AEC928D823D678BA5A8FC6 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/decoder/Mode.h";
+			name = "Mode.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		8EDEC40A4E54FC3EE9E9132E = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/decoder/Decoder.h";
+			name = "Decoder.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		BD2E56D92F8700FE5978E256 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/decoder/DecodedBitStreamParser.h";
+			name = "DecodedBitStreamParser.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		478BA99BD94D87C3A6C1931A = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/decoder/DataMask.h";
+			name = "DataMask.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		72FFF647EAD6AF36207E67CF = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/decoder/DataBlock.h";
+			name = "DataBlock.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		293E1F644AE5DB0234E2C952 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/decoder/BitMatrixParser.h";
+			name = "BitMatrixParser.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		2C2D74AFDD674A416ABE6DD2 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/detector/FinderPatternInfo.h";
+			name = "FinderPatternInfo.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		78EDB378C8EA4801CFA6AFAC = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/detector/FinderPatternFinder.h";
+			name = "FinderPatternFinder.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		F0EC89DD19EB193B6185BE98 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/detector/FinderPattern.h";
+			name = "FinderPattern.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		6644908E5756F167A7B9FA1C = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/detector/Detector.h";
+			name = "Detector.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		06CBE3C74B7644B369E5C910 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/detector/AlignmentPatternFinder.h";
+			name = "AlignmentPatternFinder.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		5981D15C1557DE0748C2A627 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/detector/AlignmentPattern.h";
+			name = "AlignmentPattern.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		F5CDE22D25EF3BC0D64FEA48 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/multi/MultipleBarcodeReader.h";
+			name = "MultipleBarcodeReader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		52EE23A19575232AFD4DE1ED = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/multi/GenericMultipleBarcodeReader.h";
+			name = "GenericMultipleBarcodeReader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		2E698B45ACFD10304973F191 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/multi/ByQuadrantReader.h";
+			name = "ByQuadrantReader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		CD17BA5B3703865D78CA7B5C = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/multi/qrcode/QRCodeMultiReader.h";
+			name = "QRCodeMultiReader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		DBA71FC7C2CBA6A2D12865DA = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/multi/qrcode/detector/MultiFinderPatternFinder.h";
+			name = "MultiFinderPatternFinder.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		BC22C2FD3CC8B6282347D6FE = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/multi/qrcode/detector/MultiDetector.h";
+			name = "MultiDetector.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		F837A9AE8CE0A5E9E68EB78D = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/pdf417/decoder/ec/ErrorCorrection.h";
+			name = "ErrorCorrection.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		A664EB2AB2F7C80B94C8D9C0 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/pdf417/decoder/ec/ModulusGF.h";
+			name = "ModulusGF.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		9328D2A6867D7BFF23B66B2B = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/pdf417/decoder/ec/ModulusPoly.h";
+			name = "ModulusPoly.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		408A4979356DC775FE6F5AE0 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/pdf417/decoder/BitMatrixParser.h";
+			name = "BitMatrixParser.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		8C815B68C46CBCDF3458537A = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/pdf417/decoder/DecodedBitStreamParser.h";
+			name = "DecodedBitStreamParser.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		064758EF8C0A56C5F7558D79 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/pdf417/decoder/Decoder.h";
+			name = "Decoder.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		A287AFAC01B17CBFCA62EE10 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/pdf417/detector/Detector.h";
+			name = "Detector.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		8CB2E741700260F168E4B94B = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/pdf417/detector/LinesSampler.h";
+			name = "LinesSampler.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		C51B3A7F3502BC457110CCA9 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/pdf417/PDF417Reader.h";
+			name = "PDF417Reader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		9E3D15C6524705A38A52948B = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/bigint/NumberlikeArray.hh";
+			name = "NumberlikeArray.hh";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		6D4CE6B9EF5CE5BA690BC632 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/bigint/BigUnsignedInABase.hh";
+			name = "BigUnsignedInABase.hh";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		0CBE00365C2C78111E1C2450 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/bigint/BigUnsigned.hh";
+			name = "BigUnsigned.hh";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		EBAC381A86DB5C3353B430FD = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/bigint/BigIntegerUtils.hh";
+			name = "BigIntegerUtils.hh";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		D23F563C3F99391E1E547E67 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/bigint/BigIntegerLibrary.hh";
+			name = "BigIntegerLibrary.hh";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		2A5E895AC615CFAE59495A86 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/bigint/BigIntegerAlgorithms.hh";
+			name = "BigIntegerAlgorithms.hh";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		AAF2B52B0377B62D62AE7A1C = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/bigint/BigInteger.hh";
+			name = "BigInteger.hh";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		5373161D7AECEB30F13F24B1 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/encoder/BlockPair.h";
+			name = "BlockPair.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		221F6B18D50223CA86B4C011 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/encoder/ByteMatrix.h";
+			name = "ByteMatrix.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		C10A04BBDF5AD69A64C3C2E0 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/encoder/Encoder.h";
+			name = "Encoder.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		B28D032FD3A942D4D4B2F5EC = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/encoder/MaskUtil.h";
+			name = "MaskUtil.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		7BB1C11F47A343915DF5EF44 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/encoder/MatrixUtil.h";
+			name = "MatrixUtil.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		F972D4A4F2145027F224D251 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/qrcode/encoder/QRCode.h";
+			name = "QRCode.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		8895A446702B385338490B05 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/WriterException.h";
+			name = "WriterException.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		B457C881D71ACC186F96E1E1 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/EncodeHint.h";
+			name = "EncodeHint.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		7300518166D327A55600C08D = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/UnsupportedEncodingException.h";
+			name = "UnsupportedEncodingException.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		06CE175EF3757034A3B867DC = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/reedsolomon/ReedSolomonEncoder.h";
+			name = "ReedSolomonEncoder.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		F6FD91CA86CA7CADBB922AB4 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/zxing/zxing/common/Types.h";
+			name = "Types.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		ACAE79510183C3A4F16E13BA = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/QZXingFilter.h";
+			name = "QZXingFilter.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		52953CCAA42542EBACF224EE = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/QZXingImageProvider.h";
+			name = "QZXingImageProvider.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		BD4B86E76608609BD194F5A2 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/httpclient.h";
+			name = "httpclient.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		4CCC2DA32B7B021302E6C472 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/gDataBase.h";
+			name = "gDataBase.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		946198184630AC9C6F541B20 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/blemgr.h";
+			name = "blemgr.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		A9A3A5A48F2047AF5AF2EDC7 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/qml.qrc";
+			name = "qml.qrc";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		EA1A5BC2ED1091F513000086 = {
+			fileRef = "A9A3A5A48F2047AF5AF2EDC7";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		AEE2A25142AA4F992A3F35DD = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/vpp_ios/VPP.pro";
+			name = "VPP.pro";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		31A43EAC980FAE8D61135D65 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/vpp_ios/.qmake.stash";
+			name = ".qmake.stash";
+			sourceTree = "<absolute>";
+		};
+		6E9E692C1327A9A4818AF85A = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/src/QZXing.pri";
+			name = "QZXing.pri";
+			sourceTree = "<absolute>";
+		};
+		3497A6FA4FBB1CE803B05C6B = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/VPP/VPP.pro";
+			name = "VPP.pro";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		25B08E2869634E9BCBA333A2 = {
+			isa = PBXGroup;
+			children = (
+				"655449CA76E3D03D1E34B374",
+				"F00E135A6DC71CDDFE7CDB0F",
+				"FA40A8E29A808C421107D192",
+				"DBE22DC49B1592C53D4103D3",
+				"8A6A3E116361AFA9AC232891",
+				"872C9408CCDB622DCD929479",
+				"71624FABC172AE985D0949FF",
+				"8F89D92C99E27FB4763E172A");
+			name = "Generated Sources";
+			sourceTree = "<group>";
+		};
+		921315FAA7F261D737F4F4C7 = {
+			isa = PBXGroup;
+			children = (
+				"0037C1D5CCCCFA99E9D5A1C1",
+				"1CBFFDEA30E76305980CC166",
+				"5A4E2B7756AFC99277B7CA64",
+				"6C6978B199797B26D59060DC",
+				"CE5CEDC22B78B51FF2D24AE8",
+				"902383903109717D58D79985",
+				"1737B90512DD7B764A5611A0",
+				"5F852E8365D7C58FFCFF6D67",
+				"E892932F677D1EF58221B9BD",
+				"F727EA07176366821F4F40A7",
+				"ACAE79510183C3A4F16E13BA",
+				"52953CCAA42542EBACF224EE");
+			name = "src";
+			sourceTree = "<group>";
+		};
+		6C6978B199797B26D59060DC = {
+			isa = PBXGroup;
+			children = (
+				"0CA3608B23D4691D8743A98C",
+				"FD8696B0B9CDBC35C9319A1E");
+			name = "zxing";
+			sourceTree = "<group>";
+		};
+		FD8696B0B9CDBC35C9319A1E = {
+			isa = PBXGroup;
+			children = (
+				"D16DA23BB233CB49FA3F1E59",
+				"C889BEDA368A54FEB10A007A",
+				"540BDDA07E9BDCE681F95660",
+				"42F43FD4E83A81746C799960",
+				"3361C080D63DD2A303DEE0F1",
+				"9E3D15C6524705A38A52948B",
+				"6D4CE6B9EF5CE5BA690BC632",
+				"0CBE00365C2C78111E1C2450",
+				"EBAC381A86DB5C3353B430FD",
+				"D23F563C3F99391E1E547E67",
+				"2A5E895AC615CFAE59495A86",
+				"AAF2B52B0377B62D62AE7A1C");
+			name = "bigint";
+			sourceTree = "<group>";
+		};
+		0CA3608B23D4691D8743A98C = {
+			isa = PBXGroup;
+			children = (
+				"C9B70398127AAE71086C483E",
+				"82652585D3D4A4E66A58EE08",
+				"03A1EC0FD648FE54630BA111",
+				"F35B923223A1660893A348E6",
+				"07D3F48AFCD859FE91DB45A3",
+				"C7189914A2124056125D98A2",
+				"B06807FBBC84B13E4966AB00",
+				"F9FDB30E3D569465A55EA474",
+				"9C5A4301877336D8365BA25D",
+				"6E42E9D941A646BA334189EB",
+				"3B7EDA6F2EECCA767CB3C6F4",
+				"FFC31E2F4C70A991C43B7A87",
+				"2558668207C636C74D568F03",
+				"B45251F7159F7F143025AD08",
+				"675F748862181020BF387671",
+				"DC0937984508E3F16569D9C2",
+				"60BE933F1816D1CDCE7BE3A4",
+				"87D6CADC27D7A1EADCFE032F",
+				"C082FD035EA8A943299AF2BB",
+				"DE8C00CD9AF86577A90852C4",
+				"66B3D74B1FBCA719A26A5BC0",
+				"176495D99986DACCAD3A62BE",
+				"56AB507FFEEC561D4A72E09D",
+				"0116647E5EBFFFADAE6932A8",
+				"A2B9EA403FB9D5BD289AC169",
+				"6D55877EE1D16E0C00012B48",
+				"D54EDE45FFCC8CB6362A9090",
+				"6462BD0690B61C4723DF2469",
+				"148483630557BFE7F65FECB7",
+				"F2019EDC9B353BCE772CCD0D",
+				"98BD9383DD3BC39FFB973850",
+				"A6158A480443FD453A1975FE",
+				"0F03D7E44A5453B7F76FD64A",
+				"A8EFD8CB9C86A45A77DB6924",
+				"936E9F971D1A1A761292E2FD",
+				"6C0751D3BB1F79E80AE37D1B",
+				"74FE19942A6CACD05F11E4C8",
+				"130CA1AD34C70B1A5C0943D3",
+				"C4C68F26727563E50BF51164",
+				"3753C3E1A58554C9DE7B5E68",
+				"019755F62357CA48D5A77484",
+				"8895A446702B385338490B05",
+				"B457C881D71ACC186F96E1E1",
+				"7300518166D327A55600C08D");
+			name = "zxing";
+			sourceTree = "<group>";
+		};
+		DC0937984508E3F16569D9C2 = {
+			isa = PBXGroup;
+			children = (
+				"D2A6624CAD36C9601BAC8C60",
+				"6E4BB387E2821FA29AE28FCF",
+				"807163DBDAB3FD44D7D4BAC0",
+				"DC2C38A7098B567B8E60FBB9",
+				"D9A3AABEA61073120B8C0795",
+				"38CE528BC84FC3FF507A8B4C");
+			name = "aztec";
+			sourceTree = "<group>";
+		};
+		807163DBDAB3FD44D7D4BAC0 = {
+			isa = PBXGroup;
+			children = (
+				"CCFC06AA49DEF7D19F67971E",
+				"99C23022E9C7830CFF1DE0B4");
+			name = "decoder";
+			sourceTree = "<group>";
+		};
+		DC2C38A7098B567B8E60FBB9 = {
+			isa = PBXGroup;
+			children = (
+				"18C5AC57553B0D32500EBA9A",
+				"0D2311AF40EF18160B227979");
+			name = "detector";
+			sourceTree = "<group>";
+		};
+		60BE933F1816D1CDCE7BE3A4 = {
+			isa = PBXGroup;
+			children = (
+				"7F091F795FCF972596A8A1A8",
+				"AF39FF9FEE36E789A196C1FD",
+				"934908DD1470753F1CD93681",
+				"E33F43092141CBEC8B057D77",
+				"D95BFDC9B012FBF7A8CED459",
+				"9104C4D5A01788982F3C7DFC",
+				"25F58A1B4E54268E3C96820E",
+				"87E9F77EC5D542980EB6F107",
+				"2BDE1C5C99FFE4BE2C6E6254",
+				"D534AFFA2654B02C9BCF90CE",
+				"AA83E57DFC78EF3D970204CE",
+				"2594CAD18F57081B4326FA78",
+				"A82745FB35DB26AE97D31C44",
+				"11C0638FA83FB1D6537B8F00",
+				"F2A0C2FC9EA909208FE3C9AD",
+				"E0019D0AFBCE8C2076EB7994",
+				"47B310113B1326F338F22A54",
+				"1934033692674B783DE1FD90",
+				"0328127D43AA7518968D83EB",
+				"72EB9D861D4E08695DB0F706",
+				"5AE55B503B17B791560A6536",
+				"344AA9A6EC9B593B7A70509E",
+				"AF0B0EC738DF6FC4B9C4F8B2",
+				"72EA44DE3D43E658871B3683",
+				"2F1807F0E0CB296061D5854A",
+				"5A5DF038B4E6ACA675AC2DC0",
+				"6094F527C15A0D5660C67115",
+				"D99BCEDC5BB2D9720827BB32",
+				"B47E35F3F6B741A4F2424AA5",
+				"FFC8F6189433C3584A84E028",
+				"C90FE39A4E8E79B67ADF2471",
+				"F27501790AE29B0CC42783B8",
+				"3735E4DEDED739EA9C6D9FBB",
+				"96D6C6B472B438DB16749194",
+				"317FD35361E353025B4A07BE",
+				"749DFF014492F291684D842B",
+				"F6FD91CA86CA7CADBB922AB4");
+			name = "common";
+			sourceTree = "<group>";
+		};
+		47B310113B1326F338F22A54 = {
+			isa = PBXGroup;
+			children = (
+				"6AD89DB2A8E8A6D4A8708147",
+				"C0C2B608A108C14DAC60512E",
+				"4C02C905C54908F30C2262C8",
+				"FEB4E3A02D3B9B342A8B1368",
+				"D3ED8B07B97877804DCBA7BF",
+				"AF7856F67848D2A3510649AD");
+			name = "detector";
+			sourceTree = "<group>";
+		};
+		1934033692674B783DE1FD90 = {
+			isa = PBXGroup;
+			children = (
+				"9F3070F4B87F778865296731",
+				"1F0418B1378E36136229662A",
+				"F422760AECE1769E17CF6B13",
+				"BB76F6AD2693F643EF2BF4C6",
+				"7232F65E8AEB10348A7DB568",
+				"39C48F8B884EC45C08E5CE93",
+				"F22640B16416A9C78907401D",
+				"DDFFED29D8CDECB846EC3756",
+				"EF14F4B5CDC1244E532D0CC1",
+				"06CE175EF3757034A3B867DC");
+			name = "reedsolomon";
+			sourceTree = "<group>";
+		};
+		87D6CADC27D7A1EADCFE032F = {
+			isa = PBXGroup;
+			children = (
+				"1727DD771BB6D9A98F26B690",
+				"C676FBAE5625E16D2943BEF7",
+				"669B438FD52E036584E98992",
+				"1F2BB001D9F069E26ECF771B",
+				"3F01595C1E221B7F2121D162",
+				"44D787A9CC42D1DF11DA29EF");
+			name = "datamatrix";
+			sourceTree = "<group>";
+		};
+		669B438FD52E036584E98992 = {
+			isa = PBXGroup;
+			children = (
+				"60EF5EE798B793D822106CD8",
+				"FFC6B86D1325B5D5A8F2F0C4",
+				"72AEB8B7FEB147A84C54407B",
+				"7EE7F3BBC94D559315720210",
+				"30EB5860D3F18F187A586F60",
+				"C3868F3FA5B62938BABCCF74",
+				"B592101062F958B8232F74D0",
+				"B632C994CA761BC1A2F457E5");
+			name = "decoder";
+			sourceTree = "<group>";
+		};
+		1F2BB001D9F069E26ECF771B = {
+			isa = PBXGroup;
+			children = (
+				"62EC7A808950EB03ABF8C67C",
+				"DF64B433E54644542CA67FD8",
+				"7BBFCADB2CEC3B42DA6A0937",
+				"B5DA9E8A8137B2C7DDE8D117",
+				"705AE2A20262C73303A05F2C",
+				"A619F8C91B6F79D72E7E9AD2");
+			name = "detector";
+			sourceTree = "<group>";
+		};
+		66B3D74B1FBCA719A26A5BC0 = {
+			isa = PBXGroup;
+			children = (
+				"24369DBB3AB7BE003368787E",
+				"FE610D4B9CCBDDA368F708CB",
+				"30E8EFBA45E9AD44DEB7082A",
+				"F34FB7A61397D27FE6A3F184",
+				"F5CDE22D25EF3BC0D64FEA48",
+				"52EE23A19575232AFD4DE1ED",
+				"2E698B45ACFD10304973F191");
+			name = "multi";
+			sourceTree = "<group>";
+		};
+		F34FB7A61397D27FE6A3F184 = {
+			isa = PBXGroup;
+			children = (
+				"C8766C1F15DE45E36125FB6D",
+				"5C88CD0D799D154E15055044",
+				"CD17BA5B3703865D78CA7B5C");
+			name = "qrcode";
+			sourceTree = "<group>";
+		};
+		5C88CD0D799D154E15055044 = {
+			isa = PBXGroup;
+			children = (
+				"31F293A448620E43425A0BC8",
+				"8FF0EC51D382C33E260EB602",
+				"DBA71FC7C2CBA6A2D12865DA",
+				"BC22C2FD3CC8B6282347D6FE");
+			name = "detector";
+			sourceTree = "<group>";
+		};
+		C082FD035EA8A943299AF2BB = {
+			isa = PBXGroup;
+			children = (
+				"C92435A4135F527F6671F93A",
+				"AC20A0BF83DB644CEA37FED7",
+				"F17E725189FEEB8340CD71BF",
+				"8D8C5EACFD34089E693CC662",
+				"A39FD9A0543B96BD991F8670",
+				"D70007742A94F83E32362007",
+				"46D45FC2430B102558C52E26",
+				"EBAD61EDA868F17440E3E8E6",
+				"F61AFE22C2600B611114A961",
+				"3EB2A1E8194758FE918800F4",
+				"A007891B33CDF76D2C392B54",
+				"66D5022F2209339BA5AF3736",
+				"0D5E6D9CDAE467C5D25CA76D",
+				"33C08F44F92DA1DD0A9297FE",
+				"4AEF1AD64F4250C979D4BEF4",
+				"1A2C65342D1805FB5967CC55",
+				"C36D70D4B9D3136C54EF1087",
+				"9DFDAD7724A7190C238A313D",
+				"B2F229A155679566DBDC2254",
+				"95E42A4D7A00A203EA23E644",
+				"D520C7F502839DC46DA782B9",
+				"132EFFB5D1B61F573AF6338B",
+				"9F7A8963F8D9A3029265C409",
+				"5C1B31CA5D92704EBE617DED",
+				"A7CD75632C56E20577D6FE4B",
+				"32A46B68D677CAA86C83A9E0",
+				"4E30597C8FB6E69EE6CEDCDA",
+				"C1C588D6DFCDDCAA26AF05CF");
+			name = "oned";
+			sourceTree = "<group>";
+		};
+		176495D99986DACCAD3A62BE = {
+			isa = PBXGroup;
+			children = (
+				"81E9EC2F9820BDFB86C12AFA",
+				"F1C4DE25C207E35F7DE925C5",
+				"3A914DC1F5C20E4D9F976B5D",
+				"C51B3A7F3502BC457110CCA9");
+			name = "pdf417";
+			sourceTree = "<group>";
+		};
+		81E9EC2F9820BDFB86C12AFA = {
+			isa = PBXGroup;
+			children = (
+				"BE762F277B4FA2635F52FAC2",
+				"297F68E975230B096B7E65BA",
+				"5731C1CCDC0CC7A9042AB059",
+				"E919EBFF26E83321837F376F",
+				"408A4979356DC775FE6F5AE0",
+				"8C815B68C46CBCDF3458537A",
+				"064758EF8C0A56C5F7558D79");
+			name = "decoder";
+			sourceTree = "<group>";
+		};
+		BE762F277B4FA2635F52FAC2 = {
+			isa = PBXGroup;
+			children = (
+				"306418FBA22D9046CE9B95F7",
+				"F998D527BB2AAACE1F726704",
+				"3051F695C94272714B01D8F9",
+				"F837A9AE8CE0A5E9E68EB78D",
+				"A664EB2AB2F7C80B94C8D9C0",
+				"9328D2A6867D7BFF23B66B2B");
+			name = "ec";
+			sourceTree = "<group>";
+		};
+		F1C4DE25C207E35F7DE925C5 = {
+			isa = PBXGroup;
+			children = (
+				"5D46FEC4C7CF47673B5D0DBE",
+				"CE56F4E9B93352CC25F0DD5B",
+				"A287AFAC01B17CBFCA62EE10",
+				"8CB2E741700260F168E4B94B");
+			name = "detector";
+			sourceTree = "<group>";
+		};
+		DE8C00CD9AF86577A90852C4 = {
+			isa = PBXGroup;
+			children = (
+				"4B6CD49FC1FC4B97E91545F9",
+				"313877EDDBB4B2679F3E1799",
+				"0B4193F3F6578CEBD856637D",
+				"4BE0CA3166DB943AF9B3B346",
+				"B683EB915D39311CE11D164C",
+				"5F140340A56E84729ECD6DAF",
+				"2A277B66A439242BCB200F17",
+				"E4B8B57D6321E084BDDF95F1",
+				"2BC02370B0660EB2C25DB147",
+				"5CD418129FBDF04B5D77BFA3",
+				"472D00A2DA848B321B9C7D18");
+			name = "qrcode";
+			sourceTree = "<group>";
+		};
+		313877EDDBB4B2679F3E1799 = {
+			isa = PBXGroup;
+			children = (
+				"93A73E953F87BFD1F65F7705",
+				"813721AB9BE83FB56A7CF01E",
+				"C917FA76CAA893394858CA11",
+				"A5F1265DE9C3EBC74861730C",
+				"3571471902B976B0C2138BF9",
+				"B3EB586234D0B2B3B9C641BF",
+				"E7AEC928D823D678BA5A8FC6",
+				"8EDEC40A4E54FC3EE9E9132E",
+				"BD2E56D92F8700FE5978E256",
+				"478BA99BD94D87C3A6C1931A",
+				"72FFF647EAD6AF36207E67CF",
+				"293E1F644AE5DB0234E2C952");
+			name = "decoder";
+			sourceTree = "<group>";
+		};
+		0B4193F3F6578CEBD856637D = {
+			isa = PBXGroup;
+			children = (
+				"5D7D470F68BDC9E9B09C349B",
+				"20CE7ABD795EAE23FD093220",
+				"6BB685467508A167CD81D6EC",
+				"1B364C563EC3E0625A0DC414",
+				"821A74B50AEEB6E510A5DFDA",
+				"B239AFEA794178D7D4756251",
+				"2C2D74AFDD674A416ABE6DD2",
+				"78EDB378C8EA4801CFA6AFAC",
+				"F0EC89DD19EB193B6185BE98",
+				"6644908E5756F167A7B9FA1C",
+				"06CBE3C74B7644B369E5C910",
+				"5981D15C1557DE0748C2A627");
+			name = "detector";
+			sourceTree = "<group>";
+		};
+		2A277B66A439242BCB200F17 = {
+			isa = PBXGroup;
+			children = (
+				"97A15C85061BE88139E9E85D",
+				"0F4CBF61FC2E27B7C2D5578A",
+				"A30ED377D8FFBE2831E08A7F",
+				"377E4ABD545B995EE05E7D1B",
+				"B3544D9804D9F0B165CDA07B",
+				"5373161D7AECEB30F13F24B1",
+				"221F6B18D50223CA86B4C011",
+				"C10A04BBDF5AD69A64C3C2E0",
+				"B28D032FD3A942D4D4B2F5EC",
+				"7BB1C11F47A343915DF5EF44",
+				"F972D4A4F2145027F224D251");
+			name = "encoder";
+			sourceTree = "<group>";
+		};
+		3A971A0629DC6FCCC39F91E6 = {
+			isa = PBXGroup;
+			children = (
+				"6E9E692C1327A9A4818AF85A");
+			name = "src";
+			sourceTree = "<group>";
+		};
+		87DF60DE337FB58864343E39 = {
+			isa = PBXGroup;
+			children = (
+				"A9A3A5A48F2047AF5AF2EDC7");
+			name = "Resources";
+			sourceTree = "<group>";
+		};
+		2EB56BE3C2D93CDAB0C52E67 = {
+			isa = PBXGroup;
+			children = (
+				"03488CC7AEFDBFA6DD03D999",
+				"43F6C80050C4740EEF48F574",
+				"8A0EE544542E94530DA39489",
+				"600EF2269CC3E35045A10853",
+				"921315FAA7F261D737F4F4C7",
+				"BD4B86E76608609BD194F5A2",
+				"4CCC2DA32B7B021302E6C472",
+				"946198184630AC9C6F541B20");
+			name = "Sources";
+			sourceTree = "<group>";
+		};
+		74B182DB50CB5611B5C1C297 = {
+			isa = PBXGroup;
+			children = (
+				"AEE2A25142AA4F992A3F35DD",
+				"31A43EAC980FAE8D61135D65",
+				"3A971A0629DC6FCCC39F91E6",
+				"3497A6FA4FBB1CE803B05C6B");
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EF0942E79C014DCEC8976BC = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Preprocessors";
+			shellPath = "/bin/sh";
+			shellScript = "make -C /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/vpp_ios -f qt_preprocess.mak";
+			showEnvVarsInLog = "0";
+		};
+		F7E50F631C51CD5B5DC0BC43 = {
+			buildActionMask = 2147483647;
+			files = (
+				"9EBCF4D6322C2147E43133C8",
+				"E239988D7B6238F815CD96F9",
+				"030AB871164A223101DCE30B",
+				"E3B6A465E02BC4889A79AA36",
+				"61B307A6BFB8535270832171",
+				"B34BB4AD8FC1A1A2CA1EB948",
+				"4C2F45254CB446E995F0B250",
+				"ABF7EC8F946F1CE7FCF1E174",
+				"71B56F693A2B43DCCC098D97",
+				"1834E8C69BDF430AFB496D17",
+				"F77110DE88E3DA1696826EA5",
+				"D88A0FFD13A2704964DA19F2",
+				"6CCC8A4DAF7D01A7DA85900E",
+				"EABAB8A84EAA5B5BC372273C",
+				"E8650AAE871D6DBF4786CC02",
+				"8BE550F92AFD891A14CF022E",
+				"6527CF2F7097DD770771F174",
+				"291AD35766E338C0BE25D2BB",
+				"7DABF1DE1AB5AB46AD162B7F",
+				"B3B2986570B6FFFEC3F1B532",
+				"8418E1578A4452A35E3DC8F3",
+				"591072266F7315783A6D6E02",
+				"807E0604D06DDAD1C333880C",
+				"6304E1F0B4FD8C7875AE2E9F",
+				"C5BE6A4F9B5F79D84C4D6EF7",
+				"C20CA54E703AA0DC427E801F",
+				"A26761EF998892FC728B1FAC",
+				"DE3FE17B0AE4BA7A217B1C8F",
+				"5DE7F577D04A67D92024C976",
+				"EBCEEA26F045B2F407953E8D",
+				"0FD9D032D1CB01BF613D2AF3",
+				"89417C4749D1EA5F8B5D299C",
+				"8983B8C48413ED4BA4BD0F64",
+				"02F66D696DC301CCB04ED074",
+				"8670C92120D8649E278501D3",
+				"DE64DE1DBC0239758E10E6C2",
+				"61B6A51C5AAD7ABEDC73B4E2",
+				"43365C48B42C4BEE10E81BCF",
+				"401E25D1853FBB73A1839B01",
+				"A0959135BFEFD4C966B8230C",
+				"85A33946E4DD64D0DF04012F",
+				"EE459BEDE9EF87192BC9995C",
+				"4F7708E2DC3F76F0E430AD88",
+				"B67DE0DA4073ADD928E66D75",
+				"837B3829AC13E3454A13B014",
+				"328F5F1574442CAA7A2ADC41",
+				"63EA7FAC3B2B2520D1A80DD0",
+				"1014CCAE9E1C7C61CBA5E7F2",
+				"3A0CED56903C843C4AA3171E",
+				"4862EB1BF4399920A78CD551",
+				"6C1D4618AD946041EA331334",
+				"114E5EE56B85CD3D37B496D9",
+				"DC97C2F941503BA4B3252A5B",
+				"56231B1A78303F8826633DC5",
+				"1DEA4B4FAF6070BD5CD443CD",
+				"6AA7D25764E777C852463585",
+				"E5FCB93E8133FD8E8C9F643C",
+				"551C8EFA754D0643841E9A14",
+				"7917EBF78385CEB2F978C58D",
+				"064772C93D27DD0235F12681",
+				"9C9100C581E42A89E7C8CE41",
+				"50CA6181D93879C15F81D986",
+				"9417301DE85C826AF8317159",
+				"428130187B093D070B79C5AE",
+				"C8B3BFF964F8A6CB238ED97C",
+				"5F3FE7ED06FA471BF915FED4",
+				"E4CA93F40B2659F379364D60",
+				"BDD7A40CE1488E0FA58314A7",
+				"8A3646CCBA8151F0EEF9A47A",
+				"6FC560F75F17AEF382000C83",
+				"9732F92911D690BA249E23E2",
+				"54BA65B61D2F40C4C149DB27",
+				"3218F3A89ABA6C371DB0ABC2",
+				"F71383ED475A1A83532366F4",
+				"9240D01324B70FADE3896528",
+				"A557D32446840C318681D6DF",
+				"E37BEBCB18F4847265BBA300",
+				"DB45AC32DB244D09431A546D",
+				"6C2F254E845D20053FD1E278",
+				"4EB6CEB49A0D3325957DC985",
+				"B7949DC6FC987AABC29ABDAC",
+				"DAA3C1E0398BADFAB475BD68",
+				"BEAD9E17EB02AFF7A662BC20",
+				"7F13A9C304AE52DF1E18FBED",
+				"7E54B50D6FB94741942A22D5",
+				"D7D8EDD6D5958E73300B729F",
+				"69AAB577555F58BD7A94F77F",
+				"8522B3AE6A95EED1811D4699",
+				"75E050091853787C47394CDD",
+				"EB4D346179756384ED7A2BE8",
+				"693EEB77874881AEE2144C08",
+				"F566F68CE3B81FF0CB7B4242",
+				"BBCFC74F9432E5AAACA5FC75",
+				"B85DC0CD9EF11210CE210069",
+				"9686D482DB0979184CD13458",
+				"B1F7E6AC9A9EF8F24B527C24",
+				"85D947A439531063351BE474",
+				"461079513CDDC83C569E1546",
+				"9F08E192CAF00A12BE36B067",
+				"280B2557F902C47CA257EA55",
+				"AC8A64A578280C3F5D5466CA",
+				"D18A8F147311A8DB055B5D03",
+				"880D02050220523BCF49D244",
+				"4D53DF2FC2FFDA30ED282651",
+				"025C56272BC5E154D9FCAFBA",
+				"28B015048CAA720F57A94F13",
+				"7D8746512BB2BFC46BF27A7E",
+				"241EBCC7C307ADAED14CDB44",
+				"78CB58DF730885F097B3A99F",
+				"C274F0C645F80249BD37138F",
+				"44D1E57872EE9A92E2B04CD4",
+				"6D91ECC1EAAADA4C2D3C3CBD",
+				"B0B4DA7EEBE74AAB0C2A0C66",
+				"557E4EB1ED74B2B89B1BE413",
+				"E84F1A3B4D8716E676F204EA",
+				"DFD1BE92272C5AFC14B696B7",
+				"3EA836ED8F28EAF11F38B54C",
+				"1C9DD061D2C446A648540861",
+				"91E438388F3BA415DD28CCA1",
+				"19ABAEC3006D36C3461D84DB",
+				"BFED2770087A9A05C5BD4D66",
+				"59DDADFB27C142A5AE5CBAE2",
+				"ADFD79F06540F56A176B51BE",
+				"C5608DD68F831F964D9912D9");
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Compile Sources";
+		};
+		FCC237CA5AD60B9BA4447615 = {
+			isa = PBXFileReference;
+			name = "Foundation.framework";
+			path = "/System/Library/Frameworks/Foundation.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		F26454630C80841CBDCFE1CA = {
+			fileRef = "FCC237CA5AD60B9BA4447615";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7EC00404ACD5AB0E97726B0E = {
+			isa = PBXFileReference;
+			name = "QuartzCore.framework";
+			path = "/System/Library/Frameworks/QuartzCore.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		B460F624007324313696BE86 = {
+			fileRef = "7EC00404ACD5AB0E97726B0E";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3C44131FDCFEF4396B9EA2BA = {
+			isa = PBXFileReference;
+			name = "AudioToolbox.framework";
+			path = "/System/Library/Frameworks/AudioToolbox.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		4EB68D0C8182BCE33529C421 = {
+			fileRef = "3C44131FDCFEF4396B9EA2BA";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4D765E1B1EA6C757220C63E7 = {
+			isa = PBXFileReference;
+			name = "CoreFoundation.framework";
+			path = "/System/Library/Frameworks/CoreFoundation.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		F8B465CE34D8DF87AAE95913 = {
+			fileRef = "4D765E1B1EA6C757220C63E7";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6AE3EC31EE5BB1FCEE84137C = {
+			isa = PBXFileReference;
+			name = "CoreGraphics.framework";
+			path = "/System/Library/Frameworks/CoreGraphics.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		0CE02722F00CAD43741297B5 = {
+			fileRef = "6AE3EC31EE5BB1FCEE84137C";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7D7B02101166B76FD2D4F8B4 = {
+			isa = PBXFileReference;
+			name = "CoreText.framework";
+			path = "/System/Library/Frameworks/CoreText.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		2B02D9DC58A01E45248DDBCE = {
+			fileRef = "7D7B02101166B76FD2D4F8B4";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		9006CD33D4E70182B6B3B092 = {
+			isa = PBXFileReference;
+			name = "qavfcamera";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/mediaservice/libqavfcamera$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		7629DCCB2F8F84CF23F988B3 = {
+			fileRef = "9006CD33D4E70182B6B3B092";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BEF9DFDA6822604126A7E233 = {
+			isa = PBXFileReference;
+			name = "CoreAudio.framework";
+			path = "/System/Library/Frameworks/CoreAudio.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		35A1A39F8EAB37889EB3D397 = {
+			fileRef = "BEF9DFDA6822604126A7E233";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		547CCADBD1CC5050167EF948 = {
+			isa = PBXFileReference;
+			name = "CoreMedia.framework";
+			path = "/System/Library/Frameworks/CoreMedia.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		B78304F135DEF1F7A68393A6 = {
+			fileRef = "547CCADBD1CC5050167EF948";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F923F38E989CF0F61A164DD8 = {
+			isa = PBXFileReference;
+			name = "CoreVideo.framework";
+			path = "/System/Library/Frameworks/CoreVideo.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		6602E41D28CF886E694AD752 = {
+			fileRef = "F923F38E989CF0F61A164DD8";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		205259EEEE2BADA5E64741E3 = {
+			isa = PBXFileReference;
+			name = "Security.framework";
+			path = "/System/Library/Frameworks/Security.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		15364689D2AB5A30E87A689F = {
+			fileRef = "205259EEEE2BADA5E64741E3";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		21F907AB8D19BD779147A085 = {
+			isa = PBXFileReference;
+			name = "AVFoundation.framework";
+			path = "/System/Library/Frameworks/AVFoundation.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		CCA737EE379CDB10CC9A0F23 = {
+			fileRef = "21F907AB8D19BD779147A085";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B7EA712F967E887D970BD128 = {
+			isa = PBXFileReference;
+			name = "qavfmediaplayer";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/mediaservice/libqavfmediaplayer$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F206C1B265FCECCBBC1BE634 = {
+			fileRef = "B7EA712F967E887D970BD128";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4F1EDB7B736B0C5E502AC1D9 = {
+			isa = PBXFileReference;
+			name = "Qt5MultimediaWidgets";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libQt5MultimediaWidgets$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		4E71F9ECE8CDF6D3716CACAD = {
+			fileRef = "4F1EDB7B736B0C5E502AC1D9";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FEEAECD4DB2B3E24A65F2FFC = {
+			isa = PBXFileReference;
+			name = "Qt5OpenGL";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libQt5OpenGL$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		23A44CC84E73BBAB89E9774B = {
+			fileRef = "FEEAECD4DB2B3E24A65F2FFC";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		DA71FA281736E96B507860B3 = {
+			isa = PBXFileReference;
+			name = "Qt5Widgets";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libQt5Widgets$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		48CABB9AFD774DBEDF960F22 = {
+			fileRef = "DA71FA281736E96B507860B3";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F11E88ED784DB12B4AC9A747 = {
+			isa = PBXFileReference;
+			name = "qtmedia_audioengine";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/mediaservice/libqtmedia_audioengine$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		E551D87B055D0093FB6C37F6 = {
+			fileRef = "F11E88ED784DB12B4AC9A747";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		03063C184018EBAFD5816E51 = {
+			isa = PBXFileReference;
+			name = "qtaudio_coreaudio";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/audio/libqtaudio_coreaudio$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		79204AE5E589FBBEA347BEB8 = {
+			fileRef = "03063C184018EBAFD5816E51";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		439C52CB6808964882C3CF84 = {
+			isa = PBXFileReference;
+			name = "qtmultimedia_m3u";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/playlistformats/libqtmultimedia_m3u$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		E785E6C8C26059E29E0C8002 = {
+			fileRef = "439C52CB6808964882C3CF84";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		588DD810C99F24ED8A1BAA8E = {
+			isa = PBXFileReference;
+			name = "qios";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/platforms/libqios$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		24266F5ECB4AF541FD897C14 = {
+			fileRef = "588DD810C99F24ED8A1BAA8E";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BCD45A3A95622751D5522E1E = {
+			isa = PBXFileReference;
+			name = "Qt5FontDatabaseSupport";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libQt5FontDatabaseSupport$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		78C7CA040C390323388A71F4 = {
+			fileRef = "BCD45A3A95622751D5522E1E";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		1C9242DF08AB20067522FF7B = {
+			isa = PBXFileReference;
+			name = "qtfreetype";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libqtfreetype$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AF8840298F3F6B6E8EFDDD3C = {
+			fileRef = "1C9242DF08AB20067522FF7B";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		21C4C5E7668B94F11D533925 = {
+			isa = PBXFileReference;
+			name = "Qt5GraphicsSupport";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libQt5GraphicsSupport$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		D372EF332121156DF0C37865 = {
+			fileRef = "21C4C5E7668B94F11D533925";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0BD1415B6C76230ADB98924E = {
+			isa = PBXFileReference;
+			name = "Qt5ClipboardSupport";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libQt5ClipboardSupport$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		1E202A03B25C09A4006070AC = {
+			fileRef = "0BD1415B6C76230ADB98924E";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		1FB9B199D2C7756AA793B846 = {
+			isa = PBXFileReference;
+			name = "qgif";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/imageformats/libqgif$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		1B4AF637143C79D72D641C18 = {
+			fileRef = "1FB9B199D2C7756AA793B846";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		074E9CCFE2397707A338AC82 = {
+			isa = PBXFileReference;
+			name = "qicns";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/imageformats/libqicns$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		1E4CC62E1BC54405A50C8367 = {
+			fileRef = "074E9CCFE2397707A338AC82";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		587A3A2BC59D7EFA3641502A = {
+			isa = PBXFileReference;
+			name = "qico";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/imageformats/libqico$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		18A34CFDB7A1311356C371E0 = {
+			fileRef = "587A3A2BC59D7EFA3641502A";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		20E474AE5AC74900B225FF7D = {
+			isa = PBXFileReference;
+			name = "qjpeg";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/imageformats/libqjpeg$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		BA508EAB4D294E7715E84719 = {
+			fileRef = "20E474AE5AC74900B225FF7D";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		907B134F883C1BC8E939A68D = {
+			isa = PBXFileReference;
+			name = "qmacjp2";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/imageformats/libqmacjp2$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		04008848EE3734BDD8BAA3BC = {
+			fileRef = "907B134F883C1BC8E939A68D";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3A8EF9C62A8D4790CBB89CEA = {
+			isa = PBXFileReference;
+			name = "ImageIO.framework";
+			path = "/System/Library/Frameworks/ImageIO.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		61EEC397DC8556BF8C4E36A7 = {
+			fileRef = "3A8EF9C62A8D4790CBB89CEA";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C8FB084BA436B130C5868A00 = {
+			isa = PBXFileReference;
+			name = "qtga";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/imageformats/libqtga$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		901127604999BAA7C0CDF1CF = {
+			fileRef = "C8FB084BA436B130C5868A00";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		9AF943A156C03B2F96173E70 = {
+			isa = PBXFileReference;
+			name = "qtiff";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/imageformats/libqtiff$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		130783472697E58D15E34460 = {
+			fileRef = "9AF943A156C03B2F96173E70";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B8810085D3D313094652C97A = {
+			isa = PBXFileReference;
+			name = "qwbmp";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/imageformats/libqwbmp$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		978EE9483007DD28ED179E1F = {
+			fileRef = "B8810085D3D313094652C97A";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		E0EE946ABE6E1FB854B0024D = {
+			isa = PBXFileReference;
+			name = "qwebp";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/imageformats/libqwebp$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		103F707BE429EDF573292208 = {
+			fileRef = "E0EE946ABE6E1FB854B0024D";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		30DBC1AFD3BE04BDB58407C8 = {
+			isa = PBXFileReference;
+			name = "qmldbg_debugger";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/qmltooling/libqmldbg_debugger$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		7C453C8359D4C9F5EE76BE39 = {
+			fileRef = "30DBC1AFD3BE04BDB58407C8";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		375240ADFFCD04237E1DB5FB = {
+			isa = PBXFileReference;
+			name = "qmldbg_inspector";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/qmltooling/libqmldbg_inspector$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		060C1D3847EF76920375FF61 = {
+			fileRef = "375240ADFFCD04237E1DB5FB";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A3E72EF7490186D367C679EF = {
+			isa = PBXFileReference;
+			name = "qmldbg_local";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/qmltooling/libqmldbg_local$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		4C3897B9501323B34D0D0294 = {
+			fileRef = "A3E72EF7490186D367C679EF";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		650C7FCB41E672CA4125351F = {
+			isa = PBXFileReference;
+			name = "qmldbg_messages";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/qmltooling/libqmldbg_messages$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		32C204D5A9018A7778884A85 = {
+			fileRef = "650C7FCB41E672CA4125351F";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3080D03AAAA4E03DB24DFE01 = {
+			isa = PBXFileReference;
+			name = "qmldbg_native";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/qmltooling/libqmldbg_native$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		7295EB47757F884DE6CAFDDB = {
+			fileRef = "3080D03AAAA4E03DB24DFE01";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		85F9C7195C4BEB1D023D74B8 = {
+			isa = PBXFileReference;
+			name = "qmldbg_nativedebugger";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/qmltooling/libqmldbg_nativedebugger$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		148BB20E05C008E76B475CE8 = {
+			fileRef = "85F9C7195C4BEB1D023D74B8";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		94E2C039937392BB245B7EE9 = {
+			isa = PBXFileReference;
+			name = "qmldbg_profiler";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/qmltooling/libqmldbg_profiler$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		10BCBCBD69CE99DF0F49C1F2 = {
+			fileRef = "94E2C039937392BB245B7EE9";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2C516596E41BD6C5B3FC9827 = {
+			isa = PBXFileReference;
+			name = "qmldbg_quickprofiler";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/qmltooling/libqmldbg_quickprofiler$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		100ABFAFFFD73CE80740A851 = {
+			fileRef = "2C516596E41BD6C5B3FC9827";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		65454938007D37CD89474D89 = {
+			isa = PBXFileReference;
+			name = "qmldbg_server";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/qmltooling/libqmldbg_server$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		C8331B55F868C536215E3C85 = {
+			fileRef = "65454938007D37CD89474D89";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BDE4923AE393E86F3F6DB1CB = {
+			isa = PBXFileReference;
+			name = "Qt5PacketProtocol";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libQt5PacketProtocol$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		EBC7964722856FDE083DF60C = {
+			fileRef = "BDE4923AE393E86F3F6DB1CB";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3B9F032221399B0F7B297A92 = {
+			isa = PBXFileReference;
+			name = "qmldbg_tcp";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/qmltooling/libqmldbg_tcp$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		3E86D3761C99AE59CA6D6198 = {
+			fileRef = "3B9F032221399B0F7B297A92";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		5729A378807148BFD9692C6B = {
+			isa = PBXFileReference;
+			name = "qgenericbearer";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/bearer/libqgenericbearer$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		FF00B365186C6B597BACAAAD = {
+			fileRef = "5729A378807148BFD9692C6B";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C2485CF7A529E37C5C3A3340 = {
+			isa = PBXFileReference;
+			name = "qsqlite";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/sqldrivers/libqsqlite$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F1E5CE265F23FD642039CB74 = {
+			fileRef = "C2485CF7A529E37C5C3A3340";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AF9ACA22ED03D83E29E8AF46 = {
+			isa = PBXFileReference;
+			name = "Qt5WebSockets";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libQt5WebSockets$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		E5D02E4E195BCE45B0407889 = {
+			fileRef = "AF9ACA22ED03D83E29E8AF46";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		1DFA979BE2EF57D64E50DEA3 = {
+			isa = PBXFileReference;
+			name = "Qt5Bluetooth";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libQt5Bluetooth$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		B32566D1D8D17B8B8F269834 = {
+			fileRef = "1DFA979BE2EF57D64E50DEA3";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		71E5705044D6C31AB87AEB17 = {
+			isa = PBXFileReference;
+			name = "CoreBluetooth.framework";
+			path = "/System/Library/Frameworks/CoreBluetooth.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		0870834790CEDE2D52551A52 = {
+			fileRef = "71E5705044D6C31AB87AEB17";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		E4BCA483195BA727ADB6B431 = {
+			isa = PBXFileReference;
+			name = "Qt5Sql";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libQt5Sql$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		3587D88EB9DCF884202B3500 = {
+			fileRef = "E4BCA483195BA727ADB6B431";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		E3601F9764C5169B472307A2 = {
+			isa = PBXFileReference;
+			name = "qtquick2plugin";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick.2/libqtquick2plugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		1312036CFF1B3B27E58B06F3 = {
+			fileRef = "E3601F9764C5169B472307A2";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D2848AF71A74CED72A1A4C04 = {
+			isa = PBXFileReference;
+			name = "windowplugin";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Window.2/libwindowplugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		590B4CD71BE84B48D9D61FF2 = {
+			fileRef = "D2848AF71A74CED72A1A4C04";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		EF9017FCDF39B3478E125AFF = {
+			isa = PBXFileReference;
+			name = "qquicklayoutsplugin";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Layouts/libqquicklayoutsplugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		B3584E2AD1AD8E84DC33FBCA = {
+			fileRef = "EF9017FCDF39B3478E125AFF";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		483AC07F22A9617BB97C48EE = {
+			isa = PBXFileReference;
+			name = "declarative_multimedia";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtMultimedia/libdeclarative_multimedia$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		0D2CF0BD307FDBA10D4A74A8 = {
+			fileRef = "483AC07F22A9617BB97C48EE";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7AE506D8E0EF3BC12066A140 = {
+			isa = PBXFileReference;
+			name = "Qt5MultimediaQuick_p";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libQt5MultimediaQuick_p$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		18574C0AAD7FD1159ECFB2AB = {
+			fileRef = "7AE506D8E0EF3BC12066A140";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		278F5A22E1B9F6E2CCA3F5DE = {
+			isa = PBXFileReference;
+			name = "Qt5Multimedia";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libQt5Multimedia$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		86B09773E18AA21D3C9A6B71 = {
+			fileRef = "278F5A22E1B9F6E2CCA3F5DE";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7B03CAD6D021E4F2FE1288E3 = {
+			isa = PBXFileReference;
+			name = "qtquickcontrols2plugin";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Controls.2/libqtquickcontrols2plugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		16D4BDFD955361770F0F7B8C = {
+			fileRef = "7B03CAD6D021E4F2FE1288E3";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BBE7ABDA0B13C6C640A7F948 = {
+			isa = PBXFileReference;
+			name = "qtquickcontrols2materialstyleplugin";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Controls.2/Material/libqtquickcontrols2materialstyleplugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		6A03B28F439A1198F594DBE0 = {
+			fileRef = "BBE7ABDA0B13C6C640A7F948";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0CE613DFECDB282C4EF849DC = {
+			isa = PBXFileReference;
+			name = "Qt5QuickControls2";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libQt5QuickControls2$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		278AD8B767727667940B3457 = {
+			fileRef = "0CE613DFECDB282C4EF849DC";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		E3FFCCB14A0E57E57B55DE47 = {
+			isa = PBXFileReference;
+			name = "qtgraphicaleffectsplugin";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtGraphicalEffects/libqtgraphicaleffectsplugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		4E48D0A43C58AC238B175464 = {
+			fileRef = "E3FFCCB14A0E57E57B55DE47";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6CB7B1579E58FEBC1F652ADA = {
+			isa = PBXFileReference;
+			name = "qmlsettingsplugin";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/Qt/labs/settings/libqmlsettingsplugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		2710B692522B8D628764BE22 = {
+			fileRef = "6CB7B1579E58FEBC1F652ADA";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		80279EB79E3D6A797CF13B0F = {
+			isa = PBXFileReference;
+			name = "qtquicktemplates2plugin";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Templates.2/libqtquicktemplates2plugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		0B5FFA7BF20749B5C13A987C = {
+			fileRef = "80279EB79E3D6A797CF13B0F";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		E747AE3D9C1A470A6936DAD6 = {
+			isa = PBXFileReference;
+			name = "Qt5QuickTemplates2";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libQt5QuickTemplates2$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		B805F53B89DEE5B53617B3FD = {
+			fileRef = "E747AE3D9C1A470A6936DAD6";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ED4CAD16ADA2F3B294FD2505 = {
+			isa = PBXFileReference;
+			name = "qtgraphicaleffectsprivate";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtGraphicalEffects/private/libqtgraphicaleffectsprivate$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		DA66250A027172FE0243F826 = {
+			fileRef = "ED4CAD16ADA2F3B294FD2505";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		DDBB111EA22C61EA3605B1BC = {
+			isa = PBXFileReference;
+			name = "Qt5Quick";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libQt5Quick$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F7E1D88A9F071A3D5C1AF150 = {
+			fileRef = "DDBB111EA22C61EA3605B1BC";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		1CA14BBA361C9591A73120E2 = {
+			isa = PBXFileReference;
+			name = "Qt5Gui";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libQt5Gui$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		ABF12648EDE5148878FE7AA9 = {
+			fileRef = "1CA14BBA361C9591A73120E2";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3AC2B7315411F96074676897 = {
+			isa = PBXFileReference;
+			name = "qtlibpng";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libqtlibpng$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		2C5F064DAD6C623FB3F7C4F3 = {
+			fileRef = "3AC2B7315411F96074676897";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		56535923DA7462C99A854810 = {
+			isa = PBXFileReference;
+			name = "qtharfbuzz";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libqtharfbuzz$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		94344A9FD6335A808E459A87 = {
+			fileRef = "56535923DA7462C99A854810";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		10371428443F5CD6D0367031 = {
+			isa = PBXFileReference;
+			name = "Qt5Qml";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libQt5Qml$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		D98D52F9E05FFFF14C50777B = {
+			fileRef = "10371428443F5CD6D0367031";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FFF5721655D091AD371580DB = {
+			isa = PBXFileReference;
+			name = "Qt5Network";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libQt5Network$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F4116D956775E0570B4B9354 = {
+			fileRef = "FFF5721655D091AD371580DB";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		887443910FA4E50B112137BB = {
+			isa = PBXFileReference;
+			name = "Qt5Core";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libQt5Core$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		0305DADDDDEA59E789FC1ABC = {
+			fileRef = "887443910FA4E50B112137BB";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		1A83D336EFCC3053C62F35E4 = {
+			isa = PBXFileReference;
+			name = "qtpcre2";
+			path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libqtpcre2$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		457D46F93A82E7F3646D1C2D = {
+			fileRef = "1A83D336EFCC3053C62F35E4";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AF39DD055C3EF8226FBE929D = {
+			children = (
+				"FCC237CA5AD60B9BA4447615",
+				"7EC00404ACD5AB0E97726B0E",
+				"3C44131FDCFEF4396B9EA2BA",
+				"4D765E1B1EA6C757220C63E7",
+				"6AE3EC31EE5BB1FCEE84137C",
+				"7D7B02101166B76FD2D4F8B4",
+				"9006CD33D4E70182B6B3B092",
+				"BEF9DFDA6822604126A7E233",
+				"547CCADBD1CC5050167EF948",
+				"F923F38E989CF0F61A164DD8",
+				"205259EEEE2BADA5E64741E3",
+				"21F907AB8D19BD779147A085",
+				"B7EA712F967E887D970BD128",
+				"4F1EDB7B736B0C5E502AC1D9",
+				"FEEAECD4DB2B3E24A65F2FFC",
+				"DA71FA281736E96B507860B3",
+				"F11E88ED784DB12B4AC9A747",
+				"03063C184018EBAFD5816E51",
+				"439C52CB6808964882C3CF84",
+				"588DD810C99F24ED8A1BAA8E",
+				"BCD45A3A95622751D5522E1E",
+				"1C9242DF08AB20067522FF7B",
+				"21C4C5E7668B94F11D533925",
+				"0BD1415B6C76230ADB98924E",
+				"1FB9B199D2C7756AA793B846",
+				"074E9CCFE2397707A338AC82",
+				"587A3A2BC59D7EFA3641502A",
+				"20E474AE5AC74900B225FF7D",
+				"907B134F883C1BC8E939A68D",
+				"3A8EF9C62A8D4790CBB89CEA",
+				"C8FB084BA436B130C5868A00",
+				"9AF943A156C03B2F96173E70",
+				"B8810085D3D313094652C97A",
+				"E0EE946ABE6E1FB854B0024D",
+				"30DBC1AFD3BE04BDB58407C8",
+				"375240ADFFCD04237E1DB5FB",
+				"A3E72EF7490186D367C679EF",
+				"650C7FCB41E672CA4125351F",
+				"3080D03AAAA4E03DB24DFE01",
+				"85F9C7195C4BEB1D023D74B8",
+				"94E2C039937392BB245B7EE9",
+				"2C516596E41BD6C5B3FC9827",
+				"65454938007D37CD89474D89",
+				"BDE4923AE393E86F3F6DB1CB",
+				"3B9F032221399B0F7B297A92",
+				"5729A378807148BFD9692C6B",
+				"C2485CF7A529E37C5C3A3340",
+				"AF9ACA22ED03D83E29E8AF46",
+				"1DFA979BE2EF57D64E50DEA3",
+				"71E5705044D6C31AB87AEB17",
+				"E4BCA483195BA727ADB6B431",
+				"E3601F9764C5169B472307A2",
+				"D2848AF71A74CED72A1A4C04",
+				"EF9017FCDF39B3478E125AFF",
+				"483AC07F22A9617BB97C48EE",
+				"7AE506D8E0EF3BC12066A140",
+				"278F5A22E1B9F6E2CCA3F5DE",
+				"7B03CAD6D021E4F2FE1288E3",
+				"BBE7ABDA0B13C6C640A7F948",
+				"0CE613DFECDB282C4EF849DC",
+				"E3FFCCB14A0E57E57B55DE47",
+				"6CB7B1579E58FEBC1F652ADA",
+				"80279EB79E3D6A797CF13B0F",
+				"E747AE3D9C1A470A6936DAD6",
+				"ED4CAD16ADA2F3B294FD2505",
+				"DDBB111EA22C61EA3605B1BC",
+				"1CA14BBA361C9591A73120E2",
+				"3AC2B7315411F96074676897",
+				"56535923DA7462C99A854810",
+				"10371428443F5CD6D0367031",
+				"FFF5721655D091AD371580DB",
+				"887443910FA4E50B112137BB",
+				"1A83D336EFCC3053C62F35E4");
+			isa = PBXGroup;
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		D1C883685E82D5676953459A = {
+			buildActionMask = 2147483647;
+			files = (
+				"F26454630C80841CBDCFE1CA",
+				"B460F624007324313696BE86",
+				"4EB68D0C8182BCE33529C421",
+				"F8B465CE34D8DF87AAE95913",
+				"0CE02722F00CAD43741297B5",
+				"2B02D9DC58A01E45248DDBCE",
+				"7629DCCB2F8F84CF23F988B3",
+				"35A1A39F8EAB37889EB3D397",
+				"B78304F135DEF1F7A68393A6",
+				"6602E41D28CF886E694AD752",
+				"15364689D2AB5A30E87A689F",
+				"CCA737EE379CDB10CC9A0F23",
+				"F206C1B265FCECCBBC1BE634",
+				"4E71F9ECE8CDF6D3716CACAD",
+				"23A44CC84E73BBAB89E9774B",
+				"48CABB9AFD774DBEDF960F22",
+				"E551D87B055D0093FB6C37F6",
+				"79204AE5E589FBBEA347BEB8",
+				"E785E6C8C26059E29E0C8002",
+				"24266F5ECB4AF541FD897C14",
+				"78C7CA040C390323388A71F4",
+				"AF8840298F3F6B6E8EFDDD3C",
+				"D372EF332121156DF0C37865",
+				"1E202A03B25C09A4006070AC",
+				"1B4AF637143C79D72D641C18",
+				"1E4CC62E1BC54405A50C8367",
+				"18A34CFDB7A1311356C371E0",
+				"BA508EAB4D294E7715E84719",
+				"04008848EE3734BDD8BAA3BC",
+				"61EEC397DC8556BF8C4E36A7",
+				"901127604999BAA7C0CDF1CF",
+				"130783472697E58D15E34460",
+				"978EE9483007DD28ED179E1F",
+				"103F707BE429EDF573292208",
+				"7C453C8359D4C9F5EE76BE39",
+				"060C1D3847EF76920375FF61",
+				"4C3897B9501323B34D0D0294",
+				"32C204D5A9018A7778884A85",
+				"7295EB47757F884DE6CAFDDB",
+				"148BB20E05C008E76B475CE8",
+				"10BCBCBD69CE99DF0F49C1F2",
+				"100ABFAFFFD73CE80740A851",
+				"C8331B55F868C536215E3C85",
+				"EBC7964722856FDE083DF60C",
+				"3E86D3761C99AE59CA6D6198",
+				"FF00B365186C6B597BACAAAD",
+				"F1E5CE265F23FD642039CB74",
+				"E5D02E4E195BCE45B0407889",
+				"B32566D1D8D17B8B8F269834",
+				"0870834790CEDE2D52551A52",
+				"3587D88EB9DCF884202B3500",
+				"1312036CFF1B3B27E58B06F3",
+				"590B4CD71BE84B48D9D61FF2",
+				"B3584E2AD1AD8E84DC33FBCA",
+				"0D2CF0BD307FDBA10D4A74A8",
+				"18574C0AAD7FD1159ECFB2AB",
+				"86B09773E18AA21D3C9A6B71",
+				"16D4BDFD955361770F0F7B8C",
+				"6A03B28F439A1198F594DBE0",
+				"278AD8B767727667940B3457",
+				"4E48D0A43C58AC238B175464",
+				"2710B692522B8D628764BE22",
+				"0B5FFA7BF20749B5C13A987C",
+				"B805F53B89DEE5B53617B3FD",
+				"DA66250A027172FE0243F826",
+				"F7E1D88A9F071A3D5C1AF150",
+				"ABF12648EDE5148878FE7AA9",
+				"2C5F064DAD6C623FB3F7C4F3",
+				"94344A9FD6335A808E459A87",
+				"D98D52F9E05FFFF14C50777B",
+				"F4116D956775E0570B4B9354",
+				"0305DADDDDEA59E789FC1ABC",
+				"457D46F93A82E7F3646D1C2D");
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Link Binary With Libraries";
+		};
+		DFB20F71F76658801C80737A = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/vpp_ios/VPP.xcodeproj/Default-568h@2x.png";
+			name = "Default-568h@2x.png";
+			sourceTree = "<absolute>";
+		};
+		C7B40B8D2692E6DB60A76FF6 = {
+			fileRef = "DFB20F71F76658801C80737A";
+			isa = PBXBuildFile;
+		};
+		1AF300FE99BF66D95C7CBCE5 = {
+			isa = PBXFileReference;
+			path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/vpp_ios/VPP.xcodeproj/LaunchScreen.xib";
+			name = "LaunchScreen.xib";
+			sourceTree = "<absolute>";
+		};
+		51DD4ABF37822B7226BCDC13 = {
+			fileRef = "1AF300FE99BF66D95C7CBCE5";
+			isa = PBXBuildFile;
+		};
+		858FCAB0EB1F29CF8B07677C = {
+			children = (
+				"DFB20F71F76658801C80737A",
+				"1AF300FE99BF66D95C7CBCE5");
+			isa = PBXGroup;
+			name = "Bundle Data";
+			sourceTree = "<group>";
+		};
+		30414803F31797EB689AE508 = {
+			buildActionMask = 2147483647;
+			files = (
+				"C7B40B8D2692E6DB60A76FF6",
+				"51DD4ABF37822B7226BCDC13");
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Copy Bundle Resources";
+		};
+		99542592E9780B9225F24AA8 = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044E3A5497E741A4D92ED821 = {
+			isa = PBXFileReference;
+			includeInIndex = 0;
+			explicitFileType = "wrapper.application";
+			path = "VPP.app";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FE0A091FDBFB3E9C31B7A1BD = {
+			children = (
+				"044E3A5497E741A4D92ED821");
+			isa = PBXGroup;
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		E8C543AB96796ECAA2E65C57 = {
+			children = (
+				"2EB56BE3C2D93CDAB0C52E67",
+				"25B08E2869634E9BCBA333A2",
+				"87DF60DE337FB58864343E39",
+				"74B182DB50CB5611B5C1C297",
+				"AF39DD055C3EF8226FBE929D",
+				"858FCAB0EB1F29CF8B07677C",
+				"FE0A091FDBFB3E9C31B7A1BD");
+			isa = PBXGroup;
+			name = "VPP";
+			sourceTree = "<group>";
+		};
+		17E862BC00339253F3429D41 = {
+			buildPhases = (
+				"5E618435888B9D49F8540165",
+				"7EF0942E79C014DCEC8976BC");
+			dependencies = (
+				);
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
+			isa = PBXAggregateTarget;
+			buildRules = (
+);
+			productName = "Qt Preprocess";
+			name = "Qt Preprocess";
+		};
+		C77AEB6410FD6CC7A9B691F2 = {
+			isa = PBXTargetDependency;
+			target = "17E862BC00339253F3429D41";
+		};
+		FB0CC348CF471C86952746BE = {
+			buildPhases = (
+				"F7E50F631C51CD5B5DC0BC43",
+				"D1C883685E82D5676953459A",
+				"30414803F31797EB689AE508",
+				"99542592E9780B9225F24AA8");
+			dependencies = (
+				"C77AEB6410FD6CC7A9B691F2");
+			productReference = "044E3A5497E741A4D92ED821";
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
+			isa = PBXNativeTarget;
+			buildRules = (
+);
+			productType = "com.apple.product-type.application";
+			name = "VPP";
+			productName = "VPP";
+		};
+		3AA6C32AC930069E80220CF1 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = "NO";
+				"ARCHS[sdk=iphoneos*]" = "armv7 arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "i386 x86_64";
+				COPY_PHASE_STRIP = "NO";
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				DEVELOPMENT_TEAM = "9P8V9S7493";
+				ENABLE_BITCODE = "YES";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				ONLY_ACTIVE_ARCH = "YES";
+				PRODUCT_NAME = "VPP";
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform";
+				QT_LIBRARY_SUFFIX = "_debug";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				INFOPLIST_FILE = "Info.plist";
+				SYMROOT = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/vpp_ios";
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"../VPP",
+					".",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/mkspecs/common/uikit",
+					"../VPP/src",
+					"../VPP/src/zxing",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/include",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtQuickControls2",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtQuick",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtMultimedia",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtGui",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtQml",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtWebSockets",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtNetwork",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtBluetooth",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtSql",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtCore",
+					".",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/mkspecs/macx-ios-clang");
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/platforms",
+					"/System/Library/Frameworks/",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/lib",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/mediaservice",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/audio",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/playlistformats",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/imageformats",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/qmltooling",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/bearer",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/sqldrivers",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick.2",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Window.2",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Layouts",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtMultimedia",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Controls.2",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Controls.2/Material",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtGraphicalEffects",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/Qt/labs/settings",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Templates.2",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtGraphicalEffects/private");
+				FRAMEWORK_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-fobjc-nonfragile-abi",
+					"-fobjc-legacy-dispatch",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_COMPILER_SUPPORTS_SSE2",
+					"-DQZXING_LIBRARY",
+					"-DZXING_ICONV_CONST",
+					"-DDISABLE_LIBRARY_FEATURES",
+					"-DQZXING_MULTIMEDIA",
+					"-DQZXING_QML",
+					"-DNOFMAXL",
+					"-DNO_ICONV",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_QML_DEBUG",
+					"-DQT_QUICKCONTROLS2_LIB",
+					"-DQT_QUICK_LIB",
+					"-DQT_MULTIMEDIA_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_QML_LIB",
+					"-DQT_WEBSOCKETS_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_BLUETOOTH_LIB",
+					"-DQT_SQL_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-g",
+					"-std=gnu++11",
+					"-fobjc-nonfragile-abi",
+					"-fobjc-legacy-dispatch",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_COMPILER_SUPPORTS_SSE2",
+					"-DQZXING_LIBRARY",
+					"-DZXING_ICONV_CONST",
+					"-DDISABLE_LIBRARY_FEATURES",
+					"-DQZXING_MULTIMEDIA",
+					"-DQZXING_QML",
+					"-DNOFMAXL",
+					"-DNO_ICONV",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_QML_DEBUG",
+					"-DQT_QUICKCONTROLS2_LIB",
+					"-DQT_QUICK_LIB",
+					"-DQT_MULTIMEDIA_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_QML_LIB",
+					"-DQT_WEBSOCKETS_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_BLUETOOTH_LIB",
+					"-DQT_SQL_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_LDFLAGS = (
+						"-stdlib=libc++",
+						"-Wl,-e,_qt_main_wrapper",
+						"-Wl,-rpath,@executable_path/Frameworks",
+						"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/platforms",
+						"-framework",
+						"UIKit",
+						"-framework",
+						"AssetsLibrary",
+						"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/lib",
+						"-framework",
+						"MobileCoreServices",
+						"-framework",
+						"OpenGLES",
+						"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/mediaservice",
+						"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/audio",
+						"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/playlistformats",
+						"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/imageformats",
+						"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/qmltooling",
+						"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/bearer",
+						"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/sqldrivers",
+						"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick.2",
+						"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Window.2",
+						"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Layouts",
+						"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtMultimedia",
+						"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Controls.2",
+						"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Controls.2/Material",
+						"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtGraphicalEffects",
+						"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/Qt/labs/settings",
+						"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Templates.2",
+						"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtGraphicalEffects/private",
+						"-lm",
+						"-lz");
+				ARCHS = "armv7 arm64 i386 x86_64";
+			};
+			name = "Debug";
+		};
+		77418F46922677BB04ED38DD = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = "NO";
+				"ARCHS[sdk=iphoneos*]" = "armv7 arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "i386 x86_64";
+				COPY_PHASE_STRIP = "NO";
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				DEVELOPMENT_TEAM = "9P8V9S7493";
+				ENABLE_BITCODE = "YES";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				ONLY_ACTIVE_ARCH = "YES";
+				PRODUCT_NAME = "VPP";
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform";
+				QT_LIBRARY_SUFFIX = "_debug";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_NAME = "VPP";
+			};
+			name = "Debug";
+		};
+		339EE1B2CC4FC24589A0EA95 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = "NO";
+				"ARCHS[sdk=iphoneos*]" = "armv7 arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "i386 x86_64";
+				COPY_PHASE_STRIP = "YES";
+				DEVELOPMENT_TEAM = "9P8V9S7493";
+				ENABLE_BITCODE = "YES";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+				PRODUCT_NAME = "VPP";
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform";
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				INFOPLIST_FILE = "Info.plist";
+				SYMROOT = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/vpp_ios";
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"../VPP",
+					".",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/mkspecs/common/uikit",
+					"../VPP/src",
+					"../VPP/src/zxing",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/include",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtQuickControls2",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtQuick",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtMultimedia",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtGui",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtQml",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtWebSockets",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtNetwork",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtBluetooth",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtSql",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtCore",
+					".",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/mkspecs/macx-ios-clang");
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/platforms",
+					"/System/Library/Frameworks/",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/lib",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/mediaservice",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/audio",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/playlistformats",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/imageformats",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/qmltooling",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/bearer",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/sqldrivers",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick.2",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Window.2",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Layouts",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtMultimedia",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Controls.2",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Controls.2/Material",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtGraphicalEffects",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/Qt/labs/settings",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Templates.2",
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtGraphicalEffects/private");
+				FRAMEWORK_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-fobjc-nonfragile-abi",
+					"-fobjc-legacy-dispatch",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_COMPILER_SUPPORTS_SSE2",
+					"-DQZXING_LIBRARY",
+					"-DZXING_ICONV_CONST",
+					"-DDISABLE_LIBRARY_FEATURES",
+					"-DQZXING_MULTIMEDIA",
+					"-DQZXING_QML",
+					"-DNOFMAXL",
+					"-DNO_ICONV",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_QML_DEBUG",
+					"-DQT_QUICKCONTROLS2_LIB",
+					"-DQT_QUICK_LIB",
+					"-DQT_MULTIMEDIA_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_QML_LIB",
+					"-DQT_WEBSOCKETS_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_BLUETOOTH_LIB",
+					"-DQT_SQL_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-g",
+					"-std=gnu++11",
+					"-fobjc-nonfragile-abi",
+					"-fobjc-legacy-dispatch",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_COMPILER_SUPPORTS_SSE2",
+					"-DQZXING_LIBRARY",
+					"-DZXING_ICONV_CONST",
+					"-DDISABLE_LIBRARY_FEATURES",
+					"-DQZXING_MULTIMEDIA",
+					"-DQZXING_QML",
+					"-DNOFMAXL",
+					"-DNO_ICONV",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_QML_DEBUG",
+					"-DQT_QUICKCONTROLS2_LIB",
+					"-DQT_QUICK_LIB",
+					"-DQT_MULTIMEDIA_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_QML_LIB",
+					"-DQT_WEBSOCKETS_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_BLUETOOTH_LIB",
+					"-DQT_SQL_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_LDFLAGS = (
+						"-stdlib=libc++",
+						"-Wl,-e,_qt_main_wrapper",
+						"-Wl,-rpath,@executable_path/Frameworks",
+						"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/platforms",
+						"-framework",
+						"UIKit",
+						"-framework",
+						"AssetsLibrary",
+						"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/lib",
+						"-framework",
+						"MobileCoreServices",
+						"-framework",
+						"OpenGLES",
+						"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/mediaservice",
+						"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/audio",
+						"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/playlistformats",
+						"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/imageformats",
+						"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/qmltooling",
+						"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/bearer",
+						"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/sqldrivers",
+						"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick.2",
+						"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Window.2",
+						"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Layouts",
+						"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtMultimedia",
+						"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Controls.2",
+						"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Controls.2/Material",
+						"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtGraphicalEffects",
+						"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/Qt/labs/settings",
+						"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Templates.2",
+						"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtGraphicalEffects/private",
+						"-lm",
+						"-lz");
+				ARCHS = "armv7 arm64 i386 x86_64";
+			};
+			name = "Release";
+		};
+		6666AA5E688052234F6758D8 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = "NO";
+				"ARCHS[sdk=iphoneos*]" = "armv7 arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "i386 x86_64";
+				COPY_PHASE_STRIP = "YES";
+				DEVELOPMENT_TEAM = "9P8V9S7493";
+				ENABLE_BITCODE = "YES";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+				PRODUCT_NAME = "VPP";
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform";
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_NAME = "VPP";
+			};
+			name = "Release";
+		};
+		DAC4C1AA5EDEA1C85E9CA5E6 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"3AA6C32AC930069E80220CF1",
+				"339EE1B2CC4FC24589A0EA95");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug";
+		};
+		6CC3B5D2136C7CD6A5CF5A59 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"77418F46922677BB04ED38DD",
+				"6666AA5E688052234F6758D8");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug";
+		};
+		6DB9C3763D02B1415CD9D565 = {
+			hasScannedForEncodings = 1;
+			compatibilityVersion = "Xcode 3.2";
+			isa = PBXProject;
+			mainGroup = "E8C543AB96796ECAA2E65C57";
+			productRefGroup = "FE0A091FDBFB3E9C31B7A1BD";
+			buildConfigurationList = "DAC4C1AA5EDEA1C85E9CA5E6";
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"FB0CC348CF471C86952746BE",
+				"17E862BC00339253F3429D41");
+			attributes = {
+				TargetAttributes = {
+				};
+			};
+		};
+	};
+	rootObject = "6DB9C3763D02B1415CD9D565";
+}

@@ -1,0 +1,1955 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		78893F03E41428F9FB73A948 /* Qt Preprocess */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "VPP" */;
+			buildPhases = (
+				5E618435888B9D49F8540165 /* Qt Qmake */,
+				7EF0942E79C014DCEC8976BC /* Qt Preprocessors */,
+			);
+			dependencies = (
+			);
+			name = "Qt Preprocess";
+			productName = "Qt Preprocess";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		01DCDB19D3BE55356F1DC900 /* ResultIO.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 3ACD8B47E046DAA3A81F600D /* ResultIO.cpp */; settings = {ATTRIBUTES = (); }; };
+		02EF8B976FF54A094DB2B818 /* MonochromeRectangleDetector.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = AB48567941A2A896594673DD /* MonochromeRectangleDetector.cpp */; settings = {ATTRIBUTES = (); }; };
+		0305DADDDDEA59E789FC1ABC /* Qt5Core in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 887443910FA4E50B112137BB /* Qt5Core */; };
+		04008848EE3734BDD8BAA3BC /* qmacjp2 in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 907B134F883C1BC8E939A68D /* qmacjp2 */; };
+		060C1D3847EF76920375FF61 /* qmldbg_inspector in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 375240ADFFCD04237E1DB5FB /* qmldbg_inspector */; };
+		071D07411519B1A3BDFAA639 /* qrc_qml.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = A02D40BEF4A92656A2F84598 /* qrc_qml.cpp */; settings = {ATTRIBUTES = (); }; };
+		0870834790CEDE2D52551A52 /* CoreBluetooth.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 71E5705044D6C31AB87AEB17 /* CoreBluetooth.framework */; };
+		0944D2C90DC249BA00246BCA /* QRCodeReader.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 5C6A3D49E1B00286C3C6F05C /* QRCodeReader.cpp */; settings = {ATTRIBUTES = (); }; };
+		09F0879BCE6E6BFAE7399E00 /* BitArray.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = DF0A899D879F405B6CB62905 /* BitArray.cpp */; settings = {ATTRIBUTES = (); }; };
+		0B5FFA7BF20749B5C13A987C /* qtquicktemplates2plugin in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 80279EB79E3D6A797CF13B0F /* qtquicktemplates2plugin */; };
+		0CE02722F00CAD43741297B5 /* CoreGraphics.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 6AE3EC31EE5BB1FCEE84137C /* CoreGraphics.framework */; };
+		0D2CF0BD307FDBA10D4A74A8 /* declarative_multimedia in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 483AC07F22A9617BB97C48EE /* declarative_multimedia */; };
+		0D93C363B5A5D71A73BC4C75 /* MultiFormatReader.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 4B7C2535B2211C4AF3952A4B /* MultiFormatReader.cpp */; settings = {ATTRIBUTES = (); }; };
+		0F8BA3B0A5A5BB4C3ECCBB74 /* BigIntegerAlgorithms.cc in Compile Sources */ = {isa = PBXBuildFile; fileRef = A3E651E7D986DB3AB6CA5C8B /* BigIntegerAlgorithms.cc */; settings = {ATTRIBUTES = (); }; };
+		100ABFAFFFD73CE80740A851 /* qmldbg_quickprofiler in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 2C516596E41BD6C5B3FC9827 /* qmldbg_quickprofiler */; };
+		103F707BE429EDF573292208 /* qwebp in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = E0EE946ABE6E1FB854B0024D /* qwebp */; };
+		10BCBCBD69CE99DF0F49C1F2 /* qmldbg_profiler in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 94E2C039937392BB245B7EE9 /* qmldbg_profiler */; };
+		10CCCBD65A1967AD23D836C9 /* Default-568h@2x.png in Copy Bundle Resources */ = {isa = PBXBuildFile; fileRef = 436FB86FCA576706664F7FAD /* Default-568h@2x.png */; };
+		127CC3E4837BC582109E3B48 /* ResultPoint.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = B85E5D7A216EC0BEDE880B50 /* ResultPoint.cpp */; settings = {ATTRIBUTES = (); }; };
+		1280454004774C57D14064E6 /* EAN8Reader.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 7E367FBFE2DD1F579EC719D3 /* EAN8Reader.cpp */; settings = {ATTRIBUTES = (); }; };
+		130783472697E58D15E34460 /* qtiff in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 9AF943A156C03B2F96173E70 /* qtiff */; };
+		1312036CFF1B3B27E58B06F3 /* qtquick2plugin in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = E3601F9764C5169B472307A2 /* qtquick2plugin */; };
+		148BB20E05C008E76B475CE8 /* qmldbg_nativedebugger in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 85F9C7195C4BEB1D023D74B8 /* qmldbg_nativedebugger */; };
+		15364689D2AB5A30E87A689F /* Security.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 205259EEEE2BADA5E64741E3 /* Security.framework */; };
+		16D4BDFD955361770F0F7B8C /* qtquickcontrols2plugin in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 7B03CAD6D021E4F2FE1288E3 /* qtquickcontrols2plugin */; };
+		18574C0AAD7FD1159ECFB2AB /* Qt5MultimediaQuick_p in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 7AE506D8E0EF3BC12066A140 /* Qt5MultimediaQuick_p */; };
+		18A34CFDB7A1311356C371E0 /* qico in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 587A3A2BC59D7EFA3641502A /* qico */; };
+		18C97707A85308C0DC6D5524 /* QRDataMask.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = F6DCB06E13EF1544FCB56E9A /* QRDataMask.cpp */; settings = {ATTRIBUTES = (); }; };
+		1909AE51EE700025C20478C2 /* DetectorResult.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 4162C754C3D13B0AB4BE3078 /* DetectorResult.cpp */; settings = {ATTRIBUTES = (); }; };
+		1B4AF637143C79D72D641C18 /* qgif in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 1FB9B199D2C7756AA793B846 /* qgif */; };
+		1C2470AB4CEDE7AF9AD2B2C8 /* PDF417Detector.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = D3AAE94C69A8F87460B435D2 /* PDF417Detector.cpp */; settings = {ATTRIBUTES = (); }; };
+		1E202A03B25C09A4006070AC /* Qt5ClipboardSupport in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 0BD1415B6C76230ADB98924E /* Qt5ClipboardSupport */; };
+		1E4CC62E1BC54405A50C8367 /* qicns in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 074E9CCFE2397707A338AC82 /* qicns */; };
+		208F462F99731DEEC099E97F /* blemgr.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 3DA361A0F2C1700271FEFCBA /* blemgr.cpp */; settings = {ATTRIBUTES = (); }; };
+		2146517076CF268917749044 /* CameraImageWrapper.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 537C03172F5527A2704A55E3 /* CameraImageWrapper.cpp */; settings = {ATTRIBUTES = (); }; };
+		21818FFE21F40D401693E729 /* QRFinderPatternFinder.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = AB0B9DA56EF6116D3D7793CB /* QRFinderPatternFinder.cpp */; settings = {ATTRIBUTES = (); }; };
+		227AFF39AAC92C9FD34E3350 /* moc_httpclient.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 6B7B828EA1DD303F6A397F70 /* moc_httpclient.cpp */; settings = {ATTRIBUTES = (); }; };
+		23A44CC84E73BBAB89E9774B /* Qt5OpenGL in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = FEEAECD4DB2B3E24A65F2FFC /* Qt5OpenGL */; };
+		241B1C4D134B8B75373C9C04 /* Reader.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = ECC34BE3376CA5AFF2390675 /* Reader.cpp */; settings = {ATTRIBUTES = (); }; };
+		24266F5ECB4AF541FD897C14 /* qios in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 588DD810C99F24ED8A1BAA8E /* qios */; };
+		253252875A0BE7DFF421E70E /* PDF417DecodedBitStreamParser.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 289E9065EB20E798F96019A8 /* PDF417DecodedBitStreamParser.cpp */; settings = {ATTRIBUTES = (); }; };
+		25FDC86C872CA8B12A1316C0 /* Exception.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 48A602074A80FA68780B83D7 /* Exception.cpp */; settings = {ATTRIBUTES = (); }; };
+		2710B692522B8D628764BE22 /* qmlsettingsplugin in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 6CB7B1579E58FEBC1F652ADA /* qmlsettingsplugin */; };
+		278AD8B767727667940B3457 /* Qt5QuickControls2 in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 0CE613DFECDB282C4EF849DC /* Qt5QuickControls2 */; };
+		2997AF721D0003FEE548867A /* ChecksumException.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 6E47F95C3EE087DE810FD13B /* ChecksumException.cpp */; settings = {ATTRIBUTES = (); }; };
+		29E77755547B714AAC84B814 /* DataMatrixBitMatrixParser.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 278DCDC7883A9BD996BE8E9A /* DataMatrixBitMatrixParser.cpp */; settings = {ATTRIBUTES = (); }; };
+		2AEBB1D6A3382448EAC51C03 /* IllegalArgumentException.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 3F42750DC0D624703667F038 /* IllegalArgumentException.cpp */; settings = {ATTRIBUTES = (); }; };
+		2AED8F0E63412A22D708557E /* LaunchScreen.xib in Copy Bundle Resources */ = {isa = PBXBuildFile; fileRef = D892B3ADE04E17D066DA10AD /* LaunchScreen.xib */; };
+		2B02D9DC58A01E45248DDBCE /* CoreText.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 7D7B02101166B76FD2D4F8B4 /* CoreText.framework */; };
+		2BD69796402A2A0E3726D233 /* QRDetector.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = AF9D4EFCD4D8EE771583E773 /* QRDetector.cpp */; settings = {ATTRIBUTES = (); }; };
+		2C5F064DAD6C623FB3F7C4F3 /* qtlibpng in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 3AC2B7315411F96074676897 /* qtlibpng */; };
+		2F501476CF29AE005962891D /* ITFReader.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = BB47D63BC419BFF5A9977FD1 /* ITFReader.cpp */; settings = {ATTRIBUTES = (); }; };
+		2F604DB881AC404C62FD30A1 /* BinaryBitmap.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 6566A0BB675428E5E747D98B /* BinaryBitmap.cpp */; settings = {ATTRIBUTES = (); }; };
+		30716F256DBB21F653440F40 /* QRCodeMultiReader.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = F11C78E09563747DD23224A1 /* QRCodeMultiReader.cpp */; settings = {ATTRIBUTES = (); }; };
+		31B3D1B1DE83B3F7E853E86F /* ByteMatrix.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 85EB17BD834E4B94D045ABA6 /* ByteMatrix.cpp */; settings = {ATTRIBUTES = (); }; };
+		31EDA9D2F4DAAB43F470EB91 /* ReedSolomonEncoder.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 2DDA429D00D4DCB6BD9B95B4 /* ReedSolomonEncoder.cpp */; settings = {ATTRIBUTES = (); }; };
+		32944A07797B644016206E8B /* QRFinderPattern.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 2210082E56998CA4A002646A /* QRFinderPattern.cpp */; settings = {ATTRIBUTES = (); }; };
+		32C204D5A9018A7778884A85 /* qmldbg_messages in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 650C7FCB41E672CA4125351F /* qmldbg_messages */; };
+		34A3F2EC53DC3C8ED683703D /* ImageHandler.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 45D1CDE432DF8CB1422090DD /* ImageHandler.cpp */; settings = {ATTRIBUTES = (); }; };
+		3587D88EB9DCF884202B3500 /* Qt5Sql in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = E4BCA483195BA727ADB6B431 /* Qt5Sql */; };
+		35A1A39F8EAB37889EB3D397 /* CoreAudio.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = BEF9DFDA6822604126A7E233 /* CoreAudio.framework */; };
+		3E86D3761C99AE59CA6D6198 /* qmldbg_tcp in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 3B9F032221399B0F7B297A92 /* qmldbg_tcp */; };
+		4159EC395A1BAD27069D17BA /* UPCAReader.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 71A7F58B3B45736087CDE99D /* UPCAReader.cpp */; settings = {ATTRIBUTES = (); }; };
+		416D0D9A463FB31F6EB8C90F /* QREncoder.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = E998C440452BCAE209F375D1 /* QREncoder.cpp */; settings = {ATTRIBUTES = (); }; };
+		44C7A5F43C58ECC0E8011F4A /* vpp_qml_plugin_import.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = EB971F7DCFEC7E64B7083469 /* vpp_qml_plugin_import.cpp */; settings = {ATTRIBUTES = (); }; };
+		455A98D632BB5BD887AD4FFD /* ReedSolomonDecoder.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = AAFC6A28ECC29E82FE832241 /* ReedSolomonDecoder.cpp */; settings = {ATTRIBUTES = (); }; };
+		455BF6476FF5EF61431C42DD /* DataMatrixDetectorException.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = DF55702E021A04BC85992345 /* DataMatrixDetectorException.cpp */; settings = {ATTRIBUTES = (); }; };
+		457D46F93A82E7F3646D1C2D /* qtpcre2 in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 1A83D336EFCC3053C62F35E4 /* qtpcre2 */; };
+		47F1DF9ECD13E85536B48F90 /* MultiFinderPatternFinder.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 05B2857555740E721858816C /* MultiFinderPatternFinder.cpp */; settings = {ATTRIBUTES = (); }; };
+		48CABB9AFD774DBEDF960F22 /* Qt5Widgets in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = DA71FA281736E96B507860B3 /* Qt5Widgets */; };
+		4BC2FEEF0A42BCF9C0BC9766 /* UPCEANReader.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 107299EBAAB8AAB9EC5725EC /* UPCEANReader.cpp */; settings = {ATTRIBUTES = (); }; };
+		4C3897B9501323B34D0D0294 /* qmldbg_local in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = A3E72EF7490186D367C679EF /* qmldbg_local */; };
+		4CE6D776311B7F858E874AE4 /* QRBitMatrixParser.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = B7E5F8B911CF190ED3414FF2 /* QRBitMatrixParser.cpp */; settings = {ATTRIBUTES = (); }; };
+		4DBEF9B4CFEE2EF1255DE12D /* QRFormatInformation.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 003385976E9436CC49AC5A94 /* QRFormatInformation.cpp */; settings = {ATTRIBUTES = (); }; };
+		4E48D0A43C58AC238B175464 /* qtgraphicaleffectsplugin in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = E3FFCCB14A0E57E57B55DE47 /* qtgraphicaleffectsplugin */; };
+		4E71F9ECE8CDF6D3716CACAD /* Qt5MultimediaWidgets in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 4F1EDB7B736B0C5E502AC1D9 /* Qt5MultimediaWidgets */; };
+		4EB68D0C8182BCE33529C421 /* AudioToolbox.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 3C44131FDCFEF4396B9EA2BA /* AudioToolbox.framework */; };
+		5795DBAC36C3FB07675F3234 /* LinesSampler.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 832566A561AB30F15317F236 /* LinesSampler.cpp */; settings = {ATTRIBUTES = (); }; };
+		590B4CD71BE84B48D9D61FF2 /* windowplugin in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = D2848AF71A74CED72A1A4C04 /* windowplugin */; };
+		59DF0D88CA529C79AB2254BC /* ErrorCorrection.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 5E881EFF393781A5FEEBA477 /* ErrorCorrection.cpp */; settings = {ATTRIBUTES = (); }; };
+		5BF36734FEE128E5802B699A /* QRAlignmentPatternFinder.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 4BB77FF8007971A5A352A924 /* QRAlignmentPatternFinder.cpp */; settings = {ATTRIBUTES = (); }; };
+		5D1795DA3866187B6F4DB16A /* gDataBase.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = F34BB896596F40BA6248E398 /* gDataBase.cpp */; settings = {ATTRIBUTES = (); }; };
+		5D5D2198575A63F90B923448 /* GreyscaleLuminanceSource.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 5AE1E9F3D642B2E11AF139A6 /* GreyscaleLuminanceSource.cpp */; settings = {ATTRIBUTES = (); }; };
+		5D786B8A2262407DA9C48769 /* InvertedLuminanceSource.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = CBB2D0D6504041A480BF8630 /* InvertedLuminanceSource.cpp */; settings = {ATTRIBUTES = (); }; };
+		607402C82250D06D4300426A /* BigInteger.cc in Compile Sources */ = {isa = PBXBuildFile; fileRef = B23B98720031392D91E14648 /* BigInteger.cc */; settings = {ATTRIBUTES = (); }; };
+		61EEC397DC8556BF8C4E36A7 /* ImageIO.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 3A8EF9C62A8D4790CBB89CEA /* ImageIO.framework */; };
+		6602E41D28CF886E694AD752 /* CoreVideo.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = F923F38E989CF0F61A164DD8 /* CoreVideo.framework */; };
+		69C5C1FF7EA9C94913E6D46D /* DataMatrixDataBlock.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 56F703267B07E8516C6E017B /* DataMatrixDataBlock.cpp */; settings = {ATTRIBUTES = (); }; };
+		6A03B28F439A1198F594DBE0 /* qtquickcontrols2materialstyleplugin in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = BBE7ABDA0B13C6C640A7F948 /* qtquickcontrols2materialstyleplugin */; };
+		6A9C3F8049C5D3CF233606FC /* StringUtils.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 1F90C1AC8BFF78E1AFD18E81 /* StringUtils.cpp */; settings = {ATTRIBUTES = (); }; };
+		6B696739EF7253F0601853B2 /* GridSampler.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 01128D6E0774B94E682734D3 /* GridSampler.cpp */; settings = {ATTRIBUTES = (); }; };
+		6F8092091796A344C18A0A9F /* MultiFormatOneDReader.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = D6801992AA25DB669699550B /* MultiFormatOneDReader.cpp */; settings = {ATTRIBUTES = (); }; };
+		702572126421180CC0DCFCCB /* MaskUtil.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 7F965A60866C521C6CB224EE /* MaskUtil.cpp */; settings = {ATTRIBUTES = (); }; };
+		709BAF0BC8F39359FBF4EBDD /* QRCode.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 4441B1947AEA42A8B6F394AE /* QRCode.cpp */; settings = {ATTRIBUTES = (); }; };
+		70A3B4D22AF5258A48064692 /* ModulusPoly.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 66EE8C911C1C0B1C6811FEDF /* ModulusPoly.cpp */; settings = {ATTRIBUTES = (); }; };
+		721602CF6164D2337A593B48 /* BigUnsignedInABase.cc in Compile Sources */ = {isa = PBXBuildFile; fileRef = DC1BC1C90161E4C3EF65CB92 /* BigUnsignedInABase.cc */; settings = {ATTRIBUTES = (); }; };
+		7295EB47757F884DE6CAFDDB /* qmldbg_native in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 3080D03AAAA4E03DB24DFE01 /* qmldbg_native */; };
+		7629DCCB2F8F84CF23F988B3 /* qavfcamera in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 9006CD33D4E70182B6B3B092 /* qavfcamera */; };
+		77EE1D0F74DA56367FCF2A58 /* QRDecodedBitStreamParser.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = F6E98BF1536202571003C9F1 /* QRDecodedBitStreamParser.cpp */; settings = {ATTRIBUTES = (); }; };
+		78C7CA040C390323388A71F4 /* Qt5FontDatabaseSupport in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = BCD45A3A95622751D5522E1E /* Qt5FontDatabaseSupport */; };
+		79204AE5E589FBBEA347BEB8 /* qtaudio_coreaudio in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 03063C184018EBAFD5816E51 /* qtaudio_coreaudio */; };
+		7A6790B79AD5CA9E9125069F /* QZXingFilter.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 6DE7B2F3FAA45704E37CB99B /* QZXingFilter.cpp */; settings = {ATTRIBUTES = (); }; };
+		7C453C8359D4C9F5EE76BE39 /* qmldbg_debugger in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 30DBC1AFD3BE04BDB58407C8 /* qmldbg_debugger */; };
+		7CA942A63AD21C1FD973E624 /* HybridBinarizer.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 1A56897B32CF5924609AB259 /* HybridBinarizer.cpp */; settings = {ATTRIBUTES = (); }; };
+		7FC4213837646977F2B5939C /* QRMode.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = FC3EF56967D4BF0E67230E70 /* QRMode.cpp */; settings = {ATTRIBUTES = (); }; };
+		811CEF3EF2E3729B77A14E22 /* PDF417BitMatrixParser.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 9E97DA2ABBA2CBB47EDF7517 /* PDF417BitMatrixParser.cpp */; settings = {ATTRIBUTES = (); }; };
+		819731E6ACEAC8534B202CB7 /* BigIntegerUtils.cc in Compile Sources */ = {isa = PBXBuildFile; fileRef = BE047BC69709A7471CA3BAEC /* BigIntegerUtils.cc */; settings = {ATTRIBUTES = (); }; };
+		85C8F4AFD20F759E24CAE067 /* DataMatrixReader.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 521ED48FF9D8FADE18469F67 /* DataMatrixReader.cpp */; settings = {ATTRIBUTES = (); }; };
+		86B09773E18AA21D3C9A6B71 /* Qt5Multimedia in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 278F5A22E1B9F6E2CCA3F5DE /* Qt5Multimedia */; };
+		8BAE9CBB123995FCB739CC6E /* OneDResultPoint.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 55C2AE4FABBEFB2D98160172 /* OneDResultPoint.cpp */; settings = {ATTRIBUTES = (); }; };
+		8C8C638F1E26AAE3218DCFF4 /* QRAlignmentPattern.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 31AE7BF4C95B4062606B643E /* QRAlignmentPattern.cpp */; settings = {ATTRIBUTES = (); }; };
+		8D0A49A5C68BC1025DF0290C /* FormatException.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = B70B68886D73528F4280BAD9 /* FormatException.cpp */; settings = {ATTRIBUTES = (); }; };
+		8E57184F824CAFCBBAD8A095 /* DataMatrixDetector.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = C3B2E31F6B1913AF786F3B0E /* DataMatrixDetector.cpp */; settings = {ATTRIBUTES = (); }; };
+		8E665C82869034BCB944E484 /* DecodeHints.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 76444FCD75012467543A6B2B /* DecodeHints.cpp */; settings = {ATTRIBUTES = (); }; };
+		901127604999BAA7C0CDF1CF /* qtga in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = C8FB084BA436B130C5868A00 /* qtga */; };
+		914DC3866ACC593CC0F87F09 /* DataMatrixDecoder.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 6AD045DF335444594D258824 /* DataMatrixDecoder.cpp */; settings = {ATTRIBUTES = (); }; };
+		94233B9D728EF9083D7FA572 /* moc_blemgr.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 8E8A4FEDC0554673C72927D4 /* moc_blemgr.cpp */; settings = {ATTRIBUTES = (); }; };
+		94344A9FD6335A808E459A87 /* qtharfbuzz in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 56535923DA7462C99A854810 /* qtharfbuzz */; };
+		969A459D27EF1DC318A4F2F2 /* MatrixUtil.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 30355C8E7F9F6542C86D5849 /* MatrixUtil.cpp */; settings = {ATTRIBUTES = (); }; };
+		978EE9483007DD28ED179E1F /* qwbmp in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = B8810085D3D313094652C97A /* qwbmp */; };
+		9A514073DA40DB52E6A1BCEB /* DataMatrixDecodedBitStreamParser.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = D954B95BDCF1A4B4E598A524 /* DataMatrixDecodedBitStreamParser.cpp */; settings = {ATTRIBUTES = (); }; };
+		9E529BA2BC1D65B74B6761F0 /* MultiDetector.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 14DD99477E562A648C71D6E8 /* MultiDetector.cpp */; settings = {ATTRIBUTES = (); }; };
+		9F976C6D4A7C4F0C53DE58A1 /* PDF417Reader.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 388243FD03C9C63FC989DEFD /* PDF417Reader.cpp */; settings = {ATTRIBUTES = (); }; };
+		A10C537B54B36D69F8D86B52 /* QRFinderPatternInfo.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 20162A23B3E5252F94324E3C /* QRFinderPatternInfo.cpp */; settings = {ATTRIBUTES = (); }; };
+		A1283D734206D519C55D6EB9 /* vpp_plugin_import.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = C7F2510C1ACBE57F39EBFE0B /* vpp_plugin_import.cpp */; settings = {ATTRIBUTES = (); }; };
+		A18587D5072123F926EBE0BB /* CharacterSetECI.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 0DEB563BD398B8D64D3AD7ED /* CharacterSetECI.cpp */; settings = {ATTRIBUTES = (); }; };
+		A26F0E16A76C883EEAFE723E /* QRDecoder.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = CEA037F447384DD67E3CCEE6 /* QRDecoder.cpp */; settings = {ATTRIBUTES = (); }; };
+		A3D0376488837A1D5254D3B5 /* moc_ImageHandler.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 59A8EB3D3EC976589C6300BE /* moc_ImageHandler.cpp */; settings = {ATTRIBUTES = (); }; };
+		A43E2666858481E2E310027A /* BitArrayIO.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 1DC7C66D9211EFEC0D80B35E /* BitArrayIO.cpp */; settings = {ATTRIBUTES = (); }; };
+		A4603C89841D33B3781C4FCE /* BigUnsigned.cc in Compile Sources */ = {isa = PBXBuildFile; fileRef = A4DD58EEA7E878EDD3A57929 /* BigUnsigned.cc */; settings = {ATTRIBUTES = (); }; };
+		A4AF37BA21A885651090ECF9 /* QZXing.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = B7F98F46A1B84C60F382273D /* QZXing.cpp */; settings = {ATTRIBUTES = (); }; };
+		A5029A016C36EB6E739A489C /* AztecDetector.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 13A1251F9120879119E57CFA /* AztecDetector.cpp */; settings = {ATTRIBUTES = (); }; };
+		A54E0756077018B4CB419ABB /* Code93Reader.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 507FB700BC69C0A2C1853014 /* Code93Reader.cpp */; settings = {ATTRIBUTES = (); }; };
+		A5C9F5AE21CAC7C1D1399E26 /* DataMatrixCornerPoint.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 63C0CE3A81164C73BFE93F7B /* DataMatrixCornerPoint.cpp */; settings = {ATTRIBUTES = (); }; };
+		A96293555BF08F6D49032275 /* MultipleBarcodeReader.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 30FB5F59B13C41DDAE81C3A4 /* MultipleBarcodeReader.cpp */; settings = {ATTRIBUTES = (); }; };
+		AA20F58D626821392CB4E314 /* Str.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = ABE4DECE37659F63FDB5BEDE /* Str.cpp */; settings = {ATTRIBUTES = (); }; };
+		AAF2004B7D10FDE5C7A92948 /* main.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = F18841C0489CBF6D2DAC0592 /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+		AB2F6A5D1582B2E310814245 /* BarcodeFormat.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = AD5C2B6B613246AF2FBEDFB1 /* BarcodeFormat.cpp */; settings = {ATTRIBUTES = (); }; };
+		ABF12648EDE5148878FE7AA9 /* Qt5Gui in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 1CA14BBA361C9591A73120E2 /* Qt5Gui */; };
+		ABF8CA14555641A2ED0D2BCB /* moc_QZXing.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 2EFB2662CD3601221E2124F3 /* moc_QZXing.cpp */; settings = {ATTRIBUTES = (); }; };
+		ACCE4AA0674310030E84A838 /* DataMatrixVersion.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 21F1AAE033CF3E10834A27AA /* DataMatrixVersion.cpp */; settings = {ATTRIBUTES = (); }; };
+		AE942D73247E8C5324A25FA6 /* GreyscaleRotatedLuminanceSource.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 44E32C20840A3658965FCE76 /* GreyscaleRotatedLuminanceSource.cpp */; settings = {ATTRIBUTES = (); }; };
+		AF8840298F3F6B6E8EFDDD3C /* qtfreetype in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 1C9242DF08AB20067522FF7B /* qtfreetype */; };
+		B27C61778294971982D639B8 /* BitSource.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 862C5240BC3FCD36CAB57828 /* BitSource.cpp */; settings = {ATTRIBUTES = (); }; };
+		B32566D1D8D17B8B8F269834 /* Qt5Bluetooth in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 1DFA979BE2EF57D64E50DEA3 /* Qt5Bluetooth */; };
+		B3584E2AD1AD8E84DC33FBCA /* qquicklayoutsplugin in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = EF9017FCDF39B3478E125AFF /* qquicklayoutsplugin */; };
+		B363A7CC4F1236FCFD724A7A /* MultiFormatUPCEANReader.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 37534139F096C38F83AC19BA /* MultiFormatUPCEANReader.cpp */; settings = {ATTRIBUTES = (); }; };
+		B460F624007324313696BE86 /* QuartzCore.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 7EC00404ACD5AB0E97726B0E /* QuartzCore.framework */; };
+		B5EA88F3A12261BAD8418337 /* Code39Reader.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 66C7F8C6971A3759A5004317 /* Code39Reader.cpp */; settings = {ATTRIBUTES = (); }; };
+		B61D7DBA199EEB322BFBFC38 /* AztecDetectorResult.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 235D4E4F988E981F60631E28 /* AztecDetectorResult.cpp */; settings = {ATTRIBUTES = (); }; };
+		B683E6A55FC8C33A2B20B86C /* DecoderResult.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 5292034C6AC933A0608E45E8 /* DecoderResult.cpp */; settings = {ATTRIBUTES = (); }; };
+		B694B3CD051B05CF18D27361 /* QZXingImageProvider.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 73AFCD036E923805CD6B6AE4 /* QZXingImageProvider.cpp */; settings = {ATTRIBUTES = (); }; };
+		B78304F135DEF1F7A68393A6 /* CoreMedia.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 547CCADBD1CC5050167EF948 /* CoreMedia.framework */; };
+		B805F53B89DEE5B53617B3FD /* Qt5QuickTemplates2 in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = E747AE3D9C1A470A6936DAD6 /* Qt5QuickTemplates2 */; };
+		B8E0EC4476816664309E7AE3 /* AztecDecoder.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 42825AE22D25CB18648E5BD6 /* AztecDecoder.cpp */; settings = {ATTRIBUTES = (); }; };
+		B916549382DDE08AA427489A /* EncodeHint.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 843D29172EE6E70DF62243DA /* EncodeHint.cpp */; settings = {ATTRIBUTES = (); }; };
+		B9E674CC05A1E620FDE8D5EF /* QRDataBlock.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 3DD32B1037555E40EC814245 /* QRDataBlock.cpp */; settings = {ATTRIBUTES = (); }; };
+		BA323BC0CD95575757BFD9B3 /* OneDReader.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = BB6202922705300C3DD9BCFC /* OneDReader.cpp */; settings = {ATTRIBUTES = (); }; };
+		BA508EAB4D294E7715E84719 /* qjpeg in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 20E474AE5AC74900B225FF7D /* qjpeg */; };
+		BEFEF0F7A488E4641BCFC238 /* Result.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = CD40E454236501BA987E2995 /* Result.cpp */; settings = {ATTRIBUTES = (); }; };
+		C203B499D2F8CB1DCCF23D93 /* Code128Reader.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = EB381C6EDEFBD0C230949E54 /* Code128Reader.cpp */; settings = {ATTRIBUTES = (); }; };
+		C209CF952C8B42C2E24E9268 /* BitMatrix.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 26F8FBA5EEF1AC79CBB6C3F8 /* BitMatrix.cpp */; settings = {ATTRIBUTES = (); }; };
+		C20B92B8108A06960965C609 /* WhiteRectangleDetector.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = CD3AC1FAE9881983547FE73C /* WhiteRectangleDetector.cpp */; settings = {ATTRIBUTES = (); }; };
+		C7FC66C52012FA823A78B540 /* httpclient.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 437DC6D7A4495646AB985F14 /* httpclient.cpp */; settings = {ATTRIBUTES = (); }; };
+		C8331B55F868C536215E3C85 /* qmldbg_server in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 65454938007D37CD89474D89 /* qmldbg_server */; };
+		C98A03072F42FAC82F6EC776 /* ByQuadrantReader.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = FA5C396FF59841F474A33CBD /* ByQuadrantReader.cpp */; settings = {ATTRIBUTES = (); }; };
+		CA64291DD3AF7C64865586B8 /* GenericMultipleBarcodeReader.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 3E2C48C7284CD12F4D0F6651 /* GenericMultipleBarcodeReader.cpp */; settings = {ATTRIBUTES = (); }; };
+		CCA737EE379CDB10CC9A0F23 /* AVFoundation.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 21F907AB8D19BD779147A085 /* AVFoundation.framework */; };
+		CD0DD86832D7A81FF0989215 /* PerspectiveTransform.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = AA83678C653080E9EC4211C2 /* PerspectiveTransform.cpp */; settings = {ATTRIBUTES = (); }; };
+		D1E9A1FB5D457D451BD19159 /* moc_QZXingFilter.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 2904DBC4F8289DBF73EAD040 /* moc_QZXingFilter.cpp */; settings = {ATTRIBUTES = (); }; };
+		D372EF332121156DF0C37865 /* Qt5GraphicsSupport in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 21C4C5E7668B94F11D533925 /* Qt5GraphicsSupport */; };
+		D98D52F9E05FFFF14C50777B /* Qt5Qml in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 10371428443F5CD6D0367031 /* Qt5Qml */; };
+		DA66250A027172FE0243F826 /* qtgraphicaleffectsprivate in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = ED4CAD16ADA2F3B294FD2505 /* qtgraphicaleffectsprivate */; };
+		DBB7ADA1413990B14B975602 /* AztecReader.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 2526050CE6B46607F4683BA6 /* AztecReader.cpp */; settings = {ATTRIBUTES = (); }; };
+		DC74BB80DD70F51FDFC4D63C /* EAN13Reader.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = F41207D6FD68137833F44F36 /* EAN13Reader.cpp */; settings = {ATTRIBUTES = (); }; };
+		E267C63324BF8B36B932BB2E /* PDF417Decoder.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 722B6546D331D91DCDFBDB62 /* PDF417Decoder.cpp */; settings = {ATTRIBUTES = (); }; };
+		E3C619D31E5521B45317BD1F /* ReedSolomonException.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 905A18E661CA615888EB874D /* ReedSolomonException.cpp */; settings = {ATTRIBUTES = (); }; };
+		E551D87B055D0093FB6C37F6 /* qtmedia_audioengine in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = F11E88ED784DB12B4AC9A747 /* qtmedia_audioengine */; };
+		E5D02E4E195BCE45B0407889 /* Qt5WebSockets in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = AF9ACA22ED03D83E29E8AF46 /* Qt5WebSockets */; };
+		E663950CC9C889009D5FBFD0 /* QRVersion.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 8474E366DD7D0F7EC67F5669 /* QRVersion.cpp */; settings = {ATTRIBUTES = (); }; };
+		E785E6C8C26059E29E0C8002 /* qtmultimedia_m3u in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 439C52CB6808964882C3CF84 /* qtmultimedia_m3u */; };
+		E9B452583F4FBC6F9B526FAD /* UPCEReader.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 03B8B31BBCE36336934FE416 /* UPCEReader.cpp */; settings = {ATTRIBUTES = (); }; };
+		EBC7964722856FDE083DF60C /* Qt5PacketProtocol in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = BDE4923AE393E86F3F6DB1CB /* Qt5PacketProtocol */; };
+		EC6A3320F83F22DF9612EC72 /* Binarizer.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 183C87C51F1BF35C362C3F67 /* Binarizer.cpp */; settings = {ATTRIBUTES = (); }; };
+		ECDF3D42C9ABED6DB143FC41 /* QRErrorCorrectionLevel.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = EA01AAEE6BC54457AA6FF0EC /* QRErrorCorrectionLevel.cpp */; settings = {ATTRIBUTES = (); }; };
+		EFF955B98E533250982AE117 /* GenericGFPoly.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = F49C0417A88B57520FDFC199 /* GenericGFPoly.cpp */; settings = {ATTRIBUTES = (); }; };
+		F1813B715FA71240E89BDCFC /* CodaBarReader.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 8D6D61462BA6C345F7784DE4 /* CodaBarReader.cpp */; settings = {ATTRIBUTES = (); }; };
+		F1E5CE265F23FD642039CB74 /* qsqlite in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = C2485CF7A529E37C5C3A3340 /* qsqlite */; };
+		F206C1B265FCECCBBC1BE634 /* qavfmediaplayer in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = B7EA712F967E887D970BD128 /* qavfmediaplayer */; };
+		F26454630C80841CBDCFE1CA /* Foundation.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = FCC237CA5AD60B9BA4447615 /* Foundation.framework */; };
+		F37E5A19709686B67E361BAB /* GlobalHistogramBinarizer.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = F1526D1E6564199C13FEB483 /* GlobalHistogramBinarizer.cpp */; settings = {ATTRIBUTES = (); }; };
+		F4116D956775E0570B4B9354 /* Qt5Network in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = FFF5721655D091AD371580DB /* Qt5Network */; };
+		F6025FAEB91077B7EAE30C33 /* LuminanceSource.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 2B240FAAA35F9E23830991B7 /* LuminanceSource.cpp */; settings = {ATTRIBUTES = (); }; };
+		F682366D431CB1F8F39F0866 /* ModulusGF.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 422A7B109756927BE6F54F7A /* ModulusGF.cpp */; settings = {ATTRIBUTES = (); }; };
+		F7E1D88A9F071A3D5C1AF150 /* Qt5Quick in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = DDBB111EA22C61EA3605B1BC /* Qt5Quick */; };
+		F8B465CE34D8DF87AAE95913 /* CoreFoundation.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 4D765E1B1EA6C757220C63E7 /* CoreFoundation.framework */; };
+		FBEAFAA0957C6F5F3E1EFAA7 /* ResultPointCallback.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 5D26D3B7A39BB29DCA0082AA /* ResultPointCallback.cpp */; settings = {ATTRIBUTES = (); }; };
+		FE79CCA31EB0A349FCA7C106 /* GenericGF.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = D73C2F7E9E7338C72E0701A8 /* GenericGF.cpp */; settings = {ATTRIBUTES = (); }; };
+		FF00B365186C6B597BACAAAD /* qgenericbearer in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 5729A378807148BFD9692C6B /* qgenericbearer */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9E673D41FC2B6EF00FFAF73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DB9C3763D02B1415CD9D565 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78893F03E41428F9FB73A948;
+			remoteInfo = "Qt Preprocess";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		99542592E9780B9225F24AA8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		003385976E9436CC49AC5A94 /* QRFormatInformation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = QRFormatInformation.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/QRFormatInformation.cpp; sourceTree = "<absolute>"; };
+		01128D6E0774B94E682734D3 /* GridSampler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GridSampler.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/GridSampler.cpp; sourceTree = "<absolute>"; };
+		03063C184018EBAFD5816E51 /* qtaudio_coreaudio */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qtaudio_coreaudio; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/audio/libqtaudio_coreaudio$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		0335558EFC8C2879B8316A3E /* Detector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Detector.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/datamatrix/detector/Detector.h; sourceTree = "<absolute>"; };
+		03B8B31BBCE36336934FE416 /* UPCEReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UPCEReader.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/oned/UPCEReader.cpp; sourceTree = "<absolute>"; };
+		04DAC77862D0A6F84D76A007 /* MultiFormatReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MultiFormatReader.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/MultiFormatReader.h; sourceTree = "<absolute>"; };
+		053A6AE8B2F3990AAE3579FE /* ErrorCorrectionLevel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ErrorCorrectionLevel.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/ErrorCorrectionLevel.h; sourceTree = "<absolute>"; };
+		05B2857555740E721858816C /* MultiFinderPatternFinder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MultiFinderPatternFinder.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/multi/qrcode/detector/MultiFinderPatternFinder.cpp; sourceTree = "<absolute>"; };
+		074E9CCFE2397707A338AC82 /* qicns */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qicns; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/imageformats/libqicns$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		0A7B6CBC34AAF081DB4A2945 /* QZXing.pri */ = {isa = PBXFileReference; lastKnownFileType = text; name = QZXing.pri; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/QZXing.pri; sourceTree = "<absolute>"; };
+		0BD1415B6C76230ADB98924E /* Qt5ClipboardSupport */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5ClipboardSupport; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libQt5ClipboardSupport$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		0CE613DFECDB282C4EF849DC /* Qt5QuickControls2 */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5QuickControls2; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libQt5QuickControls2$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		0DDAEC9ED32A96BDC76E701C /* ITFReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ITFReader.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/oned/ITFReader.h; sourceTree = "<absolute>"; };
+		0DEB563BD398B8D64D3AD7ED /* CharacterSetECI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CharacterSetECI.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/CharacterSetECI.cpp; sourceTree = "<absolute>"; };
+		10371428443F5CD6D0367031 /* Qt5Qml */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5Qml; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libQt5Qml$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		107299EBAAB8AAB9EC5725EC /* UPCEANReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UPCEANReader.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/oned/UPCEANReader.cpp; sourceTree = "<absolute>"; };
+		10DB1502D1A74748204EFBF9 /* Decoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Decoder.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/datamatrix/decoder/Decoder.h; sourceTree = "<absolute>"; };
+		1137DF7E2BFAF4B6E7B439AE /* DecodeHints.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DecodeHints.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/DecodeHints.h; sourceTree = "<absolute>"; };
+		132C7302202B3ED0DE34583E /* QZXingImageProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = QZXingImageProvider.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/QZXingImageProvider.h; sourceTree = "<absolute>"; };
+		13A1251F9120879119E57CFA /* AztecDetector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AztecDetector.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/aztec/detector/AztecDetector.cpp; sourceTree = "<absolute>"; };
+		13EFA3820C2DA4B9233824A6 /* Exception.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Exception.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/Exception.h; sourceTree = "<absolute>"; };
+		14DD99477E562A648C71D6E8 /* MultiDetector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MultiDetector.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/multi/qrcode/detector/MultiDetector.cpp; sourceTree = "<absolute>"; };
+		15530E7727FA86CAF31B48C7 /* DataBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DataBlock.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/datamatrix/decoder/DataBlock.h; sourceTree = "<absolute>"; };
+		1609A5D7013D6806008FAC4A /* Detector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Detector.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/pdf417/detector/Detector.h; sourceTree = "<absolute>"; };
+		17CEAEBA9DB3D4144A131DDF /* MultiFormatUPCEANReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MultiFormatUPCEANReader.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/oned/MultiFormatUPCEANReader.h; sourceTree = "<absolute>"; };
+		17EAF0C8BD77094996C8E403 /* ByteMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ByteMatrix.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/encoder/ByteMatrix.h; sourceTree = "<absolute>"; };
+		183C87C51F1BF35C362C3F67 /* Binarizer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Binarizer.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/Binarizer.cpp; sourceTree = "<absolute>"; };
+		1930816247C85E76B7AC3332 /* ImageHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImageHandler.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/ImageHandler.h; sourceTree = "<absolute>"; };
+		1A56897B32CF5924609AB259 /* HybridBinarizer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HybridBinarizer.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/HybridBinarizer.cpp; sourceTree = "<absolute>"; };
+		1A83D336EFCC3053C62F35E4 /* qtpcre2 */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qtpcre2; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libqtpcre2$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		1C4B8E5319B69B79713EEB2F /* BitSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BitSource.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/BitSource.h; sourceTree = "<absolute>"; };
+		1C9242DF08AB20067522FF7B /* qtfreetype */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qtfreetype; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libqtfreetype$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		1C9D18A43DD77EAB2DD7E013 /* CameraImageWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CameraImageWrapper.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/CameraImageWrapper.h; sourceTree = "<absolute>"; };
+		1CA14BBA361C9591A73120E2 /* Qt5Gui */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5Gui; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libQt5Gui$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		1DC7C66D9211EFEC0D80B35E /* BitArrayIO.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = BitArrayIO.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/BitArrayIO.cpp; sourceTree = "<absolute>"; };
+		1DFA979BE2EF57D64E50DEA3 /* Qt5Bluetooth */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5Bluetooth; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libQt5Bluetooth$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		1F613EC63DD3676748FA1C50 /* ResultPointCallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ResultPointCallback.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/ResultPointCallback.h; sourceTree = "<absolute>"; };
+		1F90C1AC8BFF78E1AFD18E81 /* StringUtils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = StringUtils.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/StringUtils.cpp; sourceTree = "<absolute>"; };
+		1FB9B199D2C7756AA793B846 /* qgif */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qgif; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/imageformats/libqgif$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		20162A23B3E5252F94324E3C /* QRFinderPatternInfo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = QRFinderPatternInfo.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/detector/QRFinderPatternInfo.cpp; sourceTree = "<absolute>"; };
+		205259EEEE2BADA5E64741E3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
+		2098B8C87BA54A46F84558B4 /* QZXingFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = QZXingFilter.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/QZXingFilter.h; sourceTree = "<absolute>"; };
+		20E474AE5AC74900B225FF7D /* qjpeg */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qjpeg; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/imageformats/libqjpeg$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		21A4E58A71BAFBDFD6E6D86D /* Mode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Mode.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/decoder/Mode.h; sourceTree = "<absolute>"; };
+		21C4C5E7668B94F11D533925 /* Qt5GraphicsSupport */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5GraphicsSupport; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libQt5GraphicsSupport$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		21F1AAE033CF3E10834A27AA /* DataMatrixVersion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DataMatrixVersion.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/datamatrix/DataMatrixVersion.cpp; sourceTree = "<absolute>"; };
+		21F907AB8D19BD779147A085 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = /System/Library/Frameworks/AVFoundation.framework; sourceTree = "<absolute>"; };
+		2210082E56998CA4A002646A /* QRFinderPattern.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = QRFinderPattern.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/detector/QRFinderPattern.cpp; sourceTree = "<absolute>"; };
+		230B26E4DFFA3B2ECAFE3ACB /* FormatException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FormatException.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/FormatException.h; sourceTree = "<absolute>"; };
+		235D4E4F988E981F60631E28 /* AztecDetectorResult.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AztecDetectorResult.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/aztec/AztecDetectorResult.cpp; sourceTree = "<absolute>"; };
+		2526050CE6B46607F4683BA6 /* AztecReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AztecReader.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/aztec/AztecReader.cpp; sourceTree = "<absolute>"; };
+		26C4C490FA596F41A7941C05 /* MaskUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MaskUtil.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/encoder/MaskUtil.h; sourceTree = "<absolute>"; };
+		26F8FBA5EEF1AC79CBB6C3F8 /* BitMatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = BitMatrix.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/BitMatrix.cpp; sourceTree = "<absolute>"; };
+		278DCDC7883A9BD996BE8E9A /* DataMatrixBitMatrixParser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DataMatrixBitMatrixParser.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/datamatrix/decoder/DataMatrixBitMatrixParser.cpp; sourceTree = "<absolute>"; };
+		278F5A22E1B9F6E2CCA3F5DE /* Qt5Multimedia */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5Multimedia; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libQt5Multimedia$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		289E9065EB20E798F96019A8 /* PDF417DecodedBitStreamParser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PDF417DecodedBitStreamParser.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/pdf417/decoder/PDF417DecodedBitStreamParser.cpp; sourceTree = "<absolute>"; };
+		28EDB136886C7E1CE62CCE25 /* Detector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Detector.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/detector/Detector.h; sourceTree = "<absolute>"; };
+		2904DBC4F8289DBF73EAD040 /* moc_QZXingFilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_QZXingFilter.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/vpp_ios/moc_QZXingFilter.cpp; sourceTree = "<absolute>"; };
+		2957995CA203E6BB9CEE4B03 /* VPP.pro */ = {isa = PBXFileReference; lastKnownFileType = text; name = VPP.pro; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/VPP.pro; sourceTree = "<absolute>"; };
+		2AC218F542E331AD96E61545 /* BigUnsigned.hh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BigUnsigned.hh; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/bigint/BigUnsigned.hh; sourceTree = "<absolute>"; };
+		2B240FAAA35F9E23830991B7 /* LuminanceSource.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LuminanceSource.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/LuminanceSource.cpp; sourceTree = "<absolute>"; };
+		2B6133A0D37C99FF15FBB560 /* ModulusPoly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ModulusPoly.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/pdf417/decoder/ec/ModulusPoly.h; sourceTree = "<absolute>"; };
+		2C516596E41BD6C5B3FC9827 /* qmldbg_quickprofiler */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qmldbg_quickprofiler; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/qmltooling/libqmldbg_quickprofiler$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		2DDA429D00D4DCB6BD9B95B4 /* ReedSolomonEncoder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ReedSolomonEncoder.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/reedsolomon/ReedSolomonEncoder.cpp; sourceTree = "<absolute>"; };
+		2EA4AE490CF5ED40EFAF8CD4 /* EncodeHint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EncodeHint.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/EncodeHint.h; sourceTree = "<absolute>"; };
+		2EFB2662CD3601221E2124F3 /* moc_QZXing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_QZXing.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/vpp_ios/moc_QZXing.cpp; sourceTree = "<absolute>"; };
+		2FA6922436721A35B50AF536 /* DataMatrixReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DataMatrixReader.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/datamatrix/DataMatrixReader.h; sourceTree = "<absolute>"; };
+		30355C8E7F9F6542C86D5849 /* MatrixUtil.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MatrixUtil.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/encoder/MatrixUtil.cpp; sourceTree = "<absolute>"; };
+		3080D03AAAA4E03DB24DFE01 /* qmldbg_native */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qmldbg_native; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/qmltooling/libqmldbg_native$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		30DBC1AFD3BE04BDB58407C8 /* qmldbg_debugger */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qmldbg_debugger; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/qmltooling/libqmldbg_debugger$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		30FB5F59B13C41DDAE81C3A4 /* MultipleBarcodeReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MultipleBarcodeReader.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/multi/MultipleBarcodeReader.cpp; sourceTree = "<absolute>"; };
+		31AE7BF4C95B4062606B643E /* QRAlignmentPattern.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = QRAlignmentPattern.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/detector/QRAlignmentPattern.cpp; sourceTree = "<absolute>"; };
+		321BEC3FBF7788083367A0C1 /* JavaMath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JavaMath.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/detector/JavaMath.h; sourceTree = "<absolute>"; };
+		35ABF7A35BA3611A4BB73B27 /* LinesSampler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LinesSampler.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/pdf417/detector/LinesSampler.h; sourceTree = "<absolute>"; };
+		375240ADFFCD04237E1DB5FB /* qmldbg_inspector */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qmldbg_inspector; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/qmltooling/libqmldbg_inspector$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		37534139F096C38F83AC19BA /* MultiFormatUPCEANReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MultiFormatUPCEANReader.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/oned/MultiFormatUPCEANReader.cpp; sourceTree = "<absolute>"; };
+		388243FD03C9C63FC989DEFD /* PDF417Reader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PDF417Reader.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/pdf417/PDF417Reader.cpp; sourceTree = "<absolute>"; };
+		3A8EF9C62A8D4790CBB89CEA /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = /System/Library/Frameworks/ImageIO.framework; sourceTree = "<absolute>"; };
+		3AACFE3B94B38ADC5F5FB134 /* Code39Reader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Code39Reader.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/oned/Code39Reader.h; sourceTree = "<absolute>"; };
+		3AC2B7315411F96074676897 /* qtlibpng */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qtlibpng; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libqtlibpng$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		3ACD88913E0CAD5684C79753 /* qml.qrc */ = {isa = PBXFileReference; lastKnownFileType = text; name = qml.qrc; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/qml.qrc; sourceTree = "<absolute>"; };
+		3ACD8B47E046DAA3A81F600D /* ResultIO.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ResultIO.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/ResultIO.cpp; sourceTree = "<absolute>"; };
+		3B9F032221399B0F7B297A92 /* qmldbg_tcp */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qmldbg_tcp; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/qmltooling/libqmldbg_tcp$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		3C44131FDCFEF4396B9EA2BA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		3DA361A0F2C1700271FEFCBA /* blemgr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = blemgr.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/blemgr.cpp; sourceTree = "<absolute>"; };
+		3DD32B1037555E40EC814245 /* QRDataBlock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = QRDataBlock.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/decoder/QRDataBlock.cpp; sourceTree = "<absolute>"; };
+		3E2C48C7284CD12F4D0F6651 /* GenericMultipleBarcodeReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GenericMultipleBarcodeReader.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/multi/GenericMultipleBarcodeReader.cpp; sourceTree = "<absolute>"; };
+		3F42750DC0D624703667F038 /* IllegalArgumentException.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = IllegalArgumentException.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/IllegalArgumentException.cpp; sourceTree = "<absolute>"; };
+		3FB6C52D9C088C280F6E76A8 /* AlignmentPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AlignmentPattern.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/detector/AlignmentPattern.h; sourceTree = "<absolute>"; };
+		4162C754C3D13B0AB4BE3078 /* DetectorResult.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DetectorResult.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/DetectorResult.cpp; sourceTree = "<absolute>"; };
+		422A7B109756927BE6F54F7A /* ModulusGF.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ModulusGF.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/pdf417/decoder/ec/ModulusGF.cpp; sourceTree = "<absolute>"; };
+		42825AE22D25CB18648E5BD6 /* AztecDecoder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AztecDecoder.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/aztec/decoder/AztecDecoder.cpp; sourceTree = "<absolute>"; };
+		436FB86FCA576706664F7FAD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "/Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/vpp_ios/VPP.xcodeproj/Default-568h@2x.png"; sourceTree = "<absolute>"; };
+		437DC6D7A4495646AB985F14 /* httpclient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = httpclient.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/httpclient.cpp; sourceTree = "<absolute>"; };
+		439C52CB6808964882C3CF84 /* qtmultimedia_m3u */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qtmultimedia_m3u; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/playlistformats/libqtmultimedia_m3u$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		43B5FD913F10D8CC9868020C /* Encoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Encoder.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/encoder/Encoder.h; sourceTree = "<absolute>"; };
+		4441B1947AEA42A8B6F394AE /* QRCode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = QRCode.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/encoder/QRCode.cpp; sourceTree = "<absolute>"; };
+		44E32C20840A3658965FCE76 /* GreyscaleRotatedLuminanceSource.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GreyscaleRotatedLuminanceSource.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/GreyscaleRotatedLuminanceSource.cpp; sourceTree = "<absolute>"; };
+		44FC7A924054A0FAAA63EF56 /* OneDResultPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OneDResultPoint.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/oned/OneDResultPoint.h; sourceTree = "<absolute>"; };
+		4505CC953C1801C50C202859 /* LuminanceSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LuminanceSource.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/LuminanceSource.h; sourceTree = "<absolute>"; };
+		45D1CDE432DF8CB1422090DD /* ImageHandler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ImageHandler.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/ImageHandler.cpp; sourceTree = "<absolute>"; };
+		470930884EBB5F58C5C59C7B /* FinderPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FinderPattern.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/detector/FinderPattern.h; sourceTree = "<absolute>"; };
+		4779CA76A6D0B2592FD0DD52 /* BigIntegerLibrary.hh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BigIntegerLibrary.hh; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/bigint/BigIntegerLibrary.hh; sourceTree = "<absolute>"; };
+		483AC07F22A9617BB97C48EE /* declarative_multimedia */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = declarative_multimedia; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtMultimedia/libdeclarative_multimedia$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		484B418B7235C8C321189B3B /* gDataBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = gDataBase.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/gDataBase.h; sourceTree = "<absolute>"; };
+		48A602074A80FA68780B83D7 /* Exception.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Exception.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/Exception.cpp; sourceTree = "<absolute>"; };
+		4B7C2535B2211C4AF3952A4B /* MultiFormatReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MultiFormatReader.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/MultiFormatReader.cpp; sourceTree = "<absolute>"; };
+		4BB77FF8007971A5A352A924 /* QRAlignmentPatternFinder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = QRAlignmentPatternFinder.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/detector/QRAlignmentPatternFinder.cpp; sourceTree = "<absolute>"; };
+		4BC9C43653E79E14898A5715 /* Decoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Decoder.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/pdf417/decoder/Decoder.h; sourceTree = "<absolute>"; };
+		4C02333872348AA4248554E9 /* BigInteger.hh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BigInteger.hh; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/bigint/BigInteger.hh; sourceTree = "<absolute>"; };
+		4D765E1B1EA6C757220C63E7 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		4F17F02BB9D610AEAEA33286 /* MonochromeRectangleDetector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MonochromeRectangleDetector.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/detector/MonochromeRectangleDetector.h; sourceTree = "<absolute>"; };
+		4F1EDB7B736B0C5E502AC1D9 /* Qt5MultimediaWidgets */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5MultimediaWidgets; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libQt5MultimediaWidgets$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		4F224E02D2108C6F06C5D7DB /* WriterException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WriterException.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/WriterException.h; sourceTree = "<absolute>"; };
+		507FB700BC69C0A2C1853014 /* Code93Reader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Code93Reader.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/oned/Code93Reader.cpp; sourceTree = "<absolute>"; };
+		521ED48FF9D8FADE18469F67 /* DataMatrixReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DataMatrixReader.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/datamatrix/DataMatrixReader.cpp; sourceTree = "<absolute>"; };
+		5292034C6AC933A0608E45E8 /* DecoderResult.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DecoderResult.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/DecoderResult.cpp; sourceTree = "<absolute>"; };
+		537C03172F5527A2704A55E3 /* CameraImageWrapper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CameraImageWrapper.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/CameraImageWrapper.cpp; sourceTree = "<absolute>"; };
+		5437CA884AC1BF7274DB7090 /* BitMatrixParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BitMatrixParser.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/decoder/BitMatrixParser.h; sourceTree = "<absolute>"; };
+		547CCADBD1CC5050167EF948 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = /System/Library/Frameworks/CoreMedia.framework; sourceTree = "<absolute>"; };
+		5511D7AE89EE0469483C0FE8 /* CodaBarReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CodaBarReader.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/oned/CodaBarReader.h; sourceTree = "<absolute>"; };
+		55C2AE4FABBEFB2D98160172 /* OneDResultPoint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = OneDResultPoint.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/oned/OneDResultPoint.cpp; sourceTree = "<absolute>"; };
+		563961C38B520B1F19942472 /* QZXing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = QZXing.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/QZXing.h; sourceTree = "<absolute>"; };
+		56535923DA7462C99A854810 /* qtharfbuzz */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qtharfbuzz; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libqtharfbuzz$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		56F703267B07E8516C6E017B /* DataMatrixDataBlock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DataMatrixDataBlock.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/datamatrix/decoder/DataMatrixDataBlock.cpp; sourceTree = "<absolute>"; };
+		5729A378807148BFD9692C6B /* qgenericbearer */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qgenericbearer; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/bearer/libqgenericbearer$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		587A3A2BC59D7EFA3641502A /* qico */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qico; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/imageformats/libqico$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		588DD810C99F24ED8A1BAA8E /* qios */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qios; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/platforms/libqios$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		59A8EB3D3EC976589C6300BE /* moc_ImageHandler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_ImageHandler.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/vpp_ios/moc_ImageHandler.cpp; sourceTree = "<absolute>"; };
+		5A2266A6EAB59AE880FD83C2 /* Array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Array.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/Array.h; sourceTree = "<absolute>"; };
+		5A5F72EF0EB8273DA3940E41 /* Code93Reader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Code93Reader.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/oned/Code93Reader.h; sourceTree = "<absolute>"; };
+		5AE1E9F3D642B2E11AF139A6 /* GreyscaleLuminanceSource.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GreyscaleLuminanceSource.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/GreyscaleLuminanceSource.cpp; sourceTree = "<absolute>"; };
+		5C38767B2AA6FC44F057FA19 /* Version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Version.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/datamatrix/Version.h; sourceTree = "<absolute>"; };
+		5C6A3D49E1B00286C3C6F05C /* QRCodeReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = QRCodeReader.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/QRCodeReader.cpp; sourceTree = "<absolute>"; };
+		5D26D3B7A39BB29DCA0082AA /* ResultPointCallback.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ResultPointCallback.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/ResultPointCallback.cpp; sourceTree = "<absolute>"; };
+		5E881EFF393781A5FEEBA477 /* ErrorCorrection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ErrorCorrection.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/pdf417/decoder/ec/ErrorCorrection.cpp; sourceTree = "<absolute>"; };
+		5FD87ED630048626943776B0 /* Reader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Reader.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/Reader.h; sourceTree = "<absolute>"; };
+		5FE420C299DCCC8ECA29793D /* Code128Reader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Code128Reader.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/oned/Code128Reader.h; sourceTree = "<absolute>"; };
+		63C0CE3A81164C73BFE93F7B /* DataMatrixCornerPoint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DataMatrixCornerPoint.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/datamatrix/detector/DataMatrixCornerPoint.cpp; sourceTree = "<absolute>"; };
+		650C7FCB41E672CA4125351F /* qmldbg_messages */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qmldbg_messages; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/qmltooling/libqmldbg_messages$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		65454938007D37CD89474D89 /* qmldbg_server */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qmldbg_server; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/qmltooling/libqmldbg_server$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		6566A0BB675428E5E747D98B /* BinaryBitmap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = BinaryBitmap.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/BinaryBitmap.cpp; sourceTree = "<absolute>"; };
+		6597E0A9DC8E198B9595A202 /* GreyscaleRotatedLuminanceSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GreyscaleRotatedLuminanceSource.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/GreyscaleRotatedLuminanceSource.h; sourceTree = "<absolute>"; };
+		66C7F8C6971A3759A5004317 /* Code39Reader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Code39Reader.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/oned/Code39Reader.cpp; sourceTree = "<absolute>"; };
+		66EE8C911C1C0B1C6811FEDF /* ModulusPoly.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ModulusPoly.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/pdf417/decoder/ec/ModulusPoly.cpp; sourceTree = "<absolute>"; };
+		678BD522A1A596B3503CC04E /* BarcodeFormat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BarcodeFormat.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/BarcodeFormat.h; sourceTree = "<absolute>"; };
+		681A3593B33095B7AC9BD7A5 /* AztecDetectorResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AztecDetectorResult.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/aztec/AztecDetectorResult.h; sourceTree = "<absolute>"; };
+		68334990D31C8460C60B5973 /* ZXing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ZXing.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/ZXing.h; sourceTree = "<absolute>"; };
+		696ABAF463F6769A0581F467 /* ErrorCorrection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ErrorCorrection.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/pdf417/decoder/ec/ErrorCorrection.h; sourceTree = "<absolute>"; };
+		6AD045DF335444594D258824 /* DataMatrixDecoder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DataMatrixDecoder.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/datamatrix/decoder/DataMatrixDecoder.cpp; sourceTree = "<absolute>"; };
+		6AE3EC31EE5BB1FCEE84137C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = /System/Library/Frameworks/CoreGraphics.framework; sourceTree = "<absolute>"; };
+		6B7B828EA1DD303F6A397F70 /* moc_httpclient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_httpclient.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/vpp_ios/moc_httpclient.cpp; sourceTree = "<absolute>"; };
+		6CB7B1579E58FEBC1F652ADA /* qmlsettingsplugin */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qmlsettingsplugin; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/Qt/labs/settings/libqmlsettingsplugin$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		6DE7B2F3FAA45704E37CB99B /* QZXingFilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = QZXingFilter.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/QZXingFilter.cpp; sourceTree = "<absolute>"; };
+		6E47F95C3EE087DE810FD13B /* ChecksumException.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ChecksumException.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/ChecksumException.cpp; sourceTree = "<absolute>"; };
+		71A7F58B3B45736087CDE99D /* UPCAReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UPCAReader.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/oned/UPCAReader.cpp; sourceTree = "<absolute>"; };
+		71E5705044D6C31AB87AEB17 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = /System/Library/Frameworks/CoreBluetooth.framework; sourceTree = "<absolute>"; };
+		722B6546D331D91DCDFBDB62 /* PDF417Decoder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PDF417Decoder.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/pdf417/decoder/PDF417Decoder.cpp; sourceTree = "<absolute>"; };
+		727EF1CB37932FD8FE47CFAA /* blemgr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = blemgr.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/blemgr.h; sourceTree = "<absolute>"; };
+		72FCA574A2D708CB9F4AB2FF /* CornerPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CornerPoint.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/datamatrix/detector/CornerPoint.h; sourceTree = "<absolute>"; };
+		736626596E31C28C58567F9B /* HybridBinarizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HybridBinarizer.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/HybridBinarizer.h; sourceTree = "<absolute>"; };
+		73AFCD036E923805CD6B6AE4 /* QZXingImageProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = QZXingImageProvider.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/QZXingImageProvider.cpp; sourceTree = "<absolute>"; };
+		7608ABAE33E1DD1284C768AB /* QZXing_global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = QZXing_global.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/QZXing_global.h; sourceTree = "<absolute>"; };
+		76444FCD75012467543A6B2B /* DecodeHints.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DecodeHints.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/DecodeHints.cpp; sourceTree = "<absolute>"; };
+		77C8AE35987122D0DF9A59F1 /* UPCEReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UPCEReader.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/oned/UPCEReader.h; sourceTree = "<absolute>"; };
+		7A5861EBF69782CA53005732 /* ModulusGF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ModulusGF.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/pdf417/decoder/ec/ModulusGF.h; sourceTree = "<absolute>"; };
+		7AE506D8E0EF3BC12066A140 /* Qt5MultimediaQuick_p */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5MultimediaQuick_p; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libQt5MultimediaQuick_p$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		7B03CAD6D021E4F2FE1288E3 /* qtquickcontrols2plugin */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qtquickcontrols2plugin; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Controls.2/libqtquickcontrols2plugin$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		7BDC5F8B39A017260D79F1DE /* ChecksumException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ChecksumException.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/ChecksumException.h; sourceTree = "<absolute>"; };
+		7D7B02101166B76FD2D4F8B4 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = /System/Library/Frameworks/CoreText.framework; sourceTree = "<absolute>"; };
+		7E367FBFE2DD1F579EC719D3 /* EAN8Reader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = EAN8Reader.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/oned/EAN8Reader.cpp; sourceTree = "<absolute>"; };
+		7EC00404ACD5AB0E97726B0E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		7F965A60866C521C6CB224EE /* MaskUtil.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MaskUtil.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/encoder/MaskUtil.cpp; sourceTree = "<absolute>"; };
+		7FE43F213B4A4DC1B2380640 /* GridSampler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GridSampler.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/GridSampler.h; sourceTree = "<absolute>"; };
+		80279EB79E3D6A797CF13B0F /* qtquicktemplates2plugin */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qtquicktemplates2plugin; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Templates.2/libqtquicktemplates2plugin$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		807B3EA24DC77C3B1102DB59 /* BitMatrixParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BitMatrixParser.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/datamatrix/decoder/BitMatrixParser.h; sourceTree = "<absolute>"; };
+		82C755DF638BB9CA860141F6 /* OneDReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OneDReader.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/oned/OneDReader.h; sourceTree = "<absolute>"; };
+		832566A561AB30F15317F236 /* LinesSampler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LinesSampler.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/pdf417/detector/LinesSampler.cpp; sourceTree = "<absolute>"; };
+		83FBAFE6A8F57C6F6C2F308D /* BigUnsignedInABase.hh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BigUnsignedInABase.hh; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/bigint/BigUnsignedInABase.hh; sourceTree = "<absolute>"; };
+		843D29172EE6E70DF62243DA /* EncodeHint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = EncodeHint.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/EncodeHint.cpp; sourceTree = "<absolute>"; };
+		8474E366DD7D0F7EC67F5669 /* QRVersion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = QRVersion.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/QRVersion.cpp; sourceTree = "<absolute>"; };
+		84966FB43EEECBF091FDBB21 /* BitMatrixParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BitMatrixParser.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/pdf417/decoder/BitMatrixParser.h; sourceTree = "<absolute>"; };
+		85EB17BD834E4B94D045ABA6 /* ByteMatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ByteMatrix.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/encoder/ByteMatrix.cpp; sourceTree = "<absolute>"; };
+		85F9C7195C4BEB1D023D74B8 /* qmldbg_nativedebugger */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qmldbg_nativedebugger; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/qmltooling/libqmldbg_nativedebugger$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		862C5240BC3FCD36CAB57828 /* BitSource.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = BitSource.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/BitSource.cpp; sourceTree = "<absolute>"; };
+		887443910FA4E50B112137BB /* Qt5Core */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5Core; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libQt5Core$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		89BA57C4B8E80DB726769EE7 /* MultipleBarcodeReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MultipleBarcodeReader.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/multi/MultipleBarcodeReader.h; sourceTree = "<absolute>"; };
+		8C36B9F75DA714F9455B9B03 /* Types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Types.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/Types.h; sourceTree = "<absolute>"; };
+		8D0076DF51BFA409F9CFBECC /* BinaryBitmap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BinaryBitmap.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/BinaryBitmap.h; sourceTree = "<absolute>"; };
+		8D6D61462BA6C345F7784DE4 /* CodaBarReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CodaBarReader.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/oned/CodaBarReader.cpp; sourceTree = "<absolute>"; };
+		8E8A4FEDC0554673C72927D4 /* moc_blemgr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_blemgr.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/vpp_ios/moc_blemgr.cpp; sourceTree = "<absolute>"; };
+		9006CD33D4E70182B6B3B092 /* qavfcamera */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qavfcamera; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/mediaservice/libqavfcamera$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		9015EE2329ECC23FF3BFAE34 /* GenericGFPoly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GenericGFPoly.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/reedsolomon/GenericGFPoly.h; sourceTree = "<absolute>"; };
+		905A18E661CA615888EB874D /* ReedSolomonException.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ReedSolomonException.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/reedsolomon/ReedSolomonException.cpp; sourceTree = "<absolute>"; };
+		907B134F883C1BC8E939A68D /* qmacjp2 */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qmacjp2; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/imageformats/libqmacjp2$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		90FF5F2CC54E0D08E4A2F463 /* Binarizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Binarizer.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/Binarizer.h; sourceTree = "<absolute>"; };
+		918AEFFE27000689B3BFAAF4 /* StringUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StringUtils.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/StringUtils.h; sourceTree = "<absolute>"; };
+		93C8AC1D827C35D22D65BB78 /* NotFoundException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NotFoundException.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/NotFoundException.h; sourceTree = "<absolute>"; };
+		94693449C5A360C6FD031903 /* EAN8Reader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EAN8Reader.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/oned/EAN8Reader.h; sourceTree = "<absolute>"; };
+		94E2C039937392BB245B7EE9 /* qmldbg_profiler */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qmldbg_profiler; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/qmltooling/libqmldbg_profiler$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		966C193F6D7361ED836F7429 /* UPCEANReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UPCEANReader.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/oned/UPCEANReader.h; sourceTree = "<absolute>"; };
+		96F9DDD4B66D400DF6600D58 /* MultiFinderPatternFinder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MultiFinderPatternFinder.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/multi/qrcode/detector/MultiFinderPatternFinder.h; sourceTree = "<absolute>"; };
+		9AF943A156C03B2F96173E70 /* qtiff */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qtiff; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/imageformats/libqtiff$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		9B8AAF1E27DDAFD9CEE56C25 /* ByQuadrantReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ByQuadrantReader.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/multi/ByQuadrantReader.h; sourceTree = "<absolute>"; };
+		9B9D55A0D7E380882B08BA12 /* DecodedBitStreamParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DecodedBitStreamParser.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/pdf417/decoder/DecodedBitStreamParser.h; sourceTree = "<absolute>"; };
+		9E97DA2ABBA2CBB47EDF7517 /* PDF417BitMatrixParser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PDF417BitMatrixParser.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/pdf417/decoder/PDF417BitMatrixParser.cpp; sourceTree = "<absolute>"; };
+		9EDDA7271F29730AF91BCD64 /* Str.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Str.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/Str.h; sourceTree = "<absolute>"; };
+		9FA6E602AED0624429C60747 /* EAN13Reader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EAN13Reader.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/oned/EAN13Reader.h; sourceTree = "<absolute>"; };
+		9FD07C7EFCFA6C1C7E985383 /* PerspectiveTransform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PerspectiveTransform.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/PerspectiveTransform.h; sourceTree = "<absolute>"; };
+		A00961F3445282C74B65639F /* FinderPatternInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FinderPatternInfo.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/detector/FinderPatternInfo.h; sourceTree = "<absolute>"; };
+		A02D40BEF4A92656A2F84598 /* qrc_qml.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = qrc_qml.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/vpp_ios/qrc_qml.cpp; sourceTree = "<absolute>"; };
+		A08244C1B1905923A0B8FF3C /* QRCodeMultiReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = QRCodeMultiReader.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/multi/qrcode/QRCodeMultiReader.h; sourceTree = "<absolute>"; };
+		A0C454449FC2DF6937B1BDBA /* DetectorResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DetectorResult.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/DetectorResult.h; sourceTree = "<absolute>"; };
+		A3E651E7D986DB3AB6CA5C8B /* BigIntegerAlgorithms.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = BigIntegerAlgorithms.cc; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/bigint/BigIntegerAlgorithms.cc; sourceTree = "<absolute>"; };
+		A3E72EF7490186D367C679EF /* qmldbg_local */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qmldbg_local; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/qmltooling/libqmldbg_local$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		A4DD58EEA7E878EDD3A57929 /* BigUnsigned.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = BigUnsigned.cc; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/bigint/BigUnsigned.cc; sourceTree = "<absolute>"; };
+		A549E53E73F3B9A1A5B0D700 /* BigIntegerAlgorithms.hh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BigIntegerAlgorithms.hh; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/bigint/BigIntegerAlgorithms.hh; sourceTree = "<absolute>"; };
+		A56271B80E6DBC14E60697CD /* GenericGF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GenericGF.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/reedsolomon/GenericGF.h; sourceTree = "<absolute>"; };
+		AA83678C653080E9EC4211C2 /* PerspectiveTransform.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PerspectiveTransform.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/PerspectiveTransform.cpp; sourceTree = "<absolute>"; };
+		AACAB441BEC9B49A7BE9C284 /* MatrixUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MatrixUtil.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/encoder/MatrixUtil.h; sourceTree = "<absolute>"; };
+		AAFC6A28ECC29E82FE832241 /* ReedSolomonDecoder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ReedSolomonDecoder.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/reedsolomon/ReedSolomonDecoder.cpp; sourceTree = "<absolute>"; };
+		AB0B9DA56EF6116D3D7793CB /* QRFinderPatternFinder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = QRFinderPatternFinder.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/detector/QRFinderPatternFinder.cpp; sourceTree = "<absolute>"; };
+		AB48567941A2A896594673DD /* MonochromeRectangleDetector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MonochromeRectangleDetector.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/detector/MonochromeRectangleDetector.cpp; sourceTree = "<absolute>"; };
+		ABE4DECE37659F63FDB5BEDE /* Str.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Str.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/Str.cpp; sourceTree = "<absolute>"; };
+		ABF6298B5C437EAA36E5F3D3 /* GenericMultipleBarcodeReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GenericMultipleBarcodeReader.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/multi/GenericMultipleBarcodeReader.h; sourceTree = "<absolute>"; };
+		AD5C2B6B613246AF2FBEDFB1 /* BarcodeFormat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = BarcodeFormat.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/BarcodeFormat.cpp; sourceTree = "<absolute>"; };
+		ADB2EDE287A3367F362E3606 /* Result.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Result.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/Result.h; sourceTree = "<absolute>"; };
+		AF9ACA22ED03D83E29E8AF46 /* Qt5WebSockets */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5WebSockets; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libQt5WebSockets$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		AF9D4EFCD4D8EE771583E773 /* QRDetector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = QRDetector.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/detector/QRDetector.cpp; sourceTree = "<absolute>"; };
+		B23B98720031392D91E14648 /* BigInteger.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = BigInteger.cc; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/bigint/BigInteger.cc; sourceTree = "<absolute>"; };
+		B6D0DB0A5F2763F23A58D025 /* .qmake.stash */ = {isa = PBXFileReference; lastKnownFileType = text; name = .qmake.stash; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/vpp_ios/.qmake.stash; sourceTree = "<absolute>"; };
+		B70B68886D73528F4280BAD9 /* FormatException.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FormatException.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/FormatException.cpp; sourceTree = "<absolute>"; };
+		B768EF989D7EEA92F8607F95 /* VPP.pro */ = {isa = PBXFileReference; lastKnownFileType = text; name = VPP.pro; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/vpp_ios/VPP.pro; sourceTree = "<absolute>"; };
+		B7E5F8B911CF190ED3414FF2 /* QRBitMatrixParser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = QRBitMatrixParser.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/decoder/QRBitMatrixParser.cpp; sourceTree = "<absolute>"; };
+		B7EA712F967E887D970BD128 /* qavfmediaplayer */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qavfmediaplayer; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/mediaservice/libqavfmediaplayer$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		B7F98F46A1B84C60F382273D /* QZXing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = QZXing.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/QZXing.cpp; sourceTree = "<absolute>"; };
+		B85E5D7A216EC0BEDE880B50 /* ResultPoint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ResultPoint.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/ResultPoint.cpp; sourceTree = "<absolute>"; };
+		B87A63BCD6B548FF9D23641C /* ResultPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ResultPoint.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/ResultPoint.h; sourceTree = "<absolute>"; };
+		B8810085D3D313094652C97A /* qwbmp */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qwbmp; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/imageformats/libqwbmp$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		BB47D63BC419BFF5A9977FD1 /* ITFReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ITFReader.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/oned/ITFReader.cpp; sourceTree = "<absolute>"; };
+		BB6202922705300C3DD9BCFC /* OneDReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = OneDReader.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/oned/OneDReader.cpp; sourceTree = "<absolute>"; };
+		BBE7ABDA0B13C6C640A7F948 /* qtquickcontrols2materialstyleplugin */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qtquickcontrols2materialstyleplugin; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Controls.2/Material/libqtquickcontrols2materialstyleplugin$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		BCD45A3A95622751D5522E1E /* Qt5FontDatabaseSupport */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5FontDatabaseSupport; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libQt5FontDatabaseSupport$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		BD927D09038E07C0F0D6579F /* Decoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Decoder.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/decoder/Decoder.h; sourceTree = "<absolute>"; };
+		BDE4923AE393E86F3F6DB1CB /* Qt5PacketProtocol */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5PacketProtocol; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libQt5PacketProtocol$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		BE047BC69709A7471CA3BAEC /* BigIntegerUtils.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = BigIntegerUtils.cc; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/bigint/BigIntegerUtils.cc; sourceTree = "<absolute>"; };
+		BEF9DFDA6822604126A7E233 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
+		C2485CF7A529E37C5C3A3340 /* qsqlite */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qsqlite; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/sqldrivers/libqsqlite$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		C3B2E31F6B1913AF786F3B0E /* DataMatrixDetector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DataMatrixDetector.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/datamatrix/detector/DataMatrixDetector.cpp; sourceTree = "<absolute>"; };
+		C581FE19EB63EB1B6B386FF2 /* NumberlikeArray.hh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NumberlikeArray.hh; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/bigint/NumberlikeArray.hh; sourceTree = "<absolute>"; };
+		C6FE3073350E0163D573C187 /* Counted.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Counted.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/Counted.h; sourceTree = "<absolute>"; };
+		C771729B4E0810F95877719C /* VPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7F2510C1ACBE57F39EBFE0B /* vpp_plugin_import.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = vpp_plugin_import.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/vpp_ios/vpp_plugin_import.cpp; sourceTree = "<absolute>"; };
+		C8FB084BA436B130C5868A00 /* qtga */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qtga; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/imageformats/libqtga$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		CA6A2E8B1C66581A6803A653 /* WhiteRectangleDetector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WhiteRectangleDetector.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/detector/WhiteRectangleDetector.h; sourceTree = "<absolute>"; };
+		CB7E30AECC2A865490B7C536 /* BlockPair.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BlockPair.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/encoder/BlockPair.h; sourceTree = "<absolute>"; };
+		CBB2D0D6504041A480BF8630 /* InvertedLuminanceSource.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = InvertedLuminanceSource.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/InvertedLuminanceSource.cpp; sourceTree = "<absolute>"; };
+		CD12C693CFC2B53DCBBEE7E2 /* ReedSolomonEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ReedSolomonEncoder.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/reedsolomon/ReedSolomonEncoder.h; sourceTree = "<absolute>"; };
+		CD3AC1FAE9881983547FE73C /* WhiteRectangleDetector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = WhiteRectangleDetector.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/detector/WhiteRectangleDetector.cpp; sourceTree = "<absolute>"; };
+		CD40E454236501BA987E2995 /* Result.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Result.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/Result.cpp; sourceTree = "<absolute>"; };
+		CEA037F447384DD67E3CCEE6 /* QRDecoder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = QRDecoder.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/decoder/QRDecoder.cpp; sourceTree = "<absolute>"; };
+		CEA241F098503FD0E5C81E39 /* GlobalHistogramBinarizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GlobalHistogramBinarizer.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/GlobalHistogramBinarizer.h; sourceTree = "<absolute>"; };
+		CF1A846604FDB41D67E5E57C /* QRCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = QRCode.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/encoder/QRCode.h; sourceTree = "<absolute>"; };
+		CF9309D373048FDBD512E844 /* AztecReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AztecReader.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/aztec/AztecReader.h; sourceTree = "<absolute>"; };
+		CFAC0C090DA2184E9948BC17 /* Detector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Detector.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/aztec/detector/Detector.h; sourceTree = "<absolute>"; };
+		D142A2B189BEE7E24280B58F /* FinderPatternFinder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FinderPatternFinder.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/detector/FinderPatternFinder.h; sourceTree = "<absolute>"; };
+		D1CDA60718D6159DA9F18DFB /* BitArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BitArray.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/BitArray.h; sourceTree = "<absolute>"; };
+		D2848AF71A74CED72A1A4C04 /* windowplugin */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = windowplugin; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Window.2/libwindowplugin$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		D393DF26C0FBEB5FC8122311 /* FormatInformation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FormatInformation.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/FormatInformation.h; sourceTree = "<absolute>"; };
+		D3AAE94C69A8F87460B435D2 /* PDF417Detector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PDF417Detector.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/pdf417/detector/PDF417Detector.cpp; sourceTree = "<absolute>"; };
+		D636C678BDFA0A8BB34D3207 /* httpclient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = httpclient.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/httpclient.h; sourceTree = "<absolute>"; };
+		D6801992AA25DB669699550B /* MultiFormatOneDReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MultiFormatOneDReader.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/oned/MultiFormatOneDReader.cpp; sourceTree = "<absolute>"; };
+		D734EF75606866D50798EAF1 /* IllegalStateException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IllegalStateException.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/IllegalStateException.h; sourceTree = "<absolute>"; };
+		D73C2F7E9E7338C72E0701A8 /* GenericGF.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GenericGF.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/reedsolomon/GenericGF.cpp; sourceTree = "<absolute>"; };
+		D7C0881407BF65C0C54FA1BF /* Point.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Point.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/Point.h; sourceTree = "<absolute>"; };
+		D892B3ADE04E17D066DA10AD /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/vpp_ios/VPP.xcodeproj/LaunchScreen.xib; sourceTree = "<absolute>"; };
+		D954B95BDCF1A4B4E598A524 /* DataMatrixDecodedBitStreamParser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DataMatrixDecodedBitStreamParser.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/datamatrix/decoder/DataMatrixDecodedBitStreamParser.cpp; sourceTree = "<absolute>"; };
+		DA43656F33CDDC9F301DAC60 /* MathUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MathUtils.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/detector/MathUtils.h; sourceTree = "<absolute>"; };
+		DA71FA281736E96B507860B3 /* Qt5Widgets */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5Widgets; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libQt5Widgets$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		DACBB53CF87745F7098335E9 /* DataBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DataBlock.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/decoder/DataBlock.h; sourceTree = "<absolute>"; };
+		DC1BC1C90161E4C3EF65CB92 /* BigUnsignedInABase.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = BigUnsignedInABase.cc; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/bigint/BigUnsignedInABase.cc; sourceTree = "<absolute>"; };
+		DDB1BA7DFDC5351807F9BD70 /* DecodedBitStreamParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DecodedBitStreamParser.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/decoder/DecodedBitStreamParser.h; sourceTree = "<absolute>"; };
+		DDBB111EA22C61EA3605B1BC /* Qt5Quick */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5Quick; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libQt5Quick$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		DF0A899D879F405B6CB62905 /* BitArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = BitArray.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/BitArray.cpp; sourceTree = "<absolute>"; };
+		DF55702E021A04BC85992345 /* DataMatrixDetectorException.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DataMatrixDetectorException.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/datamatrix/detector/DataMatrixDetectorException.cpp; sourceTree = "<absolute>"; };
+		E0EE946ABE6E1FB854B0024D /* qwebp */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qwebp; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/imageformats/libqwebp$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		E1CC0DBD6B661A03783BE8F7 /* DetectorException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DetectorException.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/datamatrix/detector/DetectorException.h; sourceTree = "<absolute>"; };
+		E2530C1F5A4DEE39FDF7CDB5 /* BitMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BitMatrix.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/BitMatrix.h; sourceTree = "<absolute>"; };
+		E3601F9764C5169B472307A2 /* qtquick2plugin */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qtquick2plugin; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick.2/libqtquick2plugin$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		E3B64B2A69DF70CB43DFB338 /* Decoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Decoder.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/aztec/decoder/Decoder.h; sourceTree = "<absolute>"; };
+		E3FFCCB14A0E57E57B55DE47 /* qtgraphicaleffectsplugin */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qtgraphicaleffectsplugin; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtGraphicalEffects/libqtgraphicaleffectsplugin$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		E4BCA483195BA727ADB6B431 /* Qt5Sql */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5Sql; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libQt5Sql$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		E595FA468BE600D80CD38130 /* UnsupportedEncodingException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UnsupportedEncodingException.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/UnsupportedEncodingException.h; sourceTree = "<absolute>"; };
+		E70E98D2BA91022C1BEF1EF7 /* GreyscaleLuminanceSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GreyscaleLuminanceSource.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/GreyscaleLuminanceSource.h; sourceTree = "<absolute>"; };
+		E74454A7AE8E1461838B33AC /* DecoderResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DecoderResult.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/DecoderResult.h; sourceTree = "<absolute>"; };
+		E747AE3D9C1A470A6936DAD6 /* Qt5QuickTemplates2 */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5QuickTemplates2; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libQt5QuickTemplates2$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		E998C440452BCAE209F375D1 /* QREncoder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = QREncoder.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/encoder/QREncoder.cpp; sourceTree = "<absolute>"; };
+		E9D668246EB8A5D7D5EDB222 /* ReedSolomonDecoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ReedSolomonDecoder.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/reedsolomon/ReedSolomonDecoder.h; sourceTree = "<absolute>"; };
+		EA01AAEE6BC54457AA6FF0EC /* QRErrorCorrectionLevel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = QRErrorCorrectionLevel.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/QRErrorCorrectionLevel.cpp; sourceTree = "<absolute>"; };
+		EA5821EE16BBB76E6BB839C7 /* DecodedBitStreamParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DecodedBitStreamParser.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/datamatrix/decoder/DecodedBitStreamParser.h; sourceTree = "<absolute>"; };
+		EB381C6EDEFBD0C230949E54 /* Code128Reader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Code128Reader.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/oned/Code128Reader.cpp; sourceTree = "<absolute>"; };
+		EB47BDF16F64B8F0F9DFCBD1 /* AlignmentPatternFinder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AlignmentPatternFinder.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/detector/AlignmentPatternFinder.h; sourceTree = "<absolute>"; };
+		EB971F7DCFEC7E64B7083469 /* vpp_qml_plugin_import.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = vpp_qml_plugin_import.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/vpp_ios/vpp_qml_plugin_import.cpp; sourceTree = "<absolute>"; };
+		EC8E4CBCD6CE77C5E3861FC6 /* CharacterSetECI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CharacterSetECI.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/CharacterSetECI.h; sourceTree = "<absolute>"; };
+		ECC34BE3376CA5AFF2390675 /* Reader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Reader.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/Reader.cpp; sourceTree = "<absolute>"; };
+		ED4CAD16ADA2F3B294FD2505 /* qtgraphicaleffectsprivate */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qtgraphicaleffectsprivate; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtGraphicalEffects/private/libqtgraphicaleffectsprivate$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		EEA18DF9D86C5A49C1B03E2A /* QRCodeReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = QRCodeReader.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/QRCodeReader.h; sourceTree = "<absolute>"; };
+		EF048D0A374845E9109914CE /* UPCAReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UPCAReader.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/oned/UPCAReader.h; sourceTree = "<absolute>"; };
+		EF9017FCDF39B3478E125AFF /* qquicklayoutsplugin */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qquicklayoutsplugin; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Layouts/libqquicklayoutsplugin$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		EFD05FA23366FC60E3A89A5D /* PDF417Reader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PDF417Reader.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/pdf417/PDF417Reader.h; sourceTree = "<absolute>"; };
+		F11C78E09563747DD23224A1 /* QRCodeMultiReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = QRCodeMultiReader.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/multi/qrcode/QRCodeMultiReader.cpp; sourceTree = "<absolute>"; };
+		F11E88ED784DB12B4AC9A747 /* qtmedia_audioengine */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qtmedia_audioengine; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/mediaservice/libqtmedia_audioengine$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		F1526D1E6564199C13FEB483 /* GlobalHistogramBinarizer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GlobalHistogramBinarizer.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/GlobalHistogramBinarizer.cpp; sourceTree = "<absolute>"; };
+		F18841C0489CBF6D2DAC0592 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/main.cpp; sourceTree = "<absolute>"; };
+		F1B93DC0E47C3F5627174BC8 /* MultiDetector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MultiDetector.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/multi/qrcode/detector/MultiDetector.h; sourceTree = "<absolute>"; };
+		F2B04F6B23ADCA45126138F9 /* BigIntegerUtils.hh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BigIntegerUtils.hh; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/bigint/BigIntegerUtils.hh; sourceTree = "<absolute>"; };
+		F34BB896596F40BA6248E398 /* gDataBase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = gDataBase.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/gDataBase.cpp; sourceTree = "<absolute>"; };
+		F3D435346EA72AD34AD84666 /* ReaderException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ReaderException.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/ReaderException.h; sourceTree = "<absolute>"; };
+		F41207D6FD68137833F44F36 /* EAN13Reader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = EAN13Reader.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/oned/EAN13Reader.cpp; sourceTree = "<absolute>"; };
+		F42D7A8F979760DC7723BBBF /* DataMask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DataMask.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/decoder/DataMask.h; sourceTree = "<absolute>"; };
+		F49C0417A88B57520FDFC199 /* GenericGFPoly.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GenericGFPoly.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/reedsolomon/GenericGFPoly.cpp; sourceTree = "<absolute>"; };
+		F6DCB06E13EF1544FCB56E9A /* QRDataMask.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = QRDataMask.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/decoder/QRDataMask.cpp; sourceTree = "<absolute>"; };
+		F6E98BF1536202571003C9F1 /* QRDecodedBitStreamParser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = QRDecodedBitStreamParser.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/decoder/QRDecodedBitStreamParser.cpp; sourceTree = "<absolute>"; };
+		F923F38E989CF0F61A164DD8 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		F94AD9C20169ACA3838E9B09 /* ReedSolomonException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ReedSolomonException.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/reedsolomon/ReedSolomonException.h; sourceTree = "<absolute>"; };
+		FA5C396FF59841F474A33CBD /* ByQuadrantReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ByQuadrantReader.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/multi/ByQuadrantReader.cpp; sourceTree = "<absolute>"; };
+		FAAAD0ED159B94B0F43EF96D /* MultiFormatOneDReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MultiFormatOneDReader.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/oned/MultiFormatOneDReader.h; sourceTree = "<absolute>"; };
+		FC3EF56967D4BF0E67230E70 /* QRMode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = QRMode.cpp; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/decoder/QRMode.cpp; sourceTree = "<absolute>"; };
+		FCC237CA5AD60B9BA4447615 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		FE0FC85B4C6AF125FA0C53CC /* IllegalArgumentException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IllegalArgumentException.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/common/IllegalArgumentException.h; sourceTree = "<absolute>"; };
+		FE94878C65F3BBEDEC1418D3 /* Version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Version.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/Version.h; sourceTree = "<absolute>"; };
+		FEEAECD4DB2B3E24A65F2FFC /* Qt5OpenGL */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5OpenGL; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libQt5OpenGL$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		FF455A83F98E455950DF5E05 /* InvertedLuminanceSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = InvertedLuminanceSource.h; path = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/InvertedLuminanceSource.h; sourceTree = "<absolute>"; };
+		FFF5721655D091AD371580DB /* Qt5Network */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5Network; path = "/Users/tamvh/Qt5.9.2/5.9.2/ios/lib/libQt5Network$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1C883685E82D5676953459A /* Link Binary With Libraries */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26454630C80841CBDCFE1CA /* Foundation.framework in Link Binary With Libraries */,
+				B460F624007324313696BE86 /* QuartzCore.framework in Link Binary With Libraries */,
+				4EB68D0C8182BCE33529C421 /* AudioToolbox.framework in Link Binary With Libraries */,
+				F8B465CE34D8DF87AAE95913 /* CoreFoundation.framework in Link Binary With Libraries */,
+				0CE02722F00CAD43741297B5 /* CoreGraphics.framework in Link Binary With Libraries */,
+				2B02D9DC58A01E45248DDBCE /* CoreText.framework in Link Binary With Libraries */,
+				7629DCCB2F8F84CF23F988B3 /* qavfcamera in Link Binary With Libraries */,
+				35A1A39F8EAB37889EB3D397 /* CoreAudio.framework in Link Binary With Libraries */,
+				B78304F135DEF1F7A68393A6 /* CoreMedia.framework in Link Binary With Libraries */,
+				6602E41D28CF886E694AD752 /* CoreVideo.framework in Link Binary With Libraries */,
+				15364689D2AB5A30E87A689F /* Security.framework in Link Binary With Libraries */,
+				CCA737EE379CDB10CC9A0F23 /* AVFoundation.framework in Link Binary With Libraries */,
+				F206C1B265FCECCBBC1BE634 /* qavfmediaplayer in Link Binary With Libraries */,
+				4E71F9ECE8CDF6D3716CACAD /* Qt5MultimediaWidgets in Link Binary With Libraries */,
+				23A44CC84E73BBAB89E9774B /* Qt5OpenGL in Link Binary With Libraries */,
+				48CABB9AFD774DBEDF960F22 /* Qt5Widgets in Link Binary With Libraries */,
+				E551D87B055D0093FB6C37F6 /* qtmedia_audioengine in Link Binary With Libraries */,
+				79204AE5E589FBBEA347BEB8 /* qtaudio_coreaudio in Link Binary With Libraries */,
+				E785E6C8C26059E29E0C8002 /* qtmultimedia_m3u in Link Binary With Libraries */,
+				24266F5ECB4AF541FD897C14 /* qios in Link Binary With Libraries */,
+				78C7CA040C390323388A71F4 /* Qt5FontDatabaseSupport in Link Binary With Libraries */,
+				AF8840298F3F6B6E8EFDDD3C /* qtfreetype in Link Binary With Libraries */,
+				D372EF332121156DF0C37865 /* Qt5GraphicsSupport in Link Binary With Libraries */,
+				1E202A03B25C09A4006070AC /* Qt5ClipboardSupport in Link Binary With Libraries */,
+				1B4AF637143C79D72D641C18 /* qgif in Link Binary With Libraries */,
+				1E4CC62E1BC54405A50C8367 /* qicns in Link Binary With Libraries */,
+				18A34CFDB7A1311356C371E0 /* qico in Link Binary With Libraries */,
+				BA508EAB4D294E7715E84719 /* qjpeg in Link Binary With Libraries */,
+				04008848EE3734BDD8BAA3BC /* qmacjp2 in Link Binary With Libraries */,
+				61EEC397DC8556BF8C4E36A7 /* ImageIO.framework in Link Binary With Libraries */,
+				901127604999BAA7C0CDF1CF /* qtga in Link Binary With Libraries */,
+				130783472697E58D15E34460 /* qtiff in Link Binary With Libraries */,
+				978EE9483007DD28ED179E1F /* qwbmp in Link Binary With Libraries */,
+				103F707BE429EDF573292208 /* qwebp in Link Binary With Libraries */,
+				7C453C8359D4C9F5EE76BE39 /* qmldbg_debugger in Link Binary With Libraries */,
+				060C1D3847EF76920375FF61 /* qmldbg_inspector in Link Binary With Libraries */,
+				4C3897B9501323B34D0D0294 /* qmldbg_local in Link Binary With Libraries */,
+				32C204D5A9018A7778884A85 /* qmldbg_messages in Link Binary With Libraries */,
+				7295EB47757F884DE6CAFDDB /* qmldbg_native in Link Binary With Libraries */,
+				148BB20E05C008E76B475CE8 /* qmldbg_nativedebugger in Link Binary With Libraries */,
+				10BCBCBD69CE99DF0F49C1F2 /* qmldbg_profiler in Link Binary With Libraries */,
+				100ABFAFFFD73CE80740A851 /* qmldbg_quickprofiler in Link Binary With Libraries */,
+				C8331B55F868C536215E3C85 /* qmldbg_server in Link Binary With Libraries */,
+				EBC7964722856FDE083DF60C /* Qt5PacketProtocol in Link Binary With Libraries */,
+				3E86D3761C99AE59CA6D6198 /* qmldbg_tcp in Link Binary With Libraries */,
+				FF00B365186C6B597BACAAAD /* qgenericbearer in Link Binary With Libraries */,
+				F1E5CE265F23FD642039CB74 /* qsqlite in Link Binary With Libraries */,
+				E5D02E4E195BCE45B0407889 /* Qt5WebSockets in Link Binary With Libraries */,
+				B32566D1D8D17B8B8F269834 /* Qt5Bluetooth in Link Binary With Libraries */,
+				0870834790CEDE2D52551A52 /* CoreBluetooth.framework in Link Binary With Libraries */,
+				3587D88EB9DCF884202B3500 /* Qt5Sql in Link Binary With Libraries */,
+				1312036CFF1B3B27E58B06F3 /* qtquick2plugin in Link Binary With Libraries */,
+				590B4CD71BE84B48D9D61FF2 /* windowplugin in Link Binary With Libraries */,
+				B3584E2AD1AD8E84DC33FBCA /* qquicklayoutsplugin in Link Binary With Libraries */,
+				0D2CF0BD307FDBA10D4A74A8 /* declarative_multimedia in Link Binary With Libraries */,
+				18574C0AAD7FD1159ECFB2AB /* Qt5MultimediaQuick_p in Link Binary With Libraries */,
+				86B09773E18AA21D3C9A6B71 /* Qt5Multimedia in Link Binary With Libraries */,
+				16D4BDFD955361770F0F7B8C /* qtquickcontrols2plugin in Link Binary With Libraries */,
+				6A03B28F439A1198F594DBE0 /* qtquickcontrols2materialstyleplugin in Link Binary With Libraries */,
+				278AD8B767727667940B3457 /* Qt5QuickControls2 in Link Binary With Libraries */,
+				4E48D0A43C58AC238B175464 /* qtgraphicaleffectsplugin in Link Binary With Libraries */,
+				2710B692522B8D628764BE22 /* qmlsettingsplugin in Link Binary With Libraries */,
+				0B5FFA7BF20749B5C13A987C /* qtquicktemplates2plugin in Link Binary With Libraries */,
+				B805F53B89DEE5B53617B3FD /* Qt5QuickTemplates2 in Link Binary With Libraries */,
+				DA66250A027172FE0243F826 /* qtgraphicaleffectsprivate in Link Binary With Libraries */,
+				F7E1D88A9F071A3D5C1AF150 /* Qt5Quick in Link Binary With Libraries */,
+				ABF12648EDE5148878FE7AA9 /* Qt5Gui in Link Binary With Libraries */,
+				2C5F064DAD6C623FB3F7C4F3 /* qtlibpng in Link Binary With Libraries */,
+				94344A9FD6335A808E459A87 /* qtharfbuzz in Link Binary With Libraries */,
+				D98D52F9E05FFFF14C50777B /* Qt5Qml in Link Binary With Libraries */,
+				F4116D956775E0570B4B9354 /* Qt5Network in Link Binary With Libraries */,
+				0305DADDDDEA59E789FC1ABC /* Qt5Core in Link Binary With Libraries */,
+				457D46F93A82E7F3646D1C2D /* qtpcre2 in Link Binary With Libraries */,
+			);
+			name = "Link Binary With Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B4193F3F6578CEBD856637D /* detector */ = {
+			isa = PBXGroup;
+			children = (
+				31AE7BF4C95B4062606B643E /* QRAlignmentPattern.cpp */,
+				4BB77FF8007971A5A352A924 /* QRAlignmentPatternFinder.cpp */,
+				AF9D4EFCD4D8EE771583E773 /* QRDetector.cpp */,
+				2210082E56998CA4A002646A /* QRFinderPattern.cpp */,
+				AB0B9DA56EF6116D3D7793CB /* QRFinderPatternFinder.cpp */,
+				20162A23B3E5252F94324E3C /* QRFinderPatternInfo.cpp */,
+				A00961F3445282C74B65639F /* FinderPatternInfo.h */,
+				D142A2B189BEE7E24280B58F /* FinderPatternFinder.h */,
+				470930884EBB5F58C5C59C7B /* FinderPattern.h */,
+				28EDB136886C7E1CE62CCE25 /* Detector.h */,
+				EB47BDF16F64B8F0F9DFCBD1 /* AlignmentPatternFinder.h */,
+				3FB6C52D9C088C280F6E76A8 /* AlignmentPattern.h */,
+			);
+			name = detector;
+			sourceTree = "<group>";
+		};
+		0CA3608B23D4691D8743A98C /* zxing */ = {
+			isa = PBXGroup;
+			children = (
+				3ACD8B47E046DAA3A81F600D /* ResultIO.cpp */,
+				CBB2D0D6504041A480BF8630 /* InvertedLuminanceSource.cpp */,
+				6E47F95C3EE087DE810FD13B /* ChecksumException.cpp */,
+				5D26D3B7A39BB29DCA0082AA /* ResultPointCallback.cpp */,
+				B85E5D7A216EC0BEDE880B50 /* ResultPoint.cpp */,
+				CD40E454236501BA987E2995 /* Result.cpp */,
+				ECC34BE3376CA5AFF2390675 /* Reader.cpp */,
+				4B7C2535B2211C4AF3952A4B /* MultiFormatReader.cpp */,
+				2B240FAAA35F9E23830991B7 /* LuminanceSource.cpp */,
+				B70B68886D73528F4280BAD9 /* FormatException.cpp */,
+				48A602074A80FA68780B83D7 /* Exception.cpp */,
+				76444FCD75012467543A6B2B /* DecodeHints.cpp */,
+				6566A0BB675428E5E747D98B /* BinaryBitmap.cpp */,
+				183C87C51F1BF35C362C3F67 /* Binarizer.cpp */,
+				AD5C2B6B613246AF2FBEDFB1 /* BarcodeFormat.cpp */,
+				DC0937984508E3F16569D9C2 /* aztec */,
+				60BE933F1816D1CDCE7BE3A4 /* common */,
+				87D6CADC27D7A1EADCFE032F /* datamatrix */,
+				C082FD035EA8A943299AF2BB /* oned */,
+				DE8C00CD9AF86577A90852C4 /* qrcode */,
+				66B3D74B1FBCA719A26A5BC0 /* multi */,
+				176495D99986DACCAD3A62BE /* pdf417 */,
+				843D29172EE6E70DF62243DA /* EncodeHint.cpp */,
+				68334990D31C8460C60B5973 /* ZXing.h */,
+				D734EF75606866D50798EAF1 /* IllegalStateException.h */,
+				FF455A83F98E455950DF5E05 /* InvertedLuminanceSource.h */,
+				7BDC5F8B39A017260D79F1DE /* ChecksumException.h */,
+				1F613EC63DD3676748FA1C50 /* ResultPointCallback.h */,
+				B87A63BCD6B548FF9D23641C /* ResultPoint.h */,
+				ADB2EDE287A3367F362E3606 /* Result.h */,
+				F3D435346EA72AD34AD84666 /* ReaderException.h */,
+				5FD87ED630048626943776B0 /* Reader.h */,
+				93C8AC1D827C35D22D65BB78 /* NotFoundException.h */,
+				04DAC77862D0A6F84D76A007 /* MultiFormatReader.h */,
+				4505CC953C1801C50C202859 /* LuminanceSource.h */,
+				230B26E4DFFA3B2ECAFE3ACB /* FormatException.h */,
+				13EFA3820C2DA4B9233824A6 /* Exception.h */,
+				1137DF7E2BFAF4B6E7B439AE /* DecodeHints.h */,
+				8D0076DF51BFA409F9CFBECC /* BinaryBitmap.h */,
+				90FF5F2CC54E0D08E4A2F463 /* Binarizer.h */,
+				678BD522A1A596B3503CC04E /* BarcodeFormat.h */,
+				4F224E02D2108C6F06C5D7DB /* WriterException.h */,
+				2EA4AE490CF5ED40EFAF8CD4 /* EncodeHint.h */,
+				E595FA468BE600D80CD38130 /* UnsupportedEncodingException.h */,
+			);
+			name = zxing;
+			sourceTree = "<group>";
+		};
+		176495D99986DACCAD3A62BE /* pdf417 */ = {
+			isa = PBXGroup;
+			children = (
+				81E9EC2F9820BDFB86C12AFA /* decoder */,
+				F1C4DE25C207E35F7DE925C5 /* detector */,
+				388243FD03C9C63FC989DEFD /* PDF417Reader.cpp */,
+				EFD05FA23366FC60E3A89A5D /* PDF417Reader.h */,
+			);
+			name = pdf417;
+			sourceTree = "<group>";
+		};
+		1934033692674B783DE1FD90 /* reedsolomon */ = {
+			isa = PBXGroup;
+			children = (
+				905A18E661CA615888EB874D /* ReedSolomonException.cpp */,
+				AAFC6A28ECC29E82FE832241 /* ReedSolomonDecoder.cpp */,
+				F49C0417A88B57520FDFC199 /* GenericGFPoly.cpp */,
+				D73C2F7E9E7338C72E0701A8 /* GenericGF.cpp */,
+				2DDA429D00D4DCB6BD9B95B4 /* ReedSolomonEncoder.cpp */,
+				F94AD9C20169ACA3838E9B09 /* ReedSolomonException.h */,
+				E9D668246EB8A5D7D5EDB222 /* ReedSolomonDecoder.h */,
+				9015EE2329ECC23FF3BFAE34 /* GenericGFPoly.h */,
+				A56271B80E6DBC14E60697CD /* GenericGF.h */,
+				CD12C693CFC2B53DCBBEE7E2 /* ReedSolomonEncoder.h */,
+			);
+			name = reedsolomon;
+			sourceTree = "<group>";
+		};
+		1F2BB001D9F069E26ECF771B /* detector */ = {
+			isa = PBXGroup;
+			children = (
+				63C0CE3A81164C73BFE93F7B /* DataMatrixCornerPoint.cpp */,
+				C3B2E31F6B1913AF786F3B0E /* DataMatrixDetector.cpp */,
+				DF55702E021A04BC85992345 /* DataMatrixDetectorException.cpp */,
+				E1CC0DBD6B661A03783BE8F7 /* DetectorException.h */,
+				0335558EFC8C2879B8316A3E /* Detector.h */,
+				72FCA574A2D708CB9F4AB2FF /* CornerPoint.h */,
+			);
+			name = detector;
+			sourceTree = "<group>";
+		};
+		25B08E2869634E9BCBA333A2 /* Generated Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C7F2510C1ACBE57F39EBFE0B /* vpp_plugin_import.cpp */,
+				EB971F7DCFEC7E64B7083469 /* vpp_qml_plugin_import.cpp */,
+				A02D40BEF4A92656A2F84598 /* qrc_qml.cpp */,
+				59A8EB3D3EC976589C6300BE /* moc_ImageHandler.cpp */,
+				2EFB2662CD3601221E2124F3 /* moc_QZXing.cpp */,
+				2904DBC4F8289DBF73EAD040 /* moc_QZXingFilter.cpp */,
+				6B7B828EA1DD303F6A397F70 /* moc_httpclient.cpp */,
+				8E8A4FEDC0554673C72927D4 /* moc_blemgr.cpp */,
+			);
+			name = "Generated Sources";
+			sourceTree = "<group>";
+		};
+		2A277B66A439242BCB200F17 /* encoder */ = {
+			isa = PBXGroup;
+			children = (
+				85EB17BD834E4B94D045ABA6 /* ByteMatrix.cpp */,
+				E998C440452BCAE209F375D1 /* QREncoder.cpp */,
+				7F965A60866C521C6CB224EE /* MaskUtil.cpp */,
+				30355C8E7F9F6542C86D5849 /* MatrixUtil.cpp */,
+				4441B1947AEA42A8B6F394AE /* QRCode.cpp */,
+				CB7E30AECC2A865490B7C536 /* BlockPair.h */,
+				17EAF0C8BD77094996C8E403 /* ByteMatrix.h */,
+				43B5FD913F10D8CC9868020C /* Encoder.h */,
+				26C4C490FA596F41A7941C05 /* MaskUtil.h */,
+				AACAB441BEC9B49A7BE9C284 /* MatrixUtil.h */,
+				CF1A846604FDB41D67E5E57C /* QRCode.h */,
+			);
+			name = encoder;
+			sourceTree = "<group>";
+		};
+		2EB56BE3C2D93CDAB0C52E67 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F18841C0489CBF6D2DAC0592 /* main.cpp */,
+				437DC6D7A4495646AB985F14 /* httpclient.cpp */,
+				F34BB896596F40BA6248E398 /* gDataBase.cpp */,
+				3DA361A0F2C1700271FEFCBA /* blemgr.cpp */,
+				921315FAA7F261D737F4F4C7 /* src */,
+				D636C678BDFA0A8BB34D3207 /* httpclient.h */,
+				484B418B7235C8C321189B3B /* gDataBase.h */,
+				727EF1CB37932FD8FE47CFAA /* blemgr.h */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		313877EDDBB4B2679F3E1799 /* decoder */ = {
+			isa = PBXGroup;
+			children = (
+				B7E5F8B911CF190ED3414FF2 /* QRBitMatrixParser.cpp */,
+				3DD32B1037555E40EC814245 /* QRDataBlock.cpp */,
+				F6DCB06E13EF1544FCB56E9A /* QRDataMask.cpp */,
+				F6E98BF1536202571003C9F1 /* QRDecodedBitStreamParser.cpp */,
+				CEA037F447384DD67E3CCEE6 /* QRDecoder.cpp */,
+				FC3EF56967D4BF0E67230E70 /* QRMode.cpp */,
+				21A4E58A71BAFBDFD6E6D86D /* Mode.h */,
+				BD927D09038E07C0F0D6579F /* Decoder.h */,
+				DDB1BA7DFDC5351807F9BD70 /* DecodedBitStreamParser.h */,
+				F42D7A8F979760DC7723BBBF /* DataMask.h */,
+				DACBB53CF87745F7098335E9 /* DataBlock.h */,
+				5437CA884AC1BF7274DB7090 /* BitMatrixParser.h */,
+			);
+			name = decoder;
+			sourceTree = "<group>";
+		};
+		3A971A0629DC6FCCC39F91E6 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0A7B6CBC34AAF081DB4A2945 /* QZXing.pri */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		47B310113B1326F338F22A54 /* detector */ = {
+			isa = PBXGroup;
+			children = (
+				CD3AC1FAE9881983547FE73C /* WhiteRectangleDetector.cpp */,
+				AB48567941A2A896594673DD /* MonochromeRectangleDetector.cpp */,
+				DA43656F33CDDC9F301DAC60 /* MathUtils.h */,
+				321BEC3FBF7788083367A0C1 /* JavaMath.h */,
+				CA6A2E8B1C66581A6803A653 /* WhiteRectangleDetector.h */,
+				4F17F02BB9D610AEAEA33286 /* MonochromeRectangleDetector.h */,
+			);
+			name = detector;
+			sourceTree = "<group>";
+		};
+		5C88CD0D799D154E15055044 /* detector */ = {
+			isa = PBXGroup;
+			children = (
+				05B2857555740E721858816C /* MultiFinderPatternFinder.cpp */,
+				14DD99477E562A648C71D6E8 /* MultiDetector.cpp */,
+				96F9DDD4B66D400DF6600D58 /* MultiFinderPatternFinder.h */,
+				F1B93DC0E47C3F5627174BC8 /* MultiDetector.h */,
+			);
+			name = detector;
+			sourceTree = "<group>";
+		};
+		60BE933F1816D1CDCE7BE3A4 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				1F90C1AC8BFF78E1AFD18E81 /* StringUtils.cpp */,
+				ABE4DECE37659F63FDB5BEDE /* Str.cpp */,
+				AA83678C653080E9EC4211C2 /* PerspectiveTransform.cpp */,
+				3F42750DC0D624703667F038 /* IllegalArgumentException.cpp */,
+				1A56897B32CF5924609AB259 /* HybridBinarizer.cpp */,
+				01128D6E0774B94E682734D3 /* GridSampler.cpp */,
+				44E32C20840A3658965FCE76 /* GreyscaleRotatedLuminanceSource.cpp */,
+				5AE1E9F3D642B2E11AF139A6 /* GreyscaleLuminanceSource.cpp */,
+				F1526D1E6564199C13FEB483 /* GlobalHistogramBinarizer.cpp */,
+				4162C754C3D13B0AB4BE3078 /* DetectorResult.cpp */,
+				5292034C6AC933A0608E45E8 /* DecoderResult.cpp */,
+				0DEB563BD398B8D64D3AD7ED /* CharacterSetECI.cpp */,
+				862C5240BC3FCD36CAB57828 /* BitSource.cpp */,
+				26F8FBA5EEF1AC79CBB6C3F8 /* BitMatrix.cpp */,
+				DF0A899D879F405B6CB62905 /* BitArray.cpp */,
+				1DC7C66D9211EFEC0D80B35E /* BitArrayIO.cpp */,
+				47B310113B1326F338F22A54 /* detector */,
+				1934033692674B783DE1FD90 /* reedsolomon */,
+				918AEFFE27000689B3BFAAF4 /* StringUtils.h */,
+				9EDDA7271F29730AF91BCD64 /* Str.h */,
+				D7C0881407BF65C0C54FA1BF /* Point.h */,
+				9FD07C7EFCFA6C1C7E985383 /* PerspectiveTransform.h */,
+				FE0FC85B4C6AF125FA0C53CC /* IllegalArgumentException.h */,
+				736626596E31C28C58567F9B /* HybridBinarizer.h */,
+				7FE43F213B4A4DC1B2380640 /* GridSampler.h */,
+				6597E0A9DC8E198B9595A202 /* GreyscaleRotatedLuminanceSource.h */,
+				E70E98D2BA91022C1BEF1EF7 /* GreyscaleLuminanceSource.h */,
+				CEA241F098503FD0E5C81E39 /* GlobalHistogramBinarizer.h */,
+				A0C454449FC2DF6937B1BDBA /* DetectorResult.h */,
+				E74454A7AE8E1461838B33AC /* DecoderResult.h */,
+				C6FE3073350E0163D573C187 /* Counted.h */,
+				EC8E4CBCD6CE77C5E3861FC6 /* CharacterSetECI.h */,
+				1C4B8E5319B69B79713EEB2F /* BitSource.h */,
+				E2530C1F5A4DEE39FDF7CDB5 /* BitMatrix.h */,
+				D1CDA60718D6159DA9F18DFB /* BitArray.h */,
+				5A2266A6EAB59AE880FD83C2 /* Array.h */,
+				8C36B9F75DA714F9455B9B03 /* Types.h */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		669B438FD52E036584E98992 /* decoder */ = {
+			isa = PBXGroup;
+			children = (
+				6AD045DF335444594D258824 /* DataMatrixDecoder.cpp */,
+				278DCDC7883A9BD996BE8E9A /* DataMatrixBitMatrixParser.cpp */,
+				56F703267B07E8516C6E017B /* DataMatrixDataBlock.cpp */,
+				D954B95BDCF1A4B4E598A524 /* DataMatrixDecodedBitStreamParser.cpp */,
+				10DB1502D1A74748204EFBF9 /* Decoder.h */,
+				EA5821EE16BBB76E6BB839C7 /* DecodedBitStreamParser.h */,
+				15530E7727FA86CAF31B48C7 /* DataBlock.h */,
+				807B3EA24DC77C3B1102DB59 /* BitMatrixParser.h */,
+			);
+			name = decoder;
+			sourceTree = "<group>";
+		};
+		66B3D74B1FBCA719A26A5BC0 /* multi */ = {
+			isa = PBXGroup;
+			children = (
+				30FB5F59B13C41DDAE81C3A4 /* MultipleBarcodeReader.cpp */,
+				3E2C48C7284CD12F4D0F6651 /* GenericMultipleBarcodeReader.cpp */,
+				FA5C396FF59841F474A33CBD /* ByQuadrantReader.cpp */,
+				F34FB7A61397D27FE6A3F184 /* qrcode */,
+				89BA57C4B8E80DB726769EE7 /* MultipleBarcodeReader.h */,
+				ABF6298B5C437EAA36E5F3D3 /* GenericMultipleBarcodeReader.h */,
+				9B8AAF1E27DDAFD9CEE56C25 /* ByQuadrantReader.h */,
+			);
+			name = multi;
+			sourceTree = "<group>";
+		};
+		6C6978B199797B26D59060DC /* zxing */ = {
+			isa = PBXGroup;
+			children = (
+				0CA3608B23D4691D8743A98C /* zxing */,
+				FD8696B0B9CDBC35C9319A1E /* bigint */,
+			);
+			name = zxing;
+			sourceTree = "<group>";
+		};
+		74B182DB50CB5611B5C1C297 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B768EF989D7EEA92F8607F95 /* VPP.pro */,
+				B6D0DB0A5F2763F23A58D025 /* .qmake.stash */,
+				3A971A0629DC6FCCC39F91E6 /* src */,
+				2957995CA203E6BB9CEE4B03 /* VPP.pro */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		807163DBDAB3FD44D7D4BAC0 /* decoder */ = {
+			isa = PBXGroup;
+			children = (
+				42825AE22D25CB18648E5BD6 /* AztecDecoder.cpp */,
+				E3B64B2A69DF70CB43DFB338 /* Decoder.h */,
+			);
+			name = decoder;
+			sourceTree = "<group>";
+		};
+		81E9EC2F9820BDFB86C12AFA /* decoder */ = {
+			isa = PBXGroup;
+			children = (
+				BE762F277B4FA2635F52FAC2 /* ec */,
+				9E97DA2ABBA2CBB47EDF7517 /* PDF417BitMatrixParser.cpp */,
+				289E9065EB20E798F96019A8 /* PDF417DecodedBitStreamParser.cpp */,
+				722B6546D331D91DCDFBDB62 /* PDF417Decoder.cpp */,
+				84966FB43EEECBF091FDBB21 /* BitMatrixParser.h */,
+				9B9D55A0D7E380882B08BA12 /* DecodedBitStreamParser.h */,
+				4BC9C43653E79E14898A5715 /* Decoder.h */,
+			);
+			name = decoder;
+			sourceTree = "<group>";
+		};
+		858FCAB0EB1F29CF8B07677C /* Bundle Data */ = {
+			isa = PBXGroup;
+			children = (
+				436FB86FCA576706664F7FAD /* Default-568h@2x.png */,
+				D892B3ADE04E17D066DA10AD /* LaunchScreen.xib */,
+			);
+			name = "Bundle Data";
+			sourceTree = "<group>";
+		};
+		87D6CADC27D7A1EADCFE032F /* datamatrix */ = {
+			isa = PBXGroup;
+			children = (
+				521ED48FF9D8FADE18469F67 /* DataMatrixReader.cpp */,
+				21F1AAE033CF3E10834A27AA /* DataMatrixVersion.cpp */,
+				669B438FD52E036584E98992 /* decoder */,
+				1F2BB001D9F069E26ECF771B /* detector */,
+				5C38767B2AA6FC44F057FA19 /* Version.h */,
+				2FA6922436721A35B50AF536 /* DataMatrixReader.h */,
+			);
+			name = datamatrix;
+			sourceTree = "<group>";
+		};
+		87DF60DE337FB58864343E39 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3ACD88913E0CAD5684C79753 /* qml.qrc */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		921315FAA7F261D737F4F4C7 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				537C03172F5527A2704A55E3 /* CameraImageWrapper.cpp */,
+				B7F98F46A1B84C60F382273D /* QZXing.cpp */,
+				45D1CDE432DF8CB1422090DD /* ImageHandler.cpp */,
+				6C6978B199797B26D59060DC /* zxing */,
+				6DE7B2F3FAA45704E37CB99B /* QZXingFilter.cpp */,
+				73AFCD036E923805CD6B6AE4 /* QZXingImageProvider.cpp */,
+				7608ABAE33E1DD1284C768AB /* QZXing_global.h */,
+				1C9D18A43DD77EAB2DD7E013 /* CameraImageWrapper.h */,
+				1930816247C85E76B7AC3332 /* ImageHandler.h */,
+				563961C38B520B1F19942472 /* QZXing.h */,
+				2098B8C87BA54A46F84558B4 /* QZXingFilter.h */,
+				132C7302202B3ED0DE34583E /* QZXingImageProvider.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		AF39DD055C3EF8226FBE929D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCC237CA5AD60B9BA4447615 /* Foundation.framework */,
+				7EC00404ACD5AB0E97726B0E /* QuartzCore.framework */,
+				3C44131FDCFEF4396B9EA2BA /* AudioToolbox.framework */,
+				4D765E1B1EA6C757220C63E7 /* CoreFoundation.framework */,
+				6AE3EC31EE5BB1FCEE84137C /* CoreGraphics.framework */,
+				7D7B02101166B76FD2D4F8B4 /* CoreText.framework */,
+				9006CD33D4E70182B6B3B092 /* qavfcamera */,
+				BEF9DFDA6822604126A7E233 /* CoreAudio.framework */,
+				547CCADBD1CC5050167EF948 /* CoreMedia.framework */,
+				F923F38E989CF0F61A164DD8 /* CoreVideo.framework */,
+				205259EEEE2BADA5E64741E3 /* Security.framework */,
+				21F907AB8D19BD779147A085 /* AVFoundation.framework */,
+				B7EA712F967E887D970BD128 /* qavfmediaplayer */,
+				4F1EDB7B736B0C5E502AC1D9 /* Qt5MultimediaWidgets */,
+				FEEAECD4DB2B3E24A65F2FFC /* Qt5OpenGL */,
+				DA71FA281736E96B507860B3 /* Qt5Widgets */,
+				F11E88ED784DB12B4AC9A747 /* qtmedia_audioengine */,
+				03063C184018EBAFD5816E51 /* qtaudio_coreaudio */,
+				439C52CB6808964882C3CF84 /* qtmultimedia_m3u */,
+				588DD810C99F24ED8A1BAA8E /* qios */,
+				BCD45A3A95622751D5522E1E /* Qt5FontDatabaseSupport */,
+				1C9242DF08AB20067522FF7B /* qtfreetype */,
+				21C4C5E7668B94F11D533925 /* Qt5GraphicsSupport */,
+				0BD1415B6C76230ADB98924E /* Qt5ClipboardSupport */,
+				1FB9B199D2C7756AA793B846 /* qgif */,
+				074E9CCFE2397707A338AC82 /* qicns */,
+				587A3A2BC59D7EFA3641502A /* qico */,
+				20E474AE5AC74900B225FF7D /* qjpeg */,
+				907B134F883C1BC8E939A68D /* qmacjp2 */,
+				3A8EF9C62A8D4790CBB89CEA /* ImageIO.framework */,
+				C8FB084BA436B130C5868A00 /* qtga */,
+				9AF943A156C03B2F96173E70 /* qtiff */,
+				B8810085D3D313094652C97A /* qwbmp */,
+				E0EE946ABE6E1FB854B0024D /* qwebp */,
+				30DBC1AFD3BE04BDB58407C8 /* qmldbg_debugger */,
+				375240ADFFCD04237E1DB5FB /* qmldbg_inspector */,
+				A3E72EF7490186D367C679EF /* qmldbg_local */,
+				650C7FCB41E672CA4125351F /* qmldbg_messages */,
+				3080D03AAAA4E03DB24DFE01 /* qmldbg_native */,
+				85F9C7195C4BEB1D023D74B8 /* qmldbg_nativedebugger */,
+				94E2C039937392BB245B7EE9 /* qmldbg_profiler */,
+				2C516596E41BD6C5B3FC9827 /* qmldbg_quickprofiler */,
+				65454938007D37CD89474D89 /* qmldbg_server */,
+				BDE4923AE393E86F3F6DB1CB /* Qt5PacketProtocol */,
+				3B9F032221399B0F7B297A92 /* qmldbg_tcp */,
+				5729A378807148BFD9692C6B /* qgenericbearer */,
+				C2485CF7A529E37C5C3A3340 /* qsqlite */,
+				AF9ACA22ED03D83E29E8AF46 /* Qt5WebSockets */,
+				1DFA979BE2EF57D64E50DEA3 /* Qt5Bluetooth */,
+				71E5705044D6C31AB87AEB17 /* CoreBluetooth.framework */,
+				E4BCA483195BA727ADB6B431 /* Qt5Sql */,
+				E3601F9764C5169B472307A2 /* qtquick2plugin */,
+				D2848AF71A74CED72A1A4C04 /* windowplugin */,
+				EF9017FCDF39B3478E125AFF /* qquicklayoutsplugin */,
+				483AC07F22A9617BB97C48EE /* declarative_multimedia */,
+				7AE506D8E0EF3BC12066A140 /* Qt5MultimediaQuick_p */,
+				278F5A22E1B9F6E2CCA3F5DE /* Qt5Multimedia */,
+				7B03CAD6D021E4F2FE1288E3 /* qtquickcontrols2plugin */,
+				BBE7ABDA0B13C6C640A7F948 /* qtquickcontrols2materialstyleplugin */,
+				0CE613DFECDB282C4EF849DC /* Qt5QuickControls2 */,
+				E3FFCCB14A0E57E57B55DE47 /* qtgraphicaleffectsplugin */,
+				6CB7B1579E58FEBC1F652ADA /* qmlsettingsplugin */,
+				80279EB79E3D6A797CF13B0F /* qtquicktemplates2plugin */,
+				E747AE3D9C1A470A6936DAD6 /* Qt5QuickTemplates2 */,
+				ED4CAD16ADA2F3B294FD2505 /* qtgraphicaleffectsprivate */,
+				DDBB111EA22C61EA3605B1BC /* Qt5Quick */,
+				1CA14BBA361C9591A73120E2 /* Qt5Gui */,
+				3AC2B7315411F96074676897 /* qtlibpng */,
+				56535923DA7462C99A854810 /* qtharfbuzz */,
+				10371428443F5CD6D0367031 /* Qt5Qml */,
+				FFF5721655D091AD371580DB /* Qt5Network */,
+				887443910FA4E50B112137BB /* Qt5Core */,
+				1A83D336EFCC3053C62F35E4 /* qtpcre2 */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE762F277B4FA2635F52FAC2 /* ec */ = {
+			isa = PBXGroup;
+			children = (
+				5E881EFF393781A5FEEBA477 /* ErrorCorrection.cpp */,
+				422A7B109756927BE6F54F7A /* ModulusGF.cpp */,
+				66EE8C911C1C0B1C6811FEDF /* ModulusPoly.cpp */,
+				696ABAF463F6769A0581F467 /* ErrorCorrection.h */,
+				7A5861EBF69782CA53005732 /* ModulusGF.h */,
+				2B6133A0D37C99FF15FBB560 /* ModulusPoly.h */,
+			);
+			name = ec;
+			sourceTree = "<group>";
+		};
+		C082FD035EA8A943299AF2BB /* oned */ = {
+			isa = PBXGroup;
+			children = (
+				03B8B31BBCE36336934FE416 /* UPCEReader.cpp */,
+				107299EBAAB8AAB9EC5725EC /* UPCEANReader.cpp */,
+				71A7F58B3B45736087CDE99D /* UPCAReader.cpp */,
+				55C2AE4FABBEFB2D98160172 /* OneDResultPoint.cpp */,
+				BB6202922705300C3DD9BCFC /* OneDReader.cpp */,
+				37534139F096C38F83AC19BA /* MultiFormatUPCEANReader.cpp */,
+				D6801992AA25DB669699550B /* MultiFormatOneDReader.cpp */,
+				BB47D63BC419BFF5A9977FD1 /* ITFReader.cpp */,
+				F41207D6FD68137833F44F36 /* EAN13Reader.cpp */,
+				7E367FBFE2DD1F579EC719D3 /* EAN8Reader.cpp */,
+				EB381C6EDEFBD0C230949E54 /* Code128Reader.cpp */,
+				66C7F8C6971A3759A5004317 /* Code39Reader.cpp */,
+				8D6D61462BA6C345F7784DE4 /* CodaBarReader.cpp */,
+				507FB700BC69C0A2C1853014 /* Code93Reader.cpp */,
+				77C8AE35987122D0DF9A59F1 /* UPCEReader.h */,
+				966C193F6D7361ED836F7429 /* UPCEANReader.h */,
+				EF048D0A374845E9109914CE /* UPCAReader.h */,
+				44FC7A924054A0FAAA63EF56 /* OneDResultPoint.h */,
+				82C755DF638BB9CA860141F6 /* OneDReader.h */,
+				17CEAEBA9DB3D4144A131DDF /* MultiFormatUPCEANReader.h */,
+				FAAAD0ED159B94B0F43EF96D /* MultiFormatOneDReader.h */,
+				0DDAEC9ED32A96BDC76E701C /* ITFReader.h */,
+				9FA6E602AED0624429C60747 /* EAN13Reader.h */,
+				94693449C5A360C6FD031903 /* EAN8Reader.h */,
+				5FE420C299DCCC8ECA29793D /* Code128Reader.h */,
+				3AACFE3B94B38ADC5F5FB134 /* Code39Reader.h */,
+				5511D7AE89EE0469483C0FE8 /* CodaBarReader.h */,
+				5A5F72EF0EB8273DA3940E41 /* Code93Reader.h */,
+			);
+			name = oned;
+			sourceTree = "<group>";
+		};
+		DC0937984508E3F16569D9C2 /* aztec */ = {
+			isa = PBXGroup;
+			children = (
+				2526050CE6B46607F4683BA6 /* AztecReader.cpp */,
+				235D4E4F988E981F60631E28 /* AztecDetectorResult.cpp */,
+				807163DBDAB3FD44D7D4BAC0 /* decoder */,
+				DC2C38A7098B567B8E60FBB9 /* detector */,
+				CF9309D373048FDBD512E844 /* AztecReader.h */,
+				681A3593B33095B7AC9BD7A5 /* AztecDetectorResult.h */,
+			);
+			name = aztec;
+			sourceTree = "<group>";
+		};
+		DC2C38A7098B567B8E60FBB9 /* detector */ = {
+			isa = PBXGroup;
+			children = (
+				13A1251F9120879119E57CFA /* AztecDetector.cpp */,
+				CFAC0C090DA2184E9948BC17 /* Detector.h */,
+			);
+			name = detector;
+			sourceTree = "<group>";
+		};
+		DE8C00CD9AF86577A90852C4 /* qrcode */ = {
+			isa = PBXGroup;
+			children = (
+				5C6A3D49E1B00286C3C6F05C /* QRCodeReader.cpp */,
+				313877EDDBB4B2679F3E1799 /* decoder */,
+				0B4193F3F6578CEBD856637D /* detector */,
+				8474E366DD7D0F7EC67F5669 /* QRVersion.cpp */,
+				003385976E9436CC49AC5A94 /* QRFormatInformation.cpp */,
+				EA01AAEE6BC54457AA6FF0EC /* QRErrorCorrectionLevel.cpp */,
+				2A277B66A439242BCB200F17 /* encoder */,
+				FE94878C65F3BBEDEC1418D3 /* Version.h */,
+				EEA18DF9D86C5A49C1B03E2A /* QRCodeReader.h */,
+				D393DF26C0FBEB5FC8122311 /* FormatInformation.h */,
+				053A6AE8B2F3990AAE3579FE /* ErrorCorrectionLevel.h */,
+			);
+			name = qrcode;
+			sourceTree = "<group>";
+		};
+		E8C543AB96796ECAA2E65C57 /* VPP */ = {
+			isa = PBXGroup;
+			children = (
+				2EB56BE3C2D93CDAB0C52E67 /* Sources */,
+				25B08E2869634E9BCBA333A2 /* Generated Sources */,
+				87DF60DE337FB58864343E39 /* Resources */,
+				74B182DB50CB5611B5C1C297 /* Supporting Files */,
+				AF39DD055C3EF8226FBE929D /* Frameworks */,
+				858FCAB0EB1F29CF8B07677C /* Bundle Data */,
+				FE0A091FDBFB3E9C31B7A1BD /* Products */,
+			);
+			name = VPP;
+			sourceTree = "<group>";
+		};
+		F1C4DE25C207E35F7DE925C5 /* detector */ = {
+			isa = PBXGroup;
+			children = (
+				D3AAE94C69A8F87460B435D2 /* PDF417Detector.cpp */,
+				832566A561AB30F15317F236 /* LinesSampler.cpp */,
+				1609A5D7013D6806008FAC4A /* Detector.h */,
+				35ABF7A35BA3611A4BB73B27 /* LinesSampler.h */,
+			);
+			name = detector;
+			sourceTree = "<group>";
+		};
+		F34FB7A61397D27FE6A3F184 /* qrcode */ = {
+			isa = PBXGroup;
+			children = (
+				F11C78E09563747DD23224A1 /* QRCodeMultiReader.cpp */,
+				5C88CD0D799D154E15055044 /* detector */,
+				A08244C1B1905923A0B8FF3C /* QRCodeMultiReader.h */,
+			);
+			name = qrcode;
+			sourceTree = "<group>";
+		};
+		FD8696B0B9CDBC35C9319A1E /* bigint */ = {
+			isa = PBXGroup;
+			children = (
+				DC1BC1C90161E4C3EF65CB92 /* BigUnsignedInABase.cc */,
+				A4DD58EEA7E878EDD3A57929 /* BigUnsigned.cc */,
+				BE047BC69709A7471CA3BAEC /* BigIntegerUtils.cc */,
+				A3E651E7D986DB3AB6CA5C8B /* BigIntegerAlgorithms.cc */,
+				B23B98720031392D91E14648 /* BigInteger.cc */,
+				C581FE19EB63EB1B6B386FF2 /* NumberlikeArray.hh */,
+				83FBAFE6A8F57C6F6C2F308D /* BigUnsignedInABase.hh */,
+				2AC218F542E331AD96E61545 /* BigUnsigned.hh */,
+				F2B04F6B23ADCA45126138F9 /* BigIntegerUtils.hh */,
+				4779CA76A6D0B2592FD0DD52 /* BigIntegerLibrary.hh */,
+				A549E53E73F3B9A1A5B0D700 /* BigIntegerAlgorithms.hh */,
+				4C02333872348AA4248554E9 /* BigInteger.hh */,
+			);
+			name = bigint;
+			sourceTree = "<group>";
+		};
+		FE0A091FDBFB3E9C31B7A1BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C771729B4E0810F95877719C /* VPP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3CAD5BA56A3C17CB0878DDA /* VPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "VPP" */;
+			buildPhases = (
+				F7E50F631C51CD5B5DC0BC43 /* Compile Sources */,
+				D1C883685E82D5676953459A /* Link Binary With Libraries */,
+				30414803F31797EB689AE508 /* Copy Bundle Resources */,
+				99542592E9780B9225F24AA8 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5EB0FAA7633A515F484882A /* PBXTargetDependency */,
+			);
+			name = VPP;
+			productName = VPP;
+			productReference = C771729B4E0810F95877719C /* VPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DB9C3763D02B1415CD9D565 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				TargetAttributes = {
+					78893F03E41428F9FB73A948 = {
+						DevelopmentTeam = 9P8V9S7493;
+					};
+					A3CAD5BA56A3C17CB0878DDA = {
+						DevelopmentTeam = 6M3UDA795H;
+					};
+				};
+			};
+			buildConfigurationList = DAC4C1AA5EDEA1C85E9CA5E6 /* Build configuration list for PBXProject "VPP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E8C543AB96796ECAA2E65C57 /* VPP */;
+			productRefGroup = FE0A091FDBFB3E9C31B7A1BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3CAD5BA56A3C17CB0878DDA /* VPP */,
+				78893F03E41428F9FB73A948 /* Qt Preprocess */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30414803F31797EB689AE508 /* Copy Bundle Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10CCCBD65A1967AD23D836C9 /* Default-568h@2x.png in Copy Bundle Resources */,
+				2AED8F0E63412A22D708557E /* LaunchScreen.xib in Copy Bundle Resources */,
+			);
+			name = "Copy Bundle Resources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E618435888B9D49F8540165 /* Qt Qmake */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Qmake";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/vpp_ios/ -f VPP.xcodeproj/qt_makeqmake.mak";
+			showEnvVarsInLog = 0;
+		};
+		7EF0942E79C014DCEC8976BC /* Qt Preprocessors */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Preprocessors";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/vpp_ios/ -f VPP.xcodeproj/qt_preprocess.mak";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7E50F631C51CD5B5DC0BC43 /* Compile Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF2004B7D10FDE5C7A92948 /* main.cpp in Compile Sources */,
+				C7FC66C52012FA823A78B540 /* httpclient.cpp in Compile Sources */,
+				5D1795DA3866187B6F4DB16A /* gDataBase.cpp in Compile Sources */,
+				208F462F99731DEEC099E97F /* blemgr.cpp in Compile Sources */,
+				2146517076CF268917749044 /* CameraImageWrapper.cpp in Compile Sources */,
+				A4AF37BA21A885651090ECF9 /* QZXing.cpp in Compile Sources */,
+				34A3F2EC53DC3C8ED683703D /* ImageHandler.cpp in Compile Sources */,
+				01DCDB19D3BE55356F1DC900 /* ResultIO.cpp in Compile Sources */,
+				5D786B8A2262407DA9C48769 /* InvertedLuminanceSource.cpp in Compile Sources */,
+				2997AF721D0003FEE548867A /* ChecksumException.cpp in Compile Sources */,
+				FBEAFAA0957C6F5F3E1EFAA7 /* ResultPointCallback.cpp in Compile Sources */,
+				127CC3E4837BC582109E3B48 /* ResultPoint.cpp in Compile Sources */,
+				BEFEF0F7A488E4641BCFC238 /* Result.cpp in Compile Sources */,
+				241B1C4D134B8B75373C9C04 /* Reader.cpp in Compile Sources */,
+				0D93C363B5A5D71A73BC4C75 /* MultiFormatReader.cpp in Compile Sources */,
+				F6025FAEB91077B7EAE30C33 /* LuminanceSource.cpp in Compile Sources */,
+				8D0A49A5C68BC1025DF0290C /* FormatException.cpp in Compile Sources */,
+				25FDC86C872CA8B12A1316C0 /* Exception.cpp in Compile Sources */,
+				8E665C82869034BCB944E484 /* DecodeHints.cpp in Compile Sources */,
+				2F604DB881AC404C62FD30A1 /* BinaryBitmap.cpp in Compile Sources */,
+				EC6A3320F83F22DF9612EC72 /* Binarizer.cpp in Compile Sources */,
+				AB2F6A5D1582B2E310814245 /* BarcodeFormat.cpp in Compile Sources */,
+				DBB7ADA1413990B14B975602 /* AztecReader.cpp in Compile Sources */,
+				B61D7DBA199EEB322BFBFC38 /* AztecDetectorResult.cpp in Compile Sources */,
+				6A9C3F8049C5D3CF233606FC /* StringUtils.cpp in Compile Sources */,
+				AA20F58D626821392CB4E314 /* Str.cpp in Compile Sources */,
+				CD0DD86832D7A81FF0989215 /* PerspectiveTransform.cpp in Compile Sources */,
+				2AEBB1D6A3382448EAC51C03 /* IllegalArgumentException.cpp in Compile Sources */,
+				7CA942A63AD21C1FD973E624 /* HybridBinarizer.cpp in Compile Sources */,
+				6B696739EF7253F0601853B2 /* GridSampler.cpp in Compile Sources */,
+				AE942D73247E8C5324A25FA6 /* GreyscaleRotatedLuminanceSource.cpp in Compile Sources */,
+				5D5D2198575A63F90B923448 /* GreyscaleLuminanceSource.cpp in Compile Sources */,
+				F37E5A19709686B67E361BAB /* GlobalHistogramBinarizer.cpp in Compile Sources */,
+				1909AE51EE700025C20478C2 /* DetectorResult.cpp in Compile Sources */,
+				B683E6A55FC8C33A2B20B86C /* DecoderResult.cpp in Compile Sources */,
+				A18587D5072123F926EBE0BB /* CharacterSetECI.cpp in Compile Sources */,
+				B27C61778294971982D639B8 /* BitSource.cpp in Compile Sources */,
+				C209CF952C8B42C2E24E9268 /* BitMatrix.cpp in Compile Sources */,
+				09F0879BCE6E6BFAE7399E00 /* BitArray.cpp in Compile Sources */,
+				A43E2666858481E2E310027A /* BitArrayIO.cpp in Compile Sources */,
+				C20B92B8108A06960965C609 /* WhiteRectangleDetector.cpp in Compile Sources */,
+				02EF8B976FF54A094DB2B818 /* MonochromeRectangleDetector.cpp in Compile Sources */,
+				E3C619D31E5521B45317BD1F /* ReedSolomonException.cpp in Compile Sources */,
+				455A98D632BB5BD887AD4FFD /* ReedSolomonDecoder.cpp in Compile Sources */,
+				EFF955B98E533250982AE117 /* GenericGFPoly.cpp in Compile Sources */,
+				FE79CCA31EB0A349FCA7C106 /* GenericGF.cpp in Compile Sources */,
+				85C8F4AFD20F759E24CAE067 /* DataMatrixReader.cpp in Compile Sources */,
+				E9B452583F4FBC6F9B526FAD /* UPCEReader.cpp in Compile Sources */,
+				4BC2FEEF0A42BCF9C0BC9766 /* UPCEANReader.cpp in Compile Sources */,
+				4159EC395A1BAD27069D17BA /* UPCAReader.cpp in Compile Sources */,
+				8BAE9CBB123995FCB739CC6E /* OneDResultPoint.cpp in Compile Sources */,
+				BA323BC0CD95575757BFD9B3 /* OneDReader.cpp in Compile Sources */,
+				B363A7CC4F1236FCFD724A7A /* MultiFormatUPCEANReader.cpp in Compile Sources */,
+				6F8092091796A344C18A0A9F /* MultiFormatOneDReader.cpp in Compile Sources */,
+				2F501476CF29AE005962891D /* ITFReader.cpp in Compile Sources */,
+				DC74BB80DD70F51FDFC4D63C /* EAN13Reader.cpp in Compile Sources */,
+				1280454004774C57D14064E6 /* EAN8Reader.cpp in Compile Sources */,
+				C203B499D2F8CB1DCCF23D93 /* Code128Reader.cpp in Compile Sources */,
+				B5EA88F3A12261BAD8418337 /* Code39Reader.cpp in Compile Sources */,
+				F1813B715FA71240E89BDCFC /* CodaBarReader.cpp in Compile Sources */,
+				A54E0756077018B4CB419ABB /* Code93Reader.cpp in Compile Sources */,
+				0944D2C90DC249BA00246BCA /* QRCodeReader.cpp in Compile Sources */,
+				A96293555BF08F6D49032275 /* MultipleBarcodeReader.cpp in Compile Sources */,
+				CA64291DD3AF7C64865586B8 /* GenericMultipleBarcodeReader.cpp in Compile Sources */,
+				C98A03072F42FAC82F6EC776 /* ByQuadrantReader.cpp in Compile Sources */,
+				30716F256DBB21F653440F40 /* QRCodeMultiReader.cpp in Compile Sources */,
+				47F1DF9ECD13E85536B48F90 /* MultiFinderPatternFinder.cpp in Compile Sources */,
+				9E529BA2BC1D65B74B6761F0 /* MultiDetector.cpp in Compile Sources */,
+				B8E0EC4476816664309E7AE3 /* AztecDecoder.cpp in Compile Sources */,
+				A5029A016C36EB6E739A489C /* AztecDetector.cpp in Compile Sources */,
+				ACCE4AA0674310030E84A838 /* DataMatrixVersion.cpp in Compile Sources */,
+				914DC3866ACC593CC0F87F09 /* DataMatrixDecoder.cpp in Compile Sources */,
+				29E77755547B714AAC84B814 /* DataMatrixBitMatrixParser.cpp in Compile Sources */,
+				69C5C1FF7EA9C94913E6D46D /* DataMatrixDataBlock.cpp in Compile Sources */,
+				9A514073DA40DB52E6A1BCEB /* DataMatrixDecodedBitStreamParser.cpp in Compile Sources */,
+				A5C9F5AE21CAC7C1D1399E26 /* DataMatrixCornerPoint.cpp in Compile Sources */,
+				8E57184F824CAFCBBAD8A095 /* DataMatrixDetector.cpp in Compile Sources */,
+				455BF6476FF5EF61431C42DD /* DataMatrixDetectorException.cpp in Compile Sources */,
+				4CE6D776311B7F858E874AE4 /* QRBitMatrixParser.cpp in Compile Sources */,
+				B9E674CC05A1E620FDE8D5EF /* QRDataBlock.cpp in Compile Sources */,
+				18C97707A85308C0DC6D5524 /* QRDataMask.cpp in Compile Sources */,
+				77EE1D0F74DA56367FCF2A58 /* QRDecodedBitStreamParser.cpp in Compile Sources */,
+				A26F0E16A76C883EEAFE723E /* QRDecoder.cpp in Compile Sources */,
+				7FC4213837646977F2B5939C /* QRMode.cpp in Compile Sources */,
+				8C8C638F1E26AAE3218DCFF4 /* QRAlignmentPattern.cpp in Compile Sources */,
+				5BF36734FEE128E5802B699A /* QRAlignmentPatternFinder.cpp in Compile Sources */,
+				2BD69796402A2A0E3726D233 /* QRDetector.cpp in Compile Sources */,
+				32944A07797B644016206E8B /* QRFinderPattern.cpp in Compile Sources */,
+				21818FFE21F40D401693E729 /* QRFinderPatternFinder.cpp in Compile Sources */,
+				A10C537B54B36D69F8D86B52 /* QRFinderPatternInfo.cpp in Compile Sources */,
+				E663950CC9C889009D5FBFD0 /* QRVersion.cpp in Compile Sources */,
+				4DBEF9B4CFEE2EF1255DE12D /* QRFormatInformation.cpp in Compile Sources */,
+				ECDF3D42C9ABED6DB143FC41 /* QRErrorCorrectionLevel.cpp in Compile Sources */,
+				59DF0D88CA529C79AB2254BC /* ErrorCorrection.cpp in Compile Sources */,
+				F682366D431CB1F8F39F0866 /* ModulusGF.cpp in Compile Sources */,
+				70A3B4D22AF5258A48064692 /* ModulusPoly.cpp in Compile Sources */,
+				811CEF3EF2E3729B77A14E22 /* PDF417BitMatrixParser.cpp in Compile Sources */,
+				253252875A0BE7DFF421E70E /* PDF417DecodedBitStreamParser.cpp in Compile Sources */,
+				E267C63324BF8B36B932BB2E /* PDF417Decoder.cpp in Compile Sources */,
+				1C2470AB4CEDE7AF9AD2B2C8 /* PDF417Detector.cpp in Compile Sources */,
+				5795DBAC36C3FB07675F3234 /* LinesSampler.cpp in Compile Sources */,
+				9F976C6D4A7C4F0C53DE58A1 /* PDF417Reader.cpp in Compile Sources */,
+				721602CF6164D2337A593B48 /* BigUnsignedInABase.cc in Compile Sources */,
+				A4603C89841D33B3781C4FCE /* BigUnsigned.cc in Compile Sources */,
+				819731E6ACEAC8534B202CB7 /* BigIntegerUtils.cc in Compile Sources */,
+				0F8BA3B0A5A5BB4C3ECCBB74 /* BigIntegerAlgorithms.cc in Compile Sources */,
+				607402C82250D06D4300426A /* BigInteger.cc in Compile Sources */,
+				31B3D1B1DE83B3F7E853E86F /* ByteMatrix.cpp in Compile Sources */,
+				416D0D9A463FB31F6EB8C90F /* QREncoder.cpp in Compile Sources */,
+				702572126421180CC0DCFCCB /* MaskUtil.cpp in Compile Sources */,
+				969A459D27EF1DC318A4F2F2 /* MatrixUtil.cpp in Compile Sources */,
+				709BAF0BC8F39359FBF4EBDD /* QRCode.cpp in Compile Sources */,
+				B916549382DDE08AA427489A /* EncodeHint.cpp in Compile Sources */,
+				31EDA9D2F4DAAB43F470EB91 /* ReedSolomonEncoder.cpp in Compile Sources */,
+				7A6790B79AD5CA9E9125069F /* QZXingFilter.cpp in Compile Sources */,
+				B694B3CD051B05CF18D27361 /* QZXingImageProvider.cpp in Compile Sources */,
+				A1283D734206D519C55D6EB9 /* vpp_plugin_import.cpp in Compile Sources */,
+				44C7A5F43C58ECC0E8011F4A /* vpp_qml_plugin_import.cpp in Compile Sources */,
+				071D07411519B1A3BDFAA639 /* qrc_qml.cpp in Compile Sources */,
+				A3D0376488837A1D5254D3B5 /* moc_ImageHandler.cpp in Compile Sources */,
+				ABF8CA14555641A2ED0D2BCB /* moc_QZXing.cpp in Compile Sources */,
+				D1E9A1FB5D457D451BD19159 /* moc_QZXingFilter.cpp in Compile Sources */,
+				227AFF39AAC92C9FD34E3350 /* moc_httpclient.cpp in Compile Sources */,
+				94233B9D728EF9083D7FA572 /* moc_blemgr.cpp in Compile Sources */,
+			);
+			name = "Compile Sources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5EB0FAA7633A515F484882A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78893F03E41428F9FB73A948 /* Qt Preprocess */;
+			targetProxy = D9E673D41FC2B6EF00FFAF73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		339EE1B2CC4FC24589A0EA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ARCHS = (
+					armv7,
+					arm64,
+					i386,
+					x86_64,
+				);
+				"ARCHS[sdk=iphoneos*]" = (
+					armv7,
+					arm64,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = (
+					i386,
+					x86_64,
+				);
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 9P8V9S7493;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					../VPP,
+					.,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/mkspecs/common/uikit,
+					../VPP/src,
+					../VPP/src/zxing,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/include,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtQuickControls2,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtQuick,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtMultimedia,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtGui,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtQml,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtWebSockets,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtNetwork,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtBluetooth,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtSql,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtCore,
+					.,
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/mkspecs/macx-ios-clang",
+				);
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/platforms,
+					/System/Library/Frameworks/,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/lib,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/mediaservice,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/audio,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/playlistformats,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/imageformats,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/qmltooling,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/bearer,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/sqldrivers,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick.2,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Window.2,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Layouts,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtMultimedia,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Controls.2,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Controls.2/Material,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtGraphicalEffects,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/Qt/labs/settings,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Templates.2,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtGraphicalEffects/private,
+				);
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-fobjc-nonfragile-abi",
+					"-fobjc-legacy-dispatch",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_COMPILER_SUPPORTS_SSE2",
+					"-DQZXING_LIBRARY",
+					"-DZXING_ICONV_CONST",
+					"-DDISABLE_LIBRARY_FEATURES",
+					"-DQZXING_MULTIMEDIA",
+					"-DQZXING_QML",
+					"-DNOFMAXL",
+					"-DNO_ICONV",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_QML_DEBUG",
+					"-DQT_QUICKCONTROLS2_LIB",
+					"-DQT_QUICK_LIB",
+					"-DQT_MULTIMEDIA_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_QML_LIB",
+					"-DQT_WEBSOCKETS_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_BLUETOOTH_LIB",
+					"-DQT_SQL_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-g",
+					"-std=gnu++11",
+					"-fobjc-nonfragile-abi",
+					"-fobjc-legacy-dispatch",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_COMPILER_SUPPORTS_SSE2",
+					"-DQZXING_LIBRARY",
+					"-DZXING_ICONV_CONST",
+					"-DDISABLE_LIBRARY_FEATURES",
+					"-DQZXING_MULTIMEDIA",
+					"-DQZXING_QML",
+					"-DNOFMAXL",
+					"-DNO_ICONV",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_QML_DEBUG",
+					"-DQT_QUICKCONTROLS2_LIB",
+					"-DQT_QUICK_LIB",
+					"-DQT_MULTIMEDIA_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_QML_LIB",
+					"-DQT_WEBSOCKETS_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_BLUETOOTH_LIB",
+					"-DQT_SQL_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_LDFLAGS = (
+					"-stdlib=libc++",
+					"-Wl,-e,_qt_main_wrapper",
+					"-Wl,-rpath,@executable_path/Frameworks",
+					"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/platforms",
+					"-framework",
+					UIKit,
+					"-framework",
+					AssetsLibrary,
+					"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/lib",
+					"-framework",
+					MobileCoreServices,
+					"-framework",
+					OpenGLES,
+					"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/mediaservice",
+					"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/audio",
+					"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/playlistformats",
+					"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/imageformats",
+					"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/qmltooling",
+					"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/bearer",
+					"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/sqldrivers",
+					"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick.2",
+					"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Window.2",
+					"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Layouts",
+					"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtMultimedia",
+					"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Controls.2",
+					"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Controls.2/Material",
+					"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtGraphicalEffects",
+					"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/Qt/labs/settings",
+					"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Templates.2",
+					"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtGraphicalEffects/private",
+					"-lm",
+					"-lz",
+				);
+				PRODUCT_NAME = VPP;
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk;
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk;
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform;
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/vpp_ios/;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3AA6C32AC930069E80220CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ARCHS = (
+					armv7,
+					arm64,
+					i386,
+					x86_64,
+				);
+				"ARCHS[sdk=iphoneos*]" = (
+					armv7,
+					arm64,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = (
+					i386,
+					x86_64,
+				);
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9P8V9S7493;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					../VPP,
+					.,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/mkspecs/common/uikit,
+					../VPP/src,
+					../VPP/src/zxing,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/include,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtQuickControls2,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtQuick,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtMultimedia,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtGui,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtQml,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtWebSockets,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtNetwork,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtBluetooth,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtSql,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtCore,
+					.,
+					"/Users/tamvh/Qt5.9.2/5.9.2/ios/mkspecs/macx-ios-clang",
+				);
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/platforms,
+					/System/Library/Frameworks/,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/lib,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/mediaservice,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/audio,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/playlistformats,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/imageformats,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/qmltooling,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/bearer,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/sqldrivers,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick.2,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Window.2,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Layouts,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtMultimedia,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Controls.2,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Controls.2/Material,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtGraphicalEffects,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/Qt/labs/settings,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Templates.2,
+					/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtGraphicalEffects/private,
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-fobjc-nonfragile-abi",
+					"-fobjc-legacy-dispatch",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_COMPILER_SUPPORTS_SSE2",
+					"-DQZXING_LIBRARY",
+					"-DZXING_ICONV_CONST",
+					"-DDISABLE_LIBRARY_FEATURES",
+					"-DQZXING_MULTIMEDIA",
+					"-DQZXING_QML",
+					"-DNOFMAXL",
+					"-DNO_ICONV",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_QML_DEBUG",
+					"-DQT_QUICKCONTROLS2_LIB",
+					"-DQT_QUICK_LIB",
+					"-DQT_MULTIMEDIA_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_QML_LIB",
+					"-DQT_WEBSOCKETS_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_BLUETOOTH_LIB",
+					"-DQT_SQL_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-g",
+					"-std=gnu++11",
+					"-fobjc-nonfragile-abi",
+					"-fobjc-legacy-dispatch",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_COMPILER_SUPPORTS_SSE2",
+					"-DQZXING_LIBRARY",
+					"-DZXING_ICONV_CONST",
+					"-DDISABLE_LIBRARY_FEATURES",
+					"-DQZXING_MULTIMEDIA",
+					"-DQZXING_QML",
+					"-DNOFMAXL",
+					"-DNO_ICONV",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_QML_DEBUG",
+					"-DQT_QUICKCONTROLS2_LIB",
+					"-DQT_QUICK_LIB",
+					"-DQT_MULTIMEDIA_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_QML_LIB",
+					"-DQT_WEBSOCKETS_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_BLUETOOTH_LIB",
+					"-DQT_SQL_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_LDFLAGS = (
+					"-stdlib=libc++",
+					"-Wl,-e,_qt_main_wrapper",
+					"-Wl,-rpath,@executable_path/Frameworks",
+					"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/platforms",
+					"-framework",
+					UIKit,
+					"-framework",
+					AssetsLibrary,
+					"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/lib",
+					"-framework",
+					MobileCoreServices,
+					"-framework",
+					OpenGLES,
+					"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/mediaservice",
+					"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/audio",
+					"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/playlistformats",
+					"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/imageformats",
+					"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/qmltooling",
+					"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/bearer",
+					"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/plugins/sqldrivers",
+					"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick.2",
+					"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Window.2",
+					"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Layouts",
+					"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtMultimedia",
+					"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Controls.2",
+					"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Controls.2/Material",
+					"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtGraphicalEffects",
+					"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/Qt/labs/settings",
+					"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtQuick/Templates.2",
+					"-L/Users/tamvh/Qt5.9.2/5.9.2/ios/qml/QtGraphicalEffects/private",
+					"-lm",
+					"-lz",
+				);
+				PRODUCT_NAME = VPP;
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk;
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk;
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform;
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform;
+				QT_LIBRARY_SUFFIX = _debug;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/vpp_ios/;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6666AA5E688052234F6758D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				"ARCHS[sdk=iphoneos*]" = (
+					armv7,
+					arm64,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = (
+					i386,
+					x86_64,
+				);
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 6M3UDA795H;
+				ENABLE_BITCODE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				PRODUCT_NAME = VPP;
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk;
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk;
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform;
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		77418F46922677BB04ED38DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				"ARCHS[sdk=iphoneos*]" = (
+					armv7,
+					arm64,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = (
+					i386,
+					x86_64,
+				);
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6M3UDA795H;
+				ENABLE_BITCODE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = VPP;
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk;
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk;
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform;
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform;
+				QT_LIBRARY_SUFFIX = _debug;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "VPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77418F46922677BB04ED38DD /* Debug */,
+				6666AA5E688052234F6758D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DAC4C1AA5EDEA1C85E9CA5E6 /* Build configuration list for PBXProject "VPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA6C32AC930069E80220CF1 /* Debug */,
+				339EE1B2CC4FC24589A0EA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DB9C3763D02B1415CD9D565 /* Project object */;
+}

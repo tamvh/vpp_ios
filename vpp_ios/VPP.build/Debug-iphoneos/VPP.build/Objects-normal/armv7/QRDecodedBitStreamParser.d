@@ -1,0 +1,41 @@
+dependencies: \
+  /Users/tamvh/Documents/project/vngcampus/dev/vanphongpham/ios/VPP/src/zxing/zxing/qrcode/decoder/QRDecodedBitStreamParser.cpp \
+  ../VPP/src/zxing/zxing/qrcode/decoder/DecodedBitStreamParser.h \
+  ../VPP/src/zxing/zxing/qrcode/decoder/Mode.h \
+  ../VPP/src/zxing/zxing/common/Counted.h \
+  ../VPP/src/zxing/zxing/qrcode/Version.h \
+  ../VPP/src/zxing/zxing/qrcode/ErrorCorrectionLevel.h \
+  ../VPP/src/zxing/zxing/ReaderException.h \
+  ../VPP/src/zxing/zxing/Exception.h \
+  ../VPP/src/zxing/zxing/common/BitMatrix.h \
+  ../VPP/src/zxing/zxing/common/BitArray.h \
+  ../VPP/src/zxing/zxing/ZXing.h ../VPP/src/zxing/zxing/common/Types.h \
+  ../VPP/src/zxing/zxing/common/IllegalArgumentException.h \
+  ../VPP/src/zxing/zxing/common/Array.h \
+  ../VPP/src/zxing/zxing/common/BitSource.h \
+  ../VPP/src/zxing/zxing/common/DecoderResult.h \
+  ../VPP/src/zxing/zxing/common/Str.h \
+  ../VPP/src/zxing/zxing/common/CharacterSetECI.h \
+  ../VPP/src/zxing/zxing/DecodeHints.h \
+  ../VPP/src/zxing/zxing/BarcodeFormat.h \
+  ../VPP/src/zxing/zxing/ResultPointCallback.h \
+  ../VPP/src/zxing/zxing/FormatException.h \
+  ../VPP/src/zxing/zxing/common/StringUtils.h \
+  /Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtCore/qglobal.h \
+  /Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtCore/qconfig.h \
+  /Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtCore/qtcore-config.h \
+  /Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtCore/qsystemdetection.h \
+  /Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtCore/qprocessordetection.h \
+  /Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtCore/qcompilerdetection.h \
+  /Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtCore/qtypeinfo.h \
+  /Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtCore/qsysinfo.h \
+  /Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtCore/qlogging.h \
+  /Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtCore/qflags.h \
+  /Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtCore/qatomic.h \
+  /Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtCore/qbasicatomic.h \
+  /Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtCore/qatomic_cxx11.h \
+  /Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtCore/qgenericatomic.h \
+  /Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtCore/qglobalstatic.h \
+  /Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtCore/qmutex.h \
+  /Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtCore/qnumeric.h \
+  /Users/tamvh/Qt5.9.2/5.9.2/ios/include/QtCore/qversiontagging.h

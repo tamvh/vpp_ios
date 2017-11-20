@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>qtquickcontrols2.conf</file>
+        <file>qml/QRcodeScanner.qml</file>
+        <file>images/fan.png</file>
+        <file>images/network.png</file>
+        <file>images/menu@4x.png</file>
+        <file>images/menu@3x.png</file>
+        <file>images/menu.png</file>
+        <file>images/drawer@4x.png</file>
+        <file>images/drawer@3x.png</file>
+        <file>images/drawer@2x.png</file>
+        <file>images/drawer.png</file>
+        <file>images/back@4x.png</file>
+        <file>images/back@3x.png</file>
+        <file>images/back@2x.png</file>
+        <file>images/back.png</file>
+        <file>qml/DashBoard.qml</file>
+        <file>qml/LoginPopup.qml</file>
+        <file>qml/PopupMsg.qml</file>
+        <file>images/logout.png</file>
+        <file>qml/ChangePass.qml</file>
+    </qresource>
+</RCC>
